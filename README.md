@@ -1,6 +1,6 @@
 # cashshuffle-web
 
-This is the repository for [cashshuffle.org](https://cashshuffle.org). 
+This is the repository for [cashshuffle.com](https://cashshuffle.com). 
 
 Build & Run the Docker Image
 ----------------------------
@@ -18,5 +18,5 @@ CashShuffle is a CoinShuffle implementation for Electron Cash.
 License
 -------
 
-cashshuffle.org is released under the terms of the MIT license. See [LICENSE](LICENSE) for more
+cashshuffle.com is released under the terms of the MIT license. See [LICENSE](LICENSE) for more
 information or see https://opensource.org/licenses/MIT.
