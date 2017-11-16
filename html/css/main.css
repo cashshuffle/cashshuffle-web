@@ -1,0 +1,31 @@
+body {
+  background: #efefef;
+  margin: 2em 1em;
+  text-align: center;
+  font-size: 1.8em;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(73, 73, 73);  
+}
+
+#heading {
+  padding: 1em;
+  max-width: 900px;    
+  margin: auto;
+}
+
+#heading p {
+  line-height: 1.6em;
+}
+
+#content {
+  margin: auto;
+  max-width: 900px;
+}
+
+#content p {
+  text-align: left;  
+}
+
+#content p strong {
+  text-align: left;  
+}
