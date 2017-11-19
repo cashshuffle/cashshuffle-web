@@ -13,7 +13,7 @@ spec:
         service: cashshuffle
     spec:
       containers:
-      - image: zquestz/cashshuffle:latest
+      - image: zquestz/cashshuffle-web:latest
         imagePullPolicy: Always
         name: cashshuffle
         ports:
