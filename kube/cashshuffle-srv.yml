@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: cashshuffle
+  namespace: default
+spec:
+  ports:
+    - port: 87
+      targetPort: 80
+  selector:
+    service: cashshuffle
+  type: NodePort

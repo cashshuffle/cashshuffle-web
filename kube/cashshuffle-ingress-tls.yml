@@ -1,0 +1,32 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: cashshuffle-ingress
+  namespace: default
+  annotations:
+    kubernetes.io/tls-acme: "true"
+    kubernetes.io/ingress.class: "gce"
+spec:
+  tls:
+  - hosts:
+    - www.cashshuffle.com
+    - cashshuffle.com
+    secretName: cashshuffle-tls
+  backend:
+    serviceName: cashshuffle
+    servicePort: 87
+  rules:
+  - host: cashshuffle.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: cashshuffle
+          servicePort: 87
+  - host: www.cashshuffle.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: cashshuffle
+          servicePort: 87

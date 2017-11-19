@@ -1,0 +1,24 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  namespace: default
+  labels:
+    service: cashshuffle
+  name: cashshuffle
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        service: cashshuffle
+    spec:
+      containers:
+      - image: zquestz/cashshuffle:latest
+        imagePullPolicy: Always
+        name: cashshuffle
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: "64Mi"
+      restartPolicy: Always
