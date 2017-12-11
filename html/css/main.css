@@ -63,6 +63,27 @@ a:hover {
   margin-bottom: 1.4em;
 }
 
+#content p.donate {
+  text-align: center;
+  font-size: .6em;
+}
+
+#downloads {
+  text-align: center;
+}
+
+#downloads div.download {
+  display: inline-block;
+  padding: 0 2em 1em;
+  max-width: 100%;
+}
+
 #footer {
   font-size: 0.8em;
+}
+
+@media only screen and (max-width: 560px) {
+  #content p.donate {
+    font-size: 0.4em;
+  }
 }
