@@ -5,8 +5,8 @@ This is the repository for [cashshuffle.com](https://cashshuffle.com).
 Build & Run the Docker Image
 ----------------------------
 
-1. `docker build -t cashshuffle .`
-2. `docker run -d -p 8888:8080 cashshuffle`
+1. `docker build -t cashshuffle-web .`
+2. `docker run -d -p 8888:8080 cashshuffle-web`
 
 About CashShuffle
 -----------------
