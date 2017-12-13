@@ -6,7 +6,7 @@ body {
   font-size: 1.8em;
   font-family: sans-serif;
   color: rgb(73, 73, 73);
-  max-width: 900px;
+  max-width: 1000px;
 }
 
 img {
@@ -74,7 +74,7 @@ a:hover {
 
 #downloads div.download {
   display: inline-block;
-  padding: 0 2em 1em;
+  padding: 0 1em 1em;
   max-width: 100%;
 }
 
