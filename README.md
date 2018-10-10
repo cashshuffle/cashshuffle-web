@@ -6,7 +6,7 @@ Build & Run the Docker Image
 ----------------------------
 
 1. `docker build -t cashshuffle-web .`
-2. `docker run -d -p 8888:8080 cashshuffle-web`
+2. `docker run -d -p 8888:80 cashshuffle-web`
 
 About CashShuffle
 -----------------
