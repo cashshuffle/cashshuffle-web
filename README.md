@@ -2,13 +2,11 @@
 
 This is the repository for [cashshuffle.com](https://cashshuffle.com). 
 
-## About CashShuffle
-
-CashShuffle is a CoinShuffle implementation for Electron Cash.
+CashShuffle is a CoinShuffle implementation for Bitcoin Cash wallets.
 
 [http://crypsys.mmci.uni-saarland.de/projects/CoinShuffle/](http://crypsys.mmci.uni-saarland.de/projects/CoinShuffle/)
 
-## Build & Deploy the CashShuffle Website
+## Building & Deploying
 
 There are two tools used to build the final docker image:
 
