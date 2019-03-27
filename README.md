@@ -79,7 +79,7 @@ grunt -env=production
 
 This will instruct grunt to use the same settings that it uses for a production environment, but will still run the watch task at the end.
 
-##License
+## License
 
 cashshuffle.com is released under the terms of the MIT license. See [LICENSE](LICENSE) for more
 information or see https://opensource.org/licenses/MIT.
