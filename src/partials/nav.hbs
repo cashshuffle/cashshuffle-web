@@ -1,0 +1,51 @@
+{{!-- Mobile Navigation Bar --}}
+<div id="navbar-xs" class="hidden-md hidden-lg">
+  <div id="navbar-xs-brand">
+    <a href="{{ base_dir }}" title="Cash Shuffle">
+      <img src="{{ svg_dir }}logo.svg" alt="Cash Shuffle" class="img-responsive">
+    </a>
+  </div>
+  <button id="navbar-xs-menu-toggle" class="btn">
+    <div id="burger-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </button>
+  <div class="clearfix"></div>
+</div>
+{{!-- Desktop-Only Navigation Bar --}}
+<div id="color-bar" class="hidden-xs hidden-sm"></div>
+<nav id="navbar-md" class="hidden-xs hidden-sm">
+  <div class="container">
+    <div id="navbar-md-brand" class="pull-left">
+      <a href="{{ base_dir }}" title="Cash Shuffle">
+        <img src="{{ svg_dir }}logo.svg" alt="Cash Shuffle" class="img-responsive">
+      </a>
+    </div>
+    <div class="navbar-md-list-wrapper pull-right">
+      <ul class="navbar-md-list pull-right">
+        <li class="navbar-md-list-item{{# if wallets }} active {{/ if }}">
+          <a href="{{ base_dir }}wallets/">Wallets</a>
+        </li>
+        <li class="navbar-md-list-item{{# if quickstart }} active {{/ if }}">
+          <a href="{{ base_dir }}quickstart/">Quickstart</a>
+        </li>
+        <li class="navbar-md-list-item{{# if faqs }} active {{/ if }}">
+          <a href="{{ base_dir }}faqs/">FAQs</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+{{!-- Mobile Navigation Panel --}}
+<div id="mobile-nav-panel">
+  <nav role="navigation">
+    <ul class="mobile-nav">
+      <li class="mobile-nav-item"><a href="{{ base_dir }}wallets/">Wallets</a></li>
+      <li class="mobile-nav-item"><a href="{{ base_dir }}quickstart/">Quickstart</a></li>
+      <li class="mobile-nav-item"><a href="{{ base_dir }}faqs/">FAQs</a></li>
+    </ul>
+  </nav>
+</div>

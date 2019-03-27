@@ -1,0 +1,85 @@
+<!-- Footer -->
+<footer>
+  <div class="footerMenuItems">
+    <div class="container">
+      <div class="footerMenuItem">
+        <a href="{{ base_dir }}" class="footerMenuItem-link">
+          <img src="{{ svg_dir }}ico-home.svg" class="footerMenuItem-icon">
+          <h4 class="footerMenuItem-heading">Home</h4>
+        </a>
+      </div>
+      <div class="footerMenuItem">
+        <a href="{{ base_dir }}wallets/" class="footerMenuItem-link">
+          <img src="{{ svg_dir }}ico-wallet.svg" class="footerMenuItem-icon">
+          <h4 class="footerMenuItem-heading">Wallets</h4>
+        </a>
+      </div>
+      <div class="footerMenuItem">
+        <a href="{{ base_dir }}quickstart/" class="footerMenuItem-link">
+          <img src="{{ svg_dir }}ico-play.svg" class="footerMenuItem-icon">
+          <h4 class="footerMenuItem-heading">QuickStart</h4>
+        </a>
+      </div>
+      <div class="footerMenuItem">
+        <a href="{{ base_dir }}faqs/" class="footerMenuItem-link">
+          <img src="{{ svg_dir }}ico-question.svg" class="footerMenuItem-icon">
+          <h4 class="footerMenuItem-heading">FAQs</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footerDonate">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 131" preserveAspectRatio="none" class="bg-curve top">
+      <path d="M0 131C101.08 87.8 224.38 51.48 359.5 27.71 466.21 8.93 568.66.02 661.04-1H0v131zM661.04 0c13.2-1 26.19.17 38.96.53V-1h-38.96z" fill="#909298"/>
+    </svg>
+    <div class="wrapper footerDonate-container">
+      <img src="{{ img_dir }}donate-qr.png" class="footerDonate-qr">
+      <div class="footerDonate-textWrapper">
+        <p class="footerDonate-instructions">We are constantly working to bring fully decentralized privacy and fungibility to Bitcoin Cash. All donations are welcome and appreciated.</p>
+        <div class="footerDonate-addressWrapper">
+          <div class="footerDonate-address">
+            <span class="footerDonate-addressSpan">bitcoincash:qqqxxmjyavdkwdj6npa5w6xl0fzq3wc5furaqdpl59</span>
+          </div>
+          <div class="footerDonate-btn" data-clipboard-target=".footerDonate-addressSpan">
+            <div class="footerDonate-btnInner">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" class="footerDonate-copyBtn">
+                <path d="M16 8v8H8v4h12V8h-4zm0-2h6v16H6v-6H0V0h16v6zM2 2v12h12V2H2z"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 94" preserveAspectRatio="none" class="bg-curve bottom">
+      <path d="M0 90.06V96h700V0c-94.65 33.25-205.31 60.13-324.78 77C238.77 96.26 109.73 99.81 0 90.06z" fill="#4c4c4c"/>
+    </svg>
+  </div>
+  <div class="footerCodes">
+    <div class="container">
+      <div class="footerCode">
+        <a href="https://github.com/Electron-Cash/Electron-Cash" target="_blank" class="footerCode-link">
+          <img src="{{ svg_dir }}ico-github.svg" class="footerCode-icon">
+          <h4 class="footerCode-heading">Client Software <img src="{{ svg_dir }}extlink-footer.svg" class="footer-extLink"></h4>
+          <p class="footerCode-text">Our reference implementation can be found in the popular Electron Cash wallet.</p>
+        </a>
+      </div>
+      <div class="footerCode">
+        <a href="https://github.com/cashshuffle/cashshuffle" target="_blank" class="footerCode-link">
+          <img src="{{ svg_dir }}ico-github.svg" class="footerCode-icon">
+          <h4 class="footerCode-heading">Server Software <img src="{{ svg_dir }}extlink-footer.svg" class="footer-extLink"></h4>
+          <p class="footerCode-text">The server-side software is written in Golang and available on GitHub.</p>
+        </a>
+      </div>
+      <div class="footerCode">
+        <a href="https://github.com/Electron-Cash/Electron-Cash/wiki/Cashshuffle-Documentation" target="_blank" class="footerCode-link">
+          <img src="{{ svg_dir }}ico-docs.svg" class="footerCode-icon">
+          <h4 class="footerCode-heading">Documentation <img src="{{ svg_dir }}extlink-footer.svg" class="footer-extLink"></h4>
+          <p class="footerCode-text">Technical documentation for developers and enthusiasts.</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <p>Copyright &copy; 2017-2019 CashShuffle. All rights reserved.</p>
+  </div>
+</footer>

@@ -1,0 +1,66 @@
+/* Quickstart Steps
+------------------------------------------------------------- */
+.quickstartSteps {
+  padding-bottom: 0px;
+}
+@media (min-width: 768px) {
+  .quickstartSteps {
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .quickstartSteps {
+    padding-bottom: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .quickstartSteps {
+    padding-top: 60px;
+  }
+}
+
+
+/* Quickstart Video
+------------------------------------------------------------- */
+.quickstartVideo {
+  background-color: #f4f5f5;
+  position: relative;
+  padding-top: 35px;
+  padding-bottom: 110px;
+}
+.quickstartVideo-wrapper {
+  max-width: 500px;
+  text-align: center;
+  padding: 0 15px;
+  margin: auto;
+}
+.quickstartVideo-text {
+  font-size: 0.9rem;
+  margin-bottom: 30px !important;
+}
+@media (min-width: 600px) {
+  .quickstartVideo {
+    padding-top: 50px;
+  }
+  .quickstartVideo-wrapper {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .quickstartVideo {
+    padding-top: 70px;
+    padding-bottom: 150px;
+  }
+}
+@media (min-width: 992px) {
+  .quickstartVideo-wrapper {
+    max-width: unset;
+    width: 600px;
+    padding: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .quickstartVideo {
+    padding-top: 90px;
+  }
+}

@@ -1,0 +1,19 @@
+# General
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# HUGO
+/public
+/themes/*
+
+# Node
+node_modules
+npm-debug.log
+
+#Eclipse
+.project
+
+#IntelliJ IDEA
+.idea/
+*.iml

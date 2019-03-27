@@ -1,0 +1,100 @@
+/* FAQ Container Blocks
+--------------------------------------------*/
+.faqsBlocks {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 100px;
+}
+.faqsBlock {
+  width: 100%;
+  max-width: 420px;
+  border: 1px solid #e1e1e1;
+  border-radius: 16px;
+  padding: 15px 25px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+@media (min-width: 650px) {
+  .faqsBlock {
+    width: 100%;
+    max-width: 550px;
+    padding: 25px 40px;
+  }
+}
+@media (min-width: 768px) {
+  .faqsBlocks {
+    padding-top: 35px;
+  }
+  .faqsBlock {
+    position: relative;
+    float: left;
+    width: 49%;
+    border: 1px solid #e1e1e1;
+    border-radius: 16px;
+    padding: 15px 25px;
+    margin-bottom: 25px;
+  }
+  .faqsBlock:nth-of-type(1),
+  .faqsBlock:nth-of-type(3) {
+    margin-right: 2%;
+  }
+}
+@media (min-width: 992px) {
+  .faqsBlock {
+    margin-bottom: 2%;
+  }
+}
+@media (min-width: 1200px) {
+  .faqsBlocks {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+  .faqsBlock {
+    width: 48%;
+    padding: 35px 50px;
+    margin-bottom: 4%;
+  }
+  .faqsBlock:nth-of-type(1),
+  .faqsBlock:nth-of-type(3) {
+    margin-right: 4%;
+  }
+}
+
+
+/* FAQ Text
+--------------------------------------------*/
+.faqsBlock-heading {
+  margin-bottom: 15px;
+}
+.faqs-q .leading,
+.faqs-a .leading {
+  color: #f60;
+}
+.faqs-q .leading::after,
+.faqs-a .leading::after {
+  content: ":"
+}
+.faqs-q {
+  margin-left: 32px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.faqs-q.active {
+  color: #000;
+}
+.faqs-q .leading {
+  margin-right: 12px;
+  margin-left: -28px;
+}
+.faqs-a {
+  line-height: 1.6;
+  padding-bottom: 20px;
+  margin-left: 33px;
+}
+.faqs-a .leading {
+  margin-right: 12px;
+  margin-left: -26px;
+}
+.faqs-a p {
+  margin-bottom: 16px;
+}

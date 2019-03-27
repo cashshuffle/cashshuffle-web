@@ -1,0 +1,30 @@
+{
+  "css": [
+    "normalize.css",
+    "bootstrap.grid.css",
+    "bootstrap.ultralite.css",
+    "bootstrap.forms.css",
+    "bootstrap.basictype.css",
+    "webfonts.css",
+    "text.css",
+    "forms.css",
+    "templates.css",
+    "navbar-xs.css",
+    "navbar-md.css",
+    "mobile-nav.css",
+    "footer-partials.css",
+    "footer.css",
+    "home.css",
+    "wallets.css",
+    "quickstart.css",
+    "faqs.css"
+  ],
+  "js": [
+    "jquery-3.3.1.js",
+    "clipboard.js",
+    "mobile-nav.js",
+    "navbar-md.js",
+    "menu-slider.js",
+    "footer.js"
+  ]
+}
