@@ -5,25 +5,25 @@
       <div class="footerMenuItem">
         <a href="{{ base_dir }}" class="footerMenuItem-link">
           <img src="{{ svg_dir }}ico-home.svg" class="footerMenuItem-icon">
-          <h4 class="footerMenuItem-heading">Home</h4>
+          <h4 class="footerMenuItem-heading">{{ i18n.nav.home }}</h4>
         </a>
       </div>
       <div class="footerMenuItem">
         <a href="{{ base_dir }}wallets/" class="footerMenuItem-link">
           <img src="{{ svg_dir }}ico-wallet.svg" class="footerMenuItem-icon">
-          <h4 class="footerMenuItem-heading">Wallets</h4>
+          <h4 class="footerMenuItem-heading">{{ i18n.nav.wallets }}</h4>
         </a>
       </div>
       <div class="footerMenuItem">
         <a href="{{ base_dir }}quickstart/" class="footerMenuItem-link">
           <img src="{{ svg_dir }}ico-play.svg" class="footerMenuItem-icon">
-          <h4 class="footerMenuItem-heading">QuickStart</h4>
+          <h4 class="footerMenuItem-heading">{{ i18n.nav.quickstart }}</h4>
         </a>
       </div>
       <div class="footerMenuItem">
         <a href="{{ base_dir }}faqs/" class="footerMenuItem-link">
           <img src="{{ svg_dir }}ico-question.svg" class="footerMenuItem-icon">
-          <h4 class="footerMenuItem-heading">FAQs</h4>
+          <h4 class="footerMenuItem-heading">{{ i18n.nav.faqs }}</h4>
         </a>
       </div>
     </div>
@@ -35,7 +35,7 @@
     <div class="wrapper footerDonate-container">
       <img src="{{ img_dir }}donate-qr.png" class="footerDonate-qr">
       <div class="footerDonate-textWrapper">
-        <p class="footerDonate-instructions">We are constantly working to bring fully decentralized privacy and fungibility to Bitcoin Cash. All donations are welcome and appreciated.</p>
+        <p class="footerDonate-instructions">{{ i18n.footer.donate.instructions }}</p>
         <div class="footerDonate-addressWrapper">
           <div class="footerDonate-address">
             <span class="footerDonate-addressSpan">bitcoincash:qqqxxmjyavdkwdj6npa5w6xl0fzq3wc5furaqdpl59</span>
@@ -59,27 +59,27 @@
       <div class="footerCode">
         <a href="https://github.com/Electron-Cash/Electron-Cash" target="_blank" class="footerCode-link">
           <img src="{{ svg_dir }}ico-github.svg" class="footerCode-icon">
-          <h4 class="footerCode-heading">Client Software <img src="{{ svg_dir }}extlink-footer.svg" class="footer-extLink"></h4>
-          <p class="footerCode-text">Our reference implementation can be found in the popular Electron Cash wallet.</p>
+          <h4 class="footerCode-heading">{{ i18n.footer.client.title }} <img src="{{ svg_dir }}extlink-footer.svg" class="footer-extLink"></h4>
+          <p class="footerCode-text">{{ i18n.footer.client.description }}</p>
         </a>
       </div>
       <div class="footerCode">
         <a href="https://github.com/cashshuffle/cashshuffle" target="_blank" class="footerCode-link">
           <img src="{{ svg_dir }}ico-github.svg" class="footerCode-icon">
           <h4 class="footerCode-heading">Server Software <img src="{{ svg_dir }}extlink-footer.svg" class="footer-extLink"></h4>
-          <p class="footerCode-text">The server-side software is written in Golang and available on GitHub.</p>
+          <p class="footerCode-text">{{ i18n.footer.server.description }}</p>
         </a>
       </div>
       <div class="footerCode">
         <a href="https://github.com/Electron-Cash/Electron-Cash/wiki/Cashshuffle-Documentation" target="_blank" class="footerCode-link">
           <img src="{{ svg_dir }}ico-docs.svg" class="footerCode-icon">
-          <h4 class="footerCode-heading">Documentation <img src="{{ svg_dir }}extlink-footer.svg" class="footer-extLink"></h4>
-          <p class="footerCode-text">Technical documentation for developers and enthusiasts.</p>
+          <h4 class="footerCode-heading">{{ i18n.footer.docs.title }} <img src="{{ svg_dir }}extlink-footer.svg" class="footer-extLink"></h4>
+          <p class="footerCode-text">{{ i18n.footer.docs.description }}</p>
         </a>
       </div>
     </div>
   </div>
   <div class="footer-copyright">
-    <p>Copyright &copy; 2017-2019 CashShuffle. All rights reserved.</p>
+    <p>{{{ i18n.footer.copyright }}}</p>
   </div>
 </footer>

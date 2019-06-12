@@ -1,0 +1,41 @@
+i18n:
+  lang:
+    code: en
+    name: English
+  nav:
+    home: Home
+    wallets: Wallets
+    quickstart: Quickstart
+    faqs: FAQs
+  footer:
+    copyright: Copyright &copy; 2017-2019 CashShuffle. All rights reserved.
+    donate:
+      instructions: We are constantly working to bring fully decentralized privacy and fungibility to Bitcoin Cash. All donations are welcome and appreciated.
+    client:
+      title: Client Software
+      description: Our reference implementation can be found in the popular Electron Cash wallet.
+    server:
+      title: Server Software
+      description: The server-side software is written in Golang and available on GitHub.
+    docs:
+      title: Documentation
+      description: Technical documentation for developers and enthusiasts.
+  home:
+    title: CashShuffle - Privacy for Bitcoin Cash
+    description: Because what you do with your money is your business.
+    hero:
+      heading: Enhanced privacy is now available for Bitcoin Cash
+      text: What you do with your money is your business. CashShuffle helps keep it that way.
+      button: Download a Wallet
+    overview:
+      heading: Make it hard to track your coins by shuffling them together with other users
+      text: CashShuffle is a fully decentralized coin mixing protocol that shuffles your Bitcoin Cash with other network participants. This shuffling process obscures your real spending and makes it difficult for chain analysis companies to follow your transactions.
+    easy:
+      heading: CashShuffle runs in the background, so your private coins are ready when you are
+      text: CashShuffle is enabled, your Bitcoin Cash wallet will keep track of shuffled (private) and unshuffled coins. In the background it continuously shuffles any unshuffled UTXOs for you. This way you can always spend your coins quickly and without worrying about prying eyes.
+    builtin:
+      heading: CashShuffle is currently being built into many popular Bitcoin Cash wallets
+      text: CashShuffle is already built into the Electron Cash wallet and is currently being developed for a number of other popular Bitcoin Cash wallets. Keep an eye on our <a href="{{ base_dir }}wallets/">wallets page</a> to see if your favorite wallet is supported.
+    action:
+      heading: Ready to get started?
+      button: Download a Wallet
