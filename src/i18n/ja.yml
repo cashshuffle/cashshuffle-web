@@ -39,3 +39,9 @@ i18n:
     action:
       heading: 始める準備はできましたか？
       button: 財布をダウンロードする
+  wallets:
+    title: Wallets Compatible with CashShuffle
+    description: Built into the wallets you already know and love.
+    hero:
+      heading: CashShuffle is being built into the wallets you already know and love
+      text:  Scroll down to download a wallet that features enhanced privacy via the CashShuffle protocol.
