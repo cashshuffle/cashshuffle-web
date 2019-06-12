@@ -38,7 +38,6 @@ module.exports = function(grunt) {
     let i18nData = grunt.file.readYAML(`src/i18n/${lang}.yml`);
     let i18nFiles = {};
     Object.entries(files).forEach(entry => i18nFiles[destDir + entry[0]] = entry[1]);
-    
     return {
       options: { data: i18nData },
       files: i18nFiles
@@ -116,7 +115,6 @@ module.exports = function(grunt) {
         production: IS_PRODUCTION
       },
       root: i18nTarget('en', true),
-      en: i18nTarget('en'),
       ja: i18nTarget('ja'),
     },
 
