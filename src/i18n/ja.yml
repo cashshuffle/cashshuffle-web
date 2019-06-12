@@ -1,0 +1,41 @@
+i18n:
+  lang:
+    code: ja
+    name: Japanese
+  nav:
+    home: ホーム
+    wallets: 財布
+    quickstart: クイックスタート
+    faqs: よくある質問
+  footer:
+    copyright: 著作権2017-2019 CashShuffle。 全著作権所有。
+    donate:
+      instructions: 私たちは常に完全に分散したプライバシーと代替性をBitcoin Cashにもたらすために取り組んでいます。 すべての寄付は大歓迎です。
+    client:
+      title: クライアントソフトウェア
+      description: 私たちの参照実装は、人気のあるElectron Cashウォレットにあります。
+    server:
+      title: サーバーソフトウェア
+      description: サーバーサイドソフトウェアはGolangで書かれておりGitHubで利用可能です。
+    docs:
+      title: ドキュメンテーション
+      description: 開発者および愛好家のための技術文書
+  home:
+    title: CashShuffle  -  Bitcoin Cashのためのプライバシー
+    description: あなたがあなたのお金を使ってするのはあなたのビジネスだからです。
+    hero:
+      heading: 強化されたプライバシーがBitcoin Cashで利用可能になりました
+      text: あなたがあなたのお金を使ってするのはあなたのビジネスです。 CashShuffleはそれをそのように保つのを助けます。
+      button: 財布をダウンロードする
+    overview:
+      heading: 他のユーザーと一緒にシャッフルしてコインを追跡するのを難しくします
+      text: CashShuffleは、あなたのBitcoin Cashを他のネットワーク参加者とシャッフルする、完全分散型のコインミキシングプロトコルです。 このシャフリングプロセスはあなたの実際の支出を不明瞭にし、チェーン分析会社があなたの取引をフォローすることを難しくします。
+    easy:
+      heading: CashShuffleはバックグラウンドで実行されるので、あなたがいるときあなたの私用硬貨は準備ができています
+      text: CashShuffleが有効になっている、あなたのBitcoin現金財布はシャッフル（プライベート）とシャッフルされていないコインを追跡します。 バックグラウンドでは、シャッフルされていないUTXOをシャッフルし続けます。 こうすればあなたはいつでもあなたのコインを素早くそして目を詮索することを心配することなく使うことができます。
+    builtin:
+      heading: CashShuffleは現在多くの人気のあるBitcoin Cash財布に組み込まれています
+      text: CashShuffleはすでにElectron Cashウォレットに組み込まれており、現在他の多くの人気のあるBitcoin Cashウォレット用に開発されています。 あなたのお気に入りの財布がサポートされているかどうかを確認するために私たちの<a href="{{ base_dir }}ja/wallets/">財布のページ</a>を見てください。
+    action:
+      heading: 始める準備はできましたか？
+      button: 財布をダウンロードする

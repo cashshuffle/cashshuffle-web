@@ -117,6 +117,7 @@ module.exports = function(grunt) {
       },
       root: i18nTarget('en', true),
       en: i18nTarget('en'),
+      ja: i18nTarget('ja'),
     },
 
     // Watch for changes
