@@ -9,145 +9,126 @@ faqs:            true
 <div class="faqsBlocks">
   <div class="container">
     <div class="faqsBlock">
-      <h2 class="faqsBlock-heading">Overview</h2>
-      {{!-- Begin Question --}}
+      <h2 class="faqsBlock-heading">{{ i18n.faqs.overview.title }}</h2>
       <div class="faqs-q">
-        <p><span class="leading">Q</span>What is CashShuffle?</p>
+        <p><span class="leading">Q</span>{{ i18n.faqs.overview.question-one }}</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>CashShuffle is a fully decentralized privacy protocol that shuffles your Bitcoin Cash with other network participants. This shuffling process obscures your real spending and makes it extremely difficult for chain analysis companies to track your coins.</p>
+        <p><span class="leading">A</span>{{ i18n.faqs.overview.answer-one }}</p>
       </div>
-      {{!-- Begin Question --}}
       <div class="faqs-q">
-        <p><span class="leading">Q</span>What are the use-cases for CashShuffle?</p>
+        <p><span class="leading">Q</span>{{ i18n.faqs.overview.question-two }}</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>CashShuffle is intended for confidential business purchases, personal privacy, and increasing overall coin fungibility.</p>
+        <p><span class="leading">A</span>{{ i18n.faqs.overview.answer-two }}</p>
       </div>
-      {{!-- Begin Question --}}
       <div class="faqs-q">
-        <p><span class="leading">Q</span>What is the difference between coin mixing and CashShuffle?</p>
+        <p><span class="leading">Q</span>{{ i18n.faqs.overview.question-three }}</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>"Coin mixing" commonly refers to the use of services that allow a user to replace his or her coins with a different set of coins. CashShuffle is different. It allows users to combine their transactions with others, creating obfuscation.</p>
-        <p>The disadvantages of coin mixing is that the user must trust the mixing service, and usually has to pay a fee. But with CashShuffle, there is no risk of lost funds, and no additional fees.</p>
+        <p><span class="leading">A</span>{{ i18n.faqs.overview.answer-.p }}</p>
       </div>
-      {{!-- Begin Question --}}
       <div class="faqs-q">
-        <p><span class="leading">Q</span>How does CashShuffle's privacy compare to coins like Monero?</p>
+        <p><span class="leading">Q</span>{{ i18n.faqs.overview.question-four }}</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>CashShuffle aims to provide a working implementation of CoinJoin on top of the Bitcoin protocol. CashShuffle doesn't offer everything Monero does, nor is it an "ultimate" solution to privacy.</p>
-        <p>However, by integrating it in major wallets, the Bitcoin Cash ecosystem can enjoy a practical and user-friendly privacy tool that will increase usage and adoption. This will also lead to a growing anonymity set, which may be the most important factor in any system.</p>
-        <p>CashShuffle can also be used together with additional privacy tools.  It's part of an evolving application layer for Bitcoin Cash that aims to continually improve privacy and fungibility.</p>
+        <p><span class="leading">A</span>{{ i18n.faqs.overview.answer-four.p1 }}</p>
+        <p>{{ i18n.faqs.overview.answer-four.p2 }}</p>
+        <p>{{ i18n.faqs.overview.answer-four.p3 }}</p>
       </div>
     </div>
     <div class="faqsBlock">
-      <h2 class="faqsBlock-heading">Security</h2>
-      {{!-- Begin Question --}}
+      <h2 class="faqsBlock-heading">{{ i18n.faqs.security.title }}</h2>
       <div class="faqs-q">
-        <p><span class="leading">Q</span>Are you sure this is secure?</p>
+        <p><span class="leading">Q</span>{{ i18n.faqs.security.question-one }}</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>CashShuffle recently went through a paid audit from <a href="https://www.kudelskisecurity.com/" target="_blank">Kudelski Security<img src="{{ svg_dir }}extlink.svg" class="extLink"></a> who verified that CashShuffle provides a practical solution for shuffling "without the risk of funds being stolen in the process." They went on to state that "we did not find any evidence of malicious intent, flawed logic or potential backdoor in the codebase."</p>
-        <p>If you like, you can read <a href="{{ downloads_dir }}REPORT-CashShuffle-20190325.pdf" target="_blank">the whole report</a>.</p>
+        <p><span class="leading">A</span>{{ i18n.faqs.security.answer-one.p1 }}</p>
+        <p>{{ i18n.faqs.security.answer-one.p2 }}</p>
       </div>
-      {{!-- Begin Question --}}
       <div class="faqs-q">
-        <p><span class="leading">Q</span>Can the server(s) steal money?</p>
+        <p><span class="leading">Q</span>{{ i18n.faqs.security.question-two }}</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>The server cannot steal money in a proper CashShuffle implementation because the transactions are only signed on the client side if they are valid.</p>
+        <p><span class="leading">A</span>{{ i18n.faqs.security.answer-two }}</p>
       </div>
-      {{!-- Begin Question --}}
       <div class="faqs-q">
-        <p><span class="leading">Q</span>Does CashShuffle support Tor?</p>
+        <p><span class="leading">Q</span>{{ i18n.faqs.security.question-three }}</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>Yes it does. Tor users share shuffling pools with normal users so finding other shufflers is just as easy as if you were not using Tor.</p>
+        <p><span class="leading">A</span>{{ i18n.faqs.security.answer-three }}</p>
       </div>
-      {{!-- Begin Question --}}
       <div class="faqs-q">
-        <p><span class="leading">Q</span>Are unshuffled coins safe to spend?</p>
+        <p><span class="leading">Q</span>{{ i18n.faqs.security.question-four }}</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>No they are not. Spending unshuffled coins can compromise the security features of CashShuffle and can undo the privacy of any past transactions. Turning off CashShuffle is not recommended.</p>
+        <p><span class="leading">A</span>{{ i18n.faqs.security.answer-four }}</p>
       </div>
     </div>
     <div class="faqsBlock">
-      <h2 class="faqsBlock-heading">Technology</h2>
-      {{!-- Begin Question --}}
+      <h2 class="faqsBlock-heading">{{ i18n.faqs.tech.title }}</h2>
       <div class="faqs-q">
-        <p><span class="leading">Q</span>What coordinates the shuffle between users?</p>
+        <p><span class="leading">Q</span>{{ i18n.faqs.tech.question-one }}</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>CashShuffle uses a client-server model. The servers coordinate which users are shuffling.</p>
+        <p><span class="leading">A</span>{{ i18n.faqs.tech.answer-one }}</p>
       </div>
-      {{!-- Begin Question --}}
       <div class="faqs-q">
-        <p><span class="leading">Q</span>Are you running a shuffling service? Are you running one of these servers?</p>
+        <p><span class="leading">Q</span>{{ i18n.faqs.tech.question-two }}</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>No. We simply publish code. It is up to the community to run servers.</p>
+        <p><span class="leading">A</span>{{ i18n.faqs.tech.answer-two }}</p>
       </div>
-      {{!-- Begin Question --}}
       <div class="faqs-q">
-        <p><span class="leading">Q</span>How does the network get bootstrapped?</p>
+        <p><span class="leading">Q</span>{{ i18n.faqs.tech.question-three }}</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>As servers come online, they can request inclusion to the client side seed server list via GitHub.</p>
+        <p><span class="leading">A</span>{{ i18n.faqs.tech.answer-three }}</p>
       </div>
-      {{!-- Begin Question --}}
       <div class="faqs-q">
-        <p><span class="leading">Q</span>Should users set up as many servers as possible so its more decentralized?</p>
+        <p><span class="leading">Q</span>{{ i18n.faqs.tech.question-four }}</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>No. In the beginning, fewer, but more reliable servers are ideal. Too many servers means users will be thinly spread and will have a harder time finding join partners.</p>
+        <p><span class="leading">A</span>{{ i18n.faqs.tech.answer-four }}</p>
       </div>
-      {{!-- Begin Question --}}
       <div class="faqs-q">
-        <p><span class="leading">Q</span>What is CoinJoin?</p>
+        <p><span class="leading">Q</span>{{ i18n.faqs.tech.question-five }}</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>CoinJoin is the simple, but effective idea of combining inputs and outputs from what would otherwise be separate transactions, into one jumbo transaction. This makes it extremely difficult to know which outputs correspond to which inputs.</p>
+        <p><span class="leading">A</span>{{ i18n.faqs.tech.answer-five }}</p>
       </div>
-      {{!-- Begin Question --}}
       <div class="faqs-q">
-        <p><span class="leading">Q</span>What is CoinShuffle?</p>
+        <p><span class="leading">Q</span>{{ i18n.faqs.tech.question-six }}</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>CoinShuffle is a protocol which implements CoinJoin in a practical way. A layered encryption scheme is used so that none of the participants know the outputs of the other participants. In addition, a blame protocol is used to mitigate time-wasting denial-of-service type attacks.</p>
+        <p><span class="leading">A</span>{{ i18n.faqs.tech.answer-six }}</p>
       </div>
-      {{!-- Begin Question --}}
       <div class="faqs-q">
-        <p><span class="leading">Q</span>What is the difference between CoinShuffle and CashShuffle?</p>
+        <p><span class="leading">Q</span>{{ i18n.faqs.tech.question-seven }}</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>CoinShuffle is an excellent protocol once the participants for a joined transaction have already been chosen. However, it provides no means for establishing such groupings. CashShuffle builds upon CoinShuffle and adds a matching service. As such, it is a more complete and usable protocol. The server, like the individual participants, also has no knowledge of which input corresponds to which output.</p>
+        <p><span class="leading">A</span>{{ i18n.faqs.tech.answer-seven }}</p>
       </div>
     </div>
     <div class="faqsBlock">
-      <h2 class="faqsBlock-heading">Miscellaneous</h2>
-      {{!-- Begin Question --}}
+      <h2 class="faqsBlock-heading">{{ i18n.faqs.misc.title }}</h2>
       <div class="faqs-q">
-        <p><span class="leading">Q</span>What is Bitcoin Cash?</p>
+        <p><span class="leading">Q</span>{{ i18n.faqs.misc.question-one }}</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>Bitcoin Cash is peer to peer electronic cash, based on the Bitcoin protocol. <a href="https://bitcoincash.org/" target="_blank">Click here to learn more.</a></p>
+        <p><span class="leading">A</span>{{ i18n.faqs.misc.answer-one }}</p>
       </div>
-      {{!-- Begin Question --}}
       <div class="faqs-q">
-        <p><span class="leading">Q</span>Will the software be improved in the future? Is there a roadmap?</p>
+        <p><span class="leading">Q</span>{{ i18n.faqs.misc.question-two }}</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>We are constantly working, building, and researching. Our goal is to bring fully decentralized, frictionless, and peer-to-peer privacy and fungibility solutions to Bitcoin Cash.</p>
+        <p><span class="leading">A</span>{{ i18n.faqs.misc.answer-two }}</p>
       </div>
-      {{!-- Begin Question --}}
       <div class="faqs-q">
-        <p><span class="leading">Q</span>Can this be used for illegal purposes?</p>
+        <p><span class="leading">Q</span>{{ i18n.faqs.misc.question-three }}</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>We do not advocate, condone, or promote the use of this technology for illegal purposes. It is intended for legal privacy use only.</p>
+        <p><span class="leading">A</span>{{ i18n.faqs.misc.answer-three }}</p>
       </div>
     </div>
   </div>
