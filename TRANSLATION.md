@@ -20,4 +20,6 @@ Explain, in detail, how the Gruntfile works. Perhaps show the old list of assemb
 
 Also, mention that language files are not watched. This is because the i18nTarget function is not called before re-assembling. It could be implemented, perhaps with assemble steps https://assemble.io/docs/Methods.html but at the moment it's probably not worth the effort
 
+## How to add a new language
+This really needs to be written simply and in-depth. Perhaps even give instructions they can follow along with
 
