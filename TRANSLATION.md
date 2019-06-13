@@ -79,7 +79,7 @@ There are a few variables defined in the Grunt file that we may need to access f
 ```
 We cannot simply use the Handlebars format as in the rest of the site, but we can still access them. If we wanted to access the `downloads_dir` we would use this code `<%= assemble.options.downloads_dir %>`.
 
-### But the Base Directory variable doesn't work
+### But the base directory variable doesn't work
 In the Grunt file the `base_dir` variable is updated for each language. Unfortunately, for some reason we can't access that updated variable within the language files. So although the consistent way to write internal links to other pages would be `<a href="<%= assemble.options.base_dir %>wallets/">` , you'll need to hard code the language directories in like this `<a href="/de/wallets/">`
 
 ### Language files are not watched by Grunt
