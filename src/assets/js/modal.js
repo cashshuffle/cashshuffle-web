@@ -4,15 +4,15 @@ $(document).ready(function() {
   function showModal(e) {
     e.preventDefault();
     e.stopPropagation();
-    $('#i18n').addClass('open');
-    $('.body-wrap').addClass('noscroll');
+    $('.i18nModal').addClass('open');
+    $('.page-wrap').addClass('noscroll');
   }
 
   function hideModal(e) {
     e.preventDefault();
     e.stopPropagation();
-    $('#i18n').removeClass('open');
-    $('.body-wrap').removeClass('noscroll');
+    $('.i18nModal').removeClass('open');
+    $('.page-wrap').removeClass('noscroll');
   }
 
   $('.modal-open').click(showModal);

@@ -1,6 +1,6 @@
 /* Modal Container
 --------------------------------------------*/
-.modal {
+.i18nModal {
   background-color: #e1e1e1;
   height: 100%;
   width: 100%;
@@ -16,11 +16,11 @@
   border-top-right-radius: 30px;
   z-index: 700;
 }
-.modal.open {
+.i18nModal.open {
   top: 15px;
 }
 @media(min-width: 800px) {
-  .modal{
+  .i18nModal{
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
   }
@@ -29,18 +29,18 @@
 
 /* Modal Content
 --------------------------------------------*/
-.modal-content {
+.i18nModal-content {
   text-align: center;
   width: 90%;
   max-width: 400px;
   padding: 20px;
   margin: auto;
 }
-.modal-heading {
+.i18nModal-heading {
   color: #444;
   margin-bottom: 25px;
 }
-.modal-border {
+.i18nModal-border {
   background: none repeat scroll 0 0 #ababab;
   display: block;
   height: 1px;
@@ -48,7 +48,7 @@
   margin: auto;
   margin-bottom: 25px;
 }
-p.modal-text {
+p.i18nModal-text {
   color: #444;
   margin-bottom: 30px;
 }
@@ -56,17 +56,57 @@ p.modal-text {
 
 /* Modal Form Buttons
 --------------------------------------------*/
-.modal-formButtons {
+.i18nModal-language {
+  list-style: none;
+  padding-left: 0;
+}
+.i18nModal-languageBtn {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+.i18nModal-languageBtn a {
+  color: #444;
+  background-color: #f0f0f0;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: 1px solid #cfcfcf;
+  border-radius: 16px;
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.i18nModal-languageBtn a:hover {
+  color: #000;
+  background-color: #f0f0f0;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.i18nModal-cancel a {
+  color: #5e5e5e;
+  font-size: 1.0rem;
+  display: block;
+  padding: 10px;
+}
+.i18nModal-cancel a:hover {
+  color: #000;
+}
+
+
+/* Modal Form Buttons
+--------------------------------------------*/
+.i18nModal-formButtons {
   margin-bottom: 25px;
 }
-.modal-formButtons:before,
-.modal-formButtons:after {
+.i18nModal-formButtons:before,
+.i18nModal-formButtons:after {
   content: " ";
   display: table;
 }
-.modal-formButtons:after{
+.i18nModal-formButtons:after{
   clear: both;
 }
-.modal-formButtons .btn {
+.i18nModal-formButtons .btn {
   width: 45%;
 }
