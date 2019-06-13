@@ -1,6 +1,6 @@
 ---
-title:           <%= i18n.home.title %>
-description:     <%= i18n.home.description %>
+title:           <%= i18n.quickstart.title %>
+description:     <%= i18n.quickstart.description %>
 path:            quickstart/
 og_img:          opengraph-default.jpg
 quickstart:      true
@@ -10,7 +10,7 @@ quickstart:      true
   <div class="container">
     <img src="{{ svg_dir }}hero-quickstart.svg" class="img-responsive hero-img">
     <div class="hero-textWrapper">
-      <h1 class="hero-heading">Start shuffling your Bitcoin Cash in three easy steps</h1>
+      <h1 class="hero-heading">{{ i18n.quickstart.hero.heading }}</h1>
       <p class="hero-leadText">{{ i18n.quickstart.hero.text }}</p>
     </div>
   </div>
@@ -25,25 +25,27 @@ quickstart:      true
       <div class="imgCard-img">
         <img src="{{ img_dir }}quickstart-step-1.png" class="img-responsive" />
       </div><div class="imgCard-textWrapper">
-      <h3 class="imgCard-heading">1. Download Electron Cash</h3>
-      <p class="imgCard-leadText">CashShuffle is currently built into the Windows, Mac OSX and Linux versions of the popular open-source wallet Electron Cash.</p>
-      <a href="https://electroncash.org/" role="button" class="btn btn-primary" target="_blank">Download Now</a>
+      <h3 class="imgCard-heading">{{ i18n.quickstart.step-one.heading }}</h3>
+      <p class="imgCard-leadText">{{ i18n.quickstart.step-one.text }}</p>
+      <a href="https://electroncash.org/" role="button" class="btn btn-primary" target="_blank">
+        {{ i18n.quickstart.step-one.button }}
+      </a>
       </div>
     </div>
     <div class="imgCard-wrapper">
       <div class="imgCard-img">
         <img src="{{ img_dir }}quickstart-step-2.png" class="img-responsive" />
       </div><div class="imgCard-textWrapper">
-      <h3 class="imgCard-heading">2. Enable CashShuffle</h3>
-      <p class="imgCard-leadText">Click the CashShuffle icon in the lower right corner to enable it. CashShuffle runs in the background and ensures you only spend shuffled (private) coins. It is intended to stay enabled for the lifetime of your wallet, preserving your privacy for all transactions.</p>
+      <h3 class="imgCard-heading">{{ i18n.quickstart.step-two.heading }}</h3>
+      <p class="imgCard-leadText">{{ i18n.quickstart.step-two.text }}</p>
       </div>
     </div>
     <div class="imgCard-wrapper imgCard-rightAlign">
       <div class="imgCard-img">
         <img src="{{ img_dir }}quickstart-step-3.png" class="img-responsive" />
       </div><div class="imgCard-textWrapper">
-      <h3 class="imgCard-heading">3. Spend your shuffled coins</h3>
-      <p class="imgCard-leadText">As your coins are shuffled they will appear in the "shuffled available" section and can be spent whenever you like. The wallet will limit you to spending shuffled coins to make sure your privacy is always respected.</p>
+      <h3 class="imgCard-heading">{{ i18n.quickstart.step-three.heading }}</h3>
+      <p class="imgCard-leadText">{{ i18n.quickstart.step-three.text }}</p>
       </div>
     </div>
   </div>
@@ -51,10 +53,10 @@ quickstart:      true
 
 <div class="quickstartVideo">
   <div class="quickstartVideo-wrapper">
-    <h3 class="quickstartVideo-heading">See it in Action</h3>
-    <p class="quickstartVideo-text">Here's a quick two-minute video showing CashShuffle in action.</p>
+    <h3 class="quickstartVideo-heading">{{ i18n.quickstart.video.heading }}</h3>
+    <p class="quickstartVideo-text">{{ i18n.quickstart.video.text }}</p>
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IJlAas387SE" allowfullscreen=""></iframe>
+    <iframe class="embed-responsive-item" src="{{ i18n.quickstart.video.youtube-link }}" allowfullscreen=""></iframe>
   </div>
   </div>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 96" preserveAspectRatio="none" class="bg-curve bottom">

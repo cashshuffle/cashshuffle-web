@@ -79,6 +79,8 @@ i18n:
       text: Here's a quick two-minute video showing CashShuffle in action.
       youtube-link: https://www.youtube.com/embed/IJlAas387SE
   faqs:
+    title: Frequently Asked Questions | CashShuffle
+    description: Answers to your questions about the technology and security of CashShuffle.
     overview:
       title: Overview
       question-one: What is CashShuffle?

@@ -79,6 +79,8 @@ i18n:
       text: これは、CashShuffleの動作を示す2分間の簡単なビデオです。
       youtube-link: https://www.youtube.com/embed/IJlAas387SE
   faqs:
+    title: よくある質問 キャッシュシャッフル
+    description: CashShuffleの技術とセキュリティに関するあなたの質問への回答。
     overview:
       title: 概要
       question-one: CashShuffleとは何ですか？
