@@ -41,7 +41,7 @@ module.exports = function(grunt) {
     return {
       options: {
         data: i18nData,
-        base_dir: root ? '/' : `/${lang}/`,
+        base_dir: root ? '/' : `/${lang}/`
       },
       files: i18nFiles
     };
