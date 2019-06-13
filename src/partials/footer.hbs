@@ -79,7 +79,15 @@
       </div>
     </div>
   </div>
-  <div class="footer-copyright">
-    <p>{{{ i18n.footer.copyright }}}</p>
+  <div class="footerBottom">
+    <div class="container">
+      <p class="footerBottom-copyright">{{{ i18n.footer.copyright }}}</p>
+      <a role="button" class="modal-open footerBottom-i18nSelectLink">
+        <p class="footerBottom-i18nSelect">
+          <img src="{{ svg_dir }}ico-i18n-footer.svg" alt="" class="footerBottom-i18nSelectIcon">
+          {{{ i18n.lang.display }}}
+        </p>
+      </a>
+    </div>
   </div>
 </footer>

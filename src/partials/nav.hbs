@@ -24,6 +24,15 @@
         <img src="{{ svg_dir }}logo.svg" alt="CashShuffle" class="img-responsive">
       </a>
     </div>
+    {{!-- Desktop i18n Select Button --}}
+    <div class="navbar-md-i18n pull-right">
+      <a role="button" class="modal-open">
+        <div class="navbar-md-i18n-opener md-sn-btn-language">
+          <span class="navbar-md-i18n-openerLine"></span>
+          <img src="{{ svg_dir }}ico-i18n.svg" alt="" class="navbar-md-i18n-openerIcon">
+        </div>
+      </a>
+    </div>
     <div class="navbar-md-list-wrapper pull-right">
       <ul class="navbar-md-list pull-right">
         <li class="navbar-md-list-item{{# if wallets }} active {{/ if }}">
@@ -47,5 +56,11 @@
       <li class="mobile-nav-item"><a href="{{ base_dir }}quickstart/">{{ i18n.nav.quickstart }}</a></li>
       <li class="mobile-nav-item"><a href="{{ base_dir }}faqs/">{{ i18n.nav.faqs }}</a></li>
     </ul>
+    <a role="button" class="modal-open mobile-nav-i18nSelectLink">
+      <p class="mobile-nav-i18nSelect">
+        <img src="{{ svg_dir }}ico-i18n-footer.svg" alt="" class="mobile-nav-i18nSelectIcon">
+        {{{ i18n.lang.display }}}
+      </p>
+    </a>
   </nav>
 </div>
