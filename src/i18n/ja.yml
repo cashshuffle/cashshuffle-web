@@ -1,7 +1,7 @@
 i18n:
   lang:
     code: ja
-    name: Japanese
+    display: 日本語
   nav:
     home: ホーム
     wallets: 財布
@@ -35,7 +35,7 @@ i18n:
       text: CashShuffleが有効になっている、あなたのBitcoin現金財布はシャッフル（プライベート）とシャッフルされていないコインを追跡します。 バックグラウンドでは、シャッフルされていないUTXOをシャッフルし続けます。 こうすればあなたはいつでもあなたのコインを素早くそして目を詮索することを心配することなく使うことができます。
     builtin:
       heading: CashShuffleは現在多くの人気のあるBitcoin Cash財布に組み込まれています
-      text: CashShuffleはすでにElectron Cashウォレットに組み込まれており、現在他の多くの人気のあるBitcoin Cashウォレット用に開発されています。 あなたのお気に入りの財布がサポートされているかどうかを確認するために私たちの<a href="{{ base_dir }}ja/wallets/">財布のページ</a>を見てください。
+      text: CashShuffleはすでにElectron Cashウォレットに組み込まれており、現在他の多くの人気のあるBitcoin Cashウォレット用に開発されています。 あなたのお気に入りの財布がサポートされているかどうかを確認するために私たちの<a href="wallets/">財布のページ</a>を見てください。
     action:
       heading: 始める準備はできましたか？
       button: 財布をダウンロードする
@@ -98,8 +98,8 @@ i18n:
       title: セキュリティ
       question-one: これは安全ですか？
       answer-one: 
-        p1: CashShuffleは最近<a href="https://www.kudelskisecurity.com/" target="_blank"> Kudelski Securityの有償監査を受けました<img src = "{{svg_dir}} extlink.svg" class = "extLink 「資金を盗まれる危険性なしに、CashShuffleがシャッフルのための実用的な解決策を提供することを確認したのは、>> </a>」。 続いて、「コードベースに悪意のある意図、欠陥のあるロジック、または潜在的なバックドアの証拠は見つかりませんでした」と述べています。
-        p2: ご希望の場合は、<a href="{{ downloads_dir }}REPORT-CashShuffle-20190325.pdf" target="_blank">レポート全体</a>をご覧ください。
+        p1: CashShuffleは最近<a href="https://www.kudelskisecurity.com/" target="_blank"> Kudelski Securityの有償監査を受けました<img src="<%= assemble.options.svg_dir %>extlink.svg" class="extLink"></a> 「資金を盗まれる危険性なしに、 CashShuffleがシャッフルのための実用的な解決策を提供することを確認したのは、」。 続いて、「コードベースに悪意のある意図、欠陥のあるロジック、または潜在的なバックドアの証拠は見つかりませんでした」と述べています。
+        p2: ご希望の場合は、<a href="<%= assemble.options.downloads_dir %>REPORT-CashShuffle-20190325.pdf" target="_blank">レポート全体</a>をご覧ください。
       question-two: サーバーはお金を盗むことができますか？
       answer-two: トランザクションは有効な場合にのみクライアント側で署名されるため、サーバーは適切なCashShuffle実装でお金を盗むことはできません。
       question-three: CashShuffleはTorをサポートしていますか？

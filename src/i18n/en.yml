@@ -1,7 +1,7 @@
 i18n:
   lang:
     code: en
-    name: English
+    display: English
   nav:
     home: Home
     wallets: Wallets
@@ -35,7 +35,7 @@ i18n:
       text: CashShuffle is enabled, your Bitcoin Cash wallet will keep track of shuffled (private) and unshuffled coins. In the background it continuously shuffles any unshuffled UTXOs for you. This way you can always spend your coins quickly and without worrying about prying eyes.
     builtin:
       heading: CashShuffle is currently being built into many popular Bitcoin Cash wallets
-      text: CashShuffle is already built into the Electron Cash wallet and is currently being developed for a number of other popular Bitcoin Cash wallets. Keep an eye on our <a href="{{ base_dir }}wallets/">wallets page</a> to see if your favorite wallet is supported.
+      text: CashShuffle is already built into the Electron Cash wallet and is currently being developed for a number of other popular Bitcoin Cash wallets. Keep an eye on our <a href="wallets/">wallets page</a> to see if your favorite wallet is supported.
     action:
       heading: Ready to get started?
       button: Download a Wallet
@@ -98,8 +98,8 @@ i18n:
       title: Security
       question-one: Are you sure this is secure?
       answer-one: 
-        p1: CashShuffle recently went through a paid audit from <a href="https://www.kudelskisecurity.com/" target="_blank">Kudelski Security<img src="{{ svg_dir }}extlink.svg" class="extLink"></a> who verified that CashShuffle provides a practical solution for shuffling "without the risk of funds being stolen in the process." They went on to state that "we did not find any evidence of malicious intent, flawed logic or potential backdoor in the codebase."
-        p2: If you like, you can read <a href="{{ downloads_dir }}REPORT-CashShuffle-20190325.pdf" target="_blank">the whole report</a>.
+        p1: CashShuffle recently went through a paid audit from <a href="https://www.kudelskisecurity.com/" target="_blank">Kudelski Security<img src="<%= assemble.options.svg_dir %>extlink.svg" class="extLink"></a> who verified that CashShuffle provides a practical solution for shuffling "without the risk of funds being stolen in the process." They went on to state that "we did not find any evidence of malicious intent, flawed logic or potential backdoor in the codebase."
+        p2: If you like, you can read <a href="<%= assemble.options.downloads_dir %>REPORT-CashShuffle-20190325.pdf" target="_blank">the whole report</a>.
       question-two: Can the server(s) steal money?
       answer-two: The server cannot steal money in a proper CashShuffle implementation because the transactions are only signed on the client side if they are valid.
       question-three: Does CashShuffle support Tor?
