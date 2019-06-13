@@ -1,37 +1,89 @@
-# Translation
 
-This document will serve as instructions for adding new languages to the site. For now it's just a placeholder for topics I will need to write out in more detail.
+# Translation & Internationalization
 
-## Internationalization
-Quickly explain why we use i18n so nobody has to go look it up later :)
+This document contains instructions and information for adding new languages to the CashShuffle.com website.
 
-## YAML: Strings and Quotes
-- if a string contains quotes, tis all good
-- if it starts with a quote, you need to wrap it in quotes (single quotes are recommended, maybe mention why)
+## Quickstart Guide
+Let's walk through adding a new language to the CashShuffle website. In this case we'll use German as an example.
 
-## HTML in the translation
-unfortunately there are some blocks that requier html in the translation. in these, you need to make sure the handlebar template has three braces, not 2.
+### Step 1: Create the new language file
+Find the English language file located at `src/i18n/en.yml` and make a copy of it. Have all the strings translated and reviewed, and then put back into a new file in the exact same format. Since this is German, we'll name our new file `src/i18n/de.yml`.
 
-{{ i18n.page.section.content }} becomes {{{ i18n.page.section.content }}}
+### Step 2: Add the new language to Grunt
+Open the `Gruntfile` located in the root directory and look for the `assemble` task. The code should look something like this:
+```
+    // Build the HTML files from our templates
+    assemble: {
+      options:{
+        layoutdir: 'src/layouts',
+        flatten: true,
+        layout: 'default.hbs',
+        ...
+        twitter_creator:  'cashshuffle',
+        production: IS_PRODUCTION
+      },
+      root: i18nTarget('en', true),
+      ja: i18nTarget('ja')
+    },
+```
+We're going to let Grunt know that German is now available to process by adding a line to the end of that block as shown below:
+```
+      },
+      root: i18nTarget('en', true),
+      ja: i18nTarget('ja'),
+      de: i18nTarget('de')
+    },
+```
 
-also, we can access a few key variables in the translation files. these were originally stored in src/data.yml but now are directly in the grunt file `grunt.initConfig / assemble / options`. These cannot be accessed with handlebars format, they need to be targetted like this `<%= assemble.options.downloads_dir %>`
+### Step 3: Add the new language to the language select menu
+Open the file `src/partials/i18n.hbs` and add a new list element to the HTML. In our case we're going to copy this code...
+```
+      <li class="i18nModal-languageBtn">
+        <a role="button" href="/ja/">日本語</a>
+      </li>
+```
+...and duplicate it with our German language code as shown below:
+```
+      <li class="i18nModal-languageBtn">
+        <a role="button" href="/ja/">日本語</a>
+      </li>
+      <li class="i18nModal-languageBtn">
+        <a role="button" href="/de/">Deutsche</a>
+      </li>
+```
+### Step 4: Build!
+That's really all you need to do. Rebuild the site with Grunt and the new language should be available on the site. If you run any issues, the information below should help you troubleshoot.
 
-## Directories
-if we need internal links in the text, the main site uses the format `{{ base_dir }}wallets/`. In order to properly create a direct link in this system, one would write `<a href="<%= assemble.options.base_dir %>ja/wallets/">` in the text. However, since there are no nested directories, we can get away with a shortcut in the links. I recommend internal links between pages are written as follows: `<a href="wallets/">` This keeps us on the current language and makes the YAML easier to read by humans.
+## More Information
 
-## Language codes
-- language code will be used in a few places:
-  - <html lang="{{ i18n.lang.code }}" prefix="og: http://ogp.me/ns#">
-  - grunt.file.readYAML(`src/i18n/${lang}.yml`);
-  - cashshuffle.com/LANGUAGE-CODE/wallets/
-- So it's best if they all match (to avoid confusion)
+### YAML: Strings and Quotes
+If you're not used to YAML, it may be weird seeing a lack of quotes around the strings in the language files. For the most part, all the strings in the site are just fine without quotes. Even if quotes appear in the middle of the string it's ok. However, if a string **begins** with quotes, you will need to wrap the entire string in quotes. 
 
+### Handlebars wants to encode your HTML
+Unfortunately there are some blocks that simply require HTML in the middle of the string. Not only does this make it a bit tougher for the translator, we have to be careful that we present the HTML in it's raw form. We do that with a simple tweak to the template files.
 
-## Assemble
-Explain, in detail, how the Gruntfile works. Perhaps show the old list of assemble files and show the new format as if you could see the output of the i18nTarget() function.
+If you have a string in a template file shown as `{{ i18n.page.section.content }}`, any text in that string will be encoded. In order to show the raw HTML use three braces around the variable name like this `{{{ i18n.page.section.content }}}`.
 
-Also, mention that language files are not watched. This is because the i18nTarget function is not called before re-assembling. It could be implemented, perhaps with assemble steps https://assemble.io/docs/Methods.html but at the moment it's probably not worth the effort
+### Accessing variables within our language files
+There are a few variables defined in the Grunt file that we may need to access from within our language files. Those variables are:
+```
+        base_dir:         '/',
+        css_dir:          '/_assets/css/',
+        js_dir:           '/_assets/js/',
+        img_dir:          '/_assets/img/',
+        svg_dir:          '/_assets/svg/',
+        downloads_dir:    '/downloads/',
+        base_url:         'https://cashshuffle.com',
+        twitter_site:     'cashshuffle',
+        twitter_creator:  'cashshuffle',
+```
+We cannot simply use the Handlebars format as in the rest of the site, but we can still access them. If we wanted to access the `downloads_dir` we would use this code `<%= assemble.options.downloads_dir %>`.
 
-## How to add a new language
-This really needs to be written simply and in-depth. Perhaps even give instructions they can follow along with
+### But the Base Directory variable doesn't work
+In the Grunt file the `base_dir` variable is updated for each language. Unfortunately, for some reason we can't access that updated variable within the language files. So although the consistent way to write internal links to other pages would be `<a href="<%= assemble.options.base_dir %>wallets/">` , you'll need to hard code the language directories in like this `<a href="/de/wallets/">`
 
+### Language files are not watched by Grunt
+When you make changes to a language file, you will need to manually stop and re-run Grunt in order to process the changes.
+
+### What does i18n mean?
+It's the strange-yet-common abbreviation for "internationalization". It basically means "the letter i plus 18 letters plus the letter n."
