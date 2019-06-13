@@ -1,0 +1,72 @@
+/* Modal Container
+--------------------------------------------*/
+.modal {
+  background-color: #e1e1e1;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 100%;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: all 150ms ease;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  z-index: 700;
+}
+.modal.open {
+  top: 15px;
+}
+@media(min-width: 800px) {
+  .modal{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+}
+
+
+/* Modal Content
+--------------------------------------------*/
+.modal-content {
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  margin: auto;
+}
+.modal-heading {
+  color: #444;
+  margin-bottom: 25px;
+}
+.modal-border {
+  background: none repeat scroll 0 0 #ababab;
+  display: block;
+  height: 1px;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+p.modal-text {
+  color: #444;
+  margin-bottom: 30px;
+}
+
+
+/* Modal Form Buttons
+--------------------------------------------*/
+.modal-formButtons {
+  margin-bottom: 25px;
+}
+.modal-formButtons:before,
+.modal-formButtons:after {
+  content: " ";
+  display: table;
+}
+.modal-formButtons:after{
+  clear: both;
+}
+.modal-formButtons .btn {
+  width: 45%;
+}
