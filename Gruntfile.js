@@ -39,7 +39,10 @@ module.exports = function(grunt) {
     let i18nFiles = {};
     Object.entries(files).forEach(entry => i18nFiles[destDir + entry[0]] = entry[1]);
     return {
-      options: { data: i18nData },
+      options: {
+        data: i18nData,
+        base_dir: root ? '/' : `/${lang}/`,
+      },
       files: i18nFiles
     };
   }
@@ -111,7 +114,6 @@ module.exports = function(grunt) {
         flatten: true,
         layout: 'default.hbs',
         partials: 'src/partials/*.hbs',
-        fs_base:          '/usr/share/nginx/html/',
         base_dir:         '/',
         css_dir:          '/_assets/css/',
         js_dir:           '/_assets/js/',
