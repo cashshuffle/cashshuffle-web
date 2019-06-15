@@ -25,7 +25,7 @@ then
   port="-p 5001:80"
   restart="--restart always"
 else
-  img_name=$name"-dev"
+  img_name="zquestz/"$name"-dev"
   container_name=$name"-dev"
   run_mode="-it"
   port="-p 5001:80"
