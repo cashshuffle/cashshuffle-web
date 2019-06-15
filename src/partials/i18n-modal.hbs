@@ -4,10 +4,18 @@
     <span class="i18nModal-border"></span>
     <ul class="i18nModal-language">
       <li class="i18nModal-languageBtn">
-        <a role="button" href="/">English</a>
+      {{# if i18n.lang.en }}
+        <p>English</p>
+      {{ else }}
+        <a role="button" href="/{{this.path}}">English</a>
+      {{/ if }}
       </li>
       <li class="i18nModal-languageBtn">
-        <a role="button" href="/ja/">日本語</a>
+      {{# if i18n.lang.ja }}
+        <p>日本語</p>
+      {{ else }}
+        <a role="button" href="/ja/{{this.path}}">日本語</a>
+      {{/ if }}
       </li>
       <li class="i18nModal-cancel">
         <a role="button" class="modal-close">Cancel</a>

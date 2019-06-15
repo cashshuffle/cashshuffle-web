@@ -14,7 +14,7 @@
     "mobile-nav.css",
     "footer-partials.css",
     "footer.css",
-    "modal.css",
+    "i18n-modal.css",
     "home.css",
     "wallets.css",
     "quickstart.css",
@@ -26,7 +26,7 @@
     "mobile-nav.js",
     "navbar-md.js",
     "menu-slider.js",
-    "modal.js",
+    "i18n-modal.js",
     "footer.js"
   ]
 }
