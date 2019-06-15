@@ -2,6 +2,7 @@ i18n:
   lang:
     code: en
     display: English
+    en: true
   nav:
     home: Home
     wallets: Wallets

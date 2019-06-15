@@ -1,4 +1,3 @@
-
 # Translation & Internationalization
 
 This document contains instructions and information for adding new languages to the CashShuffle.com website.
@@ -38,18 +37,29 @@ We're going to let Grunt know that German is now available to process by adding 
 ### Step 3: Add the new language to the language select menu
 Open the file `src/partials/i18n.hbs` and add a new list element to the HTML. In our case we're going to copy this code...
 ```
-      <li class="i18nModal-languageBtn">
-        <a role="button" href="/ja/">日本語</a>
+      {{!-- English --}}
+      {{# if i18n.lang.en }}
+      <li class="i18nModal-languageBtn selected">
+        <p>English</p>
       </li>
+      {{ else }}
+      <li class="i18nModal-languageBtn">
+        <a role="button" href="/{{this.path}}">English</a>
+      </li>
+      {{/ if }}
 ```
 ...and duplicate it with our German language code as shown below:
 ```
-      <li class="i18nModal-languageBtn">
-        <a role="button" href="/ja/">日本語</a>
+      {{!-- German --}}
+      {{# if i18n.lang.de }}
+      <li class="i18nModal-languageBtn selected">
+        <p>Deutsche</p>
       </li>
+      {{ else }}
       <li class="i18nModal-languageBtn">
-        <a role="button" href="/de/">Deutsche</a>
+        <a role="button" href="/{{this.path}}">Deutsche</a>
       </li>
+      {{/ if }}
 ```
 ### Step 4: Build!
 That's really all you need to do. Rebuild the site with Grunt and the new language should be available on the site. If you run any issues, the information below should help you troubleshoot.

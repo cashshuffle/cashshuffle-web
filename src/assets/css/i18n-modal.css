@@ -65,7 +65,8 @@ p.i18nModal-text {
   color: #444;
   margin-bottom: 20px;
 }
-.i18nModal-languageBtn a {
+.i18nModal-languageBtn a,
+.i18nModal-languageBtn p {
   color: #444;
   background-color: #f0f0f0;
   font-size: 1.2rem;
@@ -76,6 +77,10 @@ p.i18nModal-text {
   height: 100%;
   width: 100%;
   padding: 20px;
+}
+.i18nModal-languageBtn.selected p {
+  background-color: #cfcfcf;
+  border-color: #bababa;
 }
 .i18nModal-languageBtn a:hover {
   color: #000;
@@ -91,22 +96,4 @@ p.i18nModal-text {
 }
 .i18nModal-cancel a:hover {
   color: #000;
-}
-
-
-/* Modal Form Buttons
---------------------------------------------*/
-.i18nModal-formButtons {
-  margin-bottom: 25px;
-}
-.i18nModal-formButtons:before,
-.i18nModal-formButtons:after {
-  content: " ";
-  display: table;
-}
-.i18nModal-formButtons:after{
-  clear: both;
-}
-.i18nModal-formButtons .btn {
-  width: 45%;
 }

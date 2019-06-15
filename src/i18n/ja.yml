@@ -2,6 +2,7 @@ i18n:
   lang:
     code: ja
     display: 日本語
+    ja: true
   nav:
     home: ホーム
     wallets: 財布
