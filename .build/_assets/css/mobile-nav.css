@@ -1,0 +1,197 @@
+/* Mobile Side Menu Mechanics
+------------------------------------------------------------- */
+#mobile-nav-panel {
+  position: fixed;
+  z-index: 500;
+  overflow-y: scroll;
+  right: -215px;
+  width: 215px;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+  -webkit-transition: all 250ms ease-in;
+  -moz-transition:    all 250ms ease-in;
+  -o-transition:      all 250ms ease-in;
+  transition:         all 250ms ease-in;
+} 
+body.mobile-nav-open #mobile-nav-panel {
+  right: 0;
+}
+.page-wrap {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+  -webkit-transition: all 250ms ease-in;
+  -moz-transition:    all 250ms ease-in;
+  -o-transition:      all 250ms ease-in;
+  transition:         all 250ms ease-in;
+}
+body.mobile-nav-open .page-wrap {
+  touch-action: none;
+  margin-left: -220px;
+  margin-right: 220px;
+}
+
+
+/* Mobile Side Menu Design
+------------------------------------------------------------- */
+#mobile-nav-panel {
+  background-color: #4c4c4c;
+  padding: 10px 13px 150px 20px;
+}
+
+
+/* Nav List Main
+------------------------------------------------------------- */
+.mobile-nav {
+  background-color: #4c4c4c;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.mobile-nav-item {
+  display: block;
+  max-height: none;
+  overflow: hidden;
+}
+.mobile-nav-item a {
+  display: block;
+  padding: 16px;
+  margin: 0;
+}
+.mobile-nav-item a:hover,
+.mobile-nav-item a:focus {
+  text-decoration: none;
+}
+.item-closed {
+  max-height: 0px;
+}
+.mobile-nav-expand-btn {
+  width: 16px;
+  height: 16px;
+  float: left;
+  position: relative;
+  top: 6px;
+}
+.mobile-nav-expand-btn span {
+  display: block;
+  position: absolute;
+  background-color: #bababa;
+  opacity: 1;
+  width: 11px;
+  height: 3px;
+  transition: 250ms ease-in-out 0ms;
+}
+.mobile-nav-expand-btn span:nth-child(1) {
+  top: 6px;
+  left: 2px;
+  transform: rotate(45deg);
+}
+.mobile-nav-expand-btn span:nth-child(2) {
+  top: 6px;
+  left: 8px;
+  transform: rotate(135deg); 
+}
+.mobile-nav-expand-btn.open span {
+  background-color: #666;
+  width: 20px;
+  top: 4px;
+  left: 0px;
+}
+.mobile-nav-expand-btn.open span:nth-child(1) {
+  transform: rotate(135deg);
+}
+.mobile-nav-expand-btn.open span:nth-child(2) {
+  transform: rotate(45deg); 
+}
+.mobile-nav-item a {
+  color: #fff;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: right;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 1px solid #595959;
+  padding-left: 0;
+}
+.mobile-nav-item:last-of-type a {
+  border: none;
+}
+.mobile-subnav-item a {
+  color: #585858;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border-bottom: 1px dashed #d8d8d8;
+  padding: 12px;
+  padding-left: 0.7rem;
+}
+.mobile-sub-subnav-item a {
+  color: #d0e8c3;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: none;
+  border-bottom: 1px dashed #484848;
+  padding-left: 2rem;
+}
+
+
+/* Nav List Secondary
+------------------------------------------------------------- */
+.mobile-nav-secondary {
+  background-color: #35a283;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.mobile-nav-infoItem {
+  display: block;
+  max-height: none;
+  overflow: hidden;
+}
+.mobile-nav-infoItem a {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  background-color: #35a283;
+  padding: 13px;
+  margin: 0;
+  padding-left: 0;
+  color: #8ce8ce;
+  border-bottom: 1px solid #37b18e;
+}
+.mobile-nav-infoItem a:hover,
+.mobile-nav-infoItem a:focus {
+  text-decoration: none;
+}
+.mobile-subnav-extLink {
+  width: 13px;
+  vertical-align: baseline;
+  margin-left: 5px;
+}
+
+
+/* i18n Select
+------------------------------------------------------------- */
+.mobile-nav-i18nSelect {
+    color: #ccc;
+    font-size: 0.9rem;
+    float: right;
+    border: 1px solid #6e6e6e;
+    border-radius: 14px;
+    padding: 8px 16px;
+}
+.mobile-nav-i18nSelectIcon {
+  width: 20px;
+  vertical-align: text-bottom;
+  margin-right: 8px;
+}
+.mobile-nav-i18nSelectLink:hover .mobile-nav-i18nSelect {
+  color: #fff;
+  border-color: #f60;
+}
