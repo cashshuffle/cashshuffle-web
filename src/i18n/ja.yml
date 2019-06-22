@@ -5,16 +5,16 @@ i18n:
     ja: true
   nav:
     home: ホーム
-    wallets: 財布
+    wallets: ウォレット
     quickstart: クイックスタート
     faqs: よくある質問
   footer:
-    copyright: 著作権2017-2019 CashShuffle。 全著作権所有。
+    copyright: Copyright &copy; 2017-2019 CashShuffle. All rights reserved.
     donate:
-      instructions: 私たちは常に完全に分散したプライバシーと代替性をBitcoin Cashにもたらすために取り組んでいます。 すべての寄付は大歓迎です。
+      instructions: 私たちはBitcoin Cashにプライバシーとファンジビリティをもたらすため、常に努力しています。皆様から寄付を頂ければ幸いに存じます。
     client:
       title: クライアントソフトウェア
-      description: 私たちの参照実装は、人気のあるElectron Cashウォレットにあります。
+      description: CashShuffleのリファレンス実装は、人気のElectron Cashウォレットから利用可能です。
     server:
       title: サーバーソフトウェア
       description: サーバーサイドソフトウェアはGolangで書かれておりGitHubで利用可能です。
@@ -22,114 +22,114 @@ i18n:
       title: ドキュメンテーション
       description: 開発者および愛好家のための技術文書
   home:
-    title: CashShuffle  -  Bitcoin Cashのためのプライバシー
-    description: あなたがあなたのお金を使ってするのはあなたのビジネスだからです。
+    title: CashShuffle  -  Bitcoin Cashのためのプライバシー機能
+    description: あなたがお金を使うと言う事は、あなたの私生活上の個人的な事柄です。
     hero:
-      heading: 強化されたプライバシーがBitcoin Cashで利用可能になりました
-      text: あなたがあなたのお金を使ってするのはあなたのビジネスです。 CashShuffleはそれをそのように保つのを助けます。
-      button: 財布をダウンロードする
+      heading: Bitcoin Cashに強力なプライバシー機能を追加
+      text: あなたがお金を使うと言う事は、あなたの私生活上の個人的な事柄です。 CashShuffleはあなたのプライバシーを守る為に役立ちます。
+      button: ウォレットをダウンロードする
     overview:
-      heading: 他のユーザーと一緒にシャッフルしてコインを追跡するのを難しくします
-      text: CashShuffleは、あなたのBitcoin Cashを他のネットワーク参加者とシャッフルする、完全分散型のコインミキシングプロトコルです。 このシャフリングプロセスはあなたの実際の支出を不明瞭にし、チェーン分析会社があなたの取引をフォローすることを難しくします。
+      heading: 他のユーザーと一緒にシャッフルする事でコインの追跡を難しくします
+      text: CashShuffleは、あなたのBitcoin Cashを他のユーザーとシャッフルする完全分散型のコインミキシングプロトコルです。このプロセスによってあなたの支払いは見えにくくなり、ブロックチェーン分析によるプライバシー権の侵害を防止します。
     easy:
-      heading: CashShuffleはバックグラウンドで実行されるので、あなたがいるときあなたの私用硬貨は準備ができています
-      text: CashShuffleが有効になっている、あなたのBitcoin現金財布はシャッフル（プライベート）とシャッフルされていないコインを追跡します。 バックグラウンドでは、シャッフルされていないUTXOをシャッフルし続けます。 こうすればあなたはいつでもあなたのコインを素早くそして目を詮索することを心配することなく使うことができます。
+      heading: CashShuffleはバックグラウンドで実行され、必要な時にいつでもプライバシーコインを利用できます。
+      text: CashShuffleが有効化されたウォレットはシャッフルされたコインとシャッフルされていないコインを識別します。バックグラウンドでは、未シャッフルのコインをシャッフルし続けます。これによって誰かに覗き見される心配も無く、いつでもコインを素早く使うことができます。
     builtin:
-      heading: CashShuffleは現在多くの人気のあるBitcoin Cash財布に組み込まれています
-      text: CashShuffleはすでにElectron Cashウォレットに組み込まれており、現在他の多くの人気のあるBitcoin Cashウォレット用に開発されています。 あなたのお気に入りの財布がサポートされているかどうかを確認するために私たちの<a href="wallets/">財布のページ</a>を見てください。
+      heading: CashShuffleは現在多くの人気のあるBitcoin Cashウォレットに組み込まれています
+      text: CashShuffleはすでにElectron Cashウォレットに組み込まれており、他にも多くの人気のあるBitcoin Cashウォレット用に開発されています。 あなたのお気に入りのウォレットがサポートされているかどうかを確認するために私たちの<a href="wallets/">ウォレットページ</a>をご覧下さい。
     action:
       heading: 始める準備はできましたか？
-      button: 財布をダウンロードする
+      button: ウォレットをダウンロードする
   wallets:
-    title: CashShuffleと互換性のある財布
-    description: あなたがすでに知っていて愛する財布に組み込まれています。
+    title: CashShuffleと互換性のあるウォレット
+    description: あなたのお気に入りのウォレットに組み込まれています。
     hero:
-      heading: CashShuffleはあなたがすでに知っていて愛する財布に組み込まれています
-      text: CashShuffleプロトコルを使用してプライバシーを強化した財布をダウンロードするには、スクロールダウンしてください。
+      heading: CashShuffleはあなたのお気に入りのウォレットに組み込まれています
+      text: CashShuffleプロトコルを使用してプライバシーを強化したウォレットをダウンロードするには、スクロールダウンしてください。
     electron:
-      heading: 電子マネー
-      text: 軽量ながら強力なBitcoin Cashシンクライアント。
-      button: ダウンロード中
-    in-development: 以下の財布は現在開発中です
+      heading: Electron Cash
+      text: パワフルでとても軽いBitcoin Cash ウォレット
+      button: ダウンロードする
+    in-development: 以下のウォレットは現在開発中です
     bitcoin-com:
       heading: Bitcoin.comウォレット
-      text: モバイルおよびデスクトップデバイスで利用可能な機能豊富な財布。
+      text: スマホおよびデスクトップで利用出来る機能性の高いウォレット
       button: 近日公開
     badger:
-      heading: アナグマ財布
-      text: ChromeとFirefoxで利用可能なブラウザベースのウォレット。
+      heading: Badgerウォレット
+      text: ChromeとFirefoxで利用可能なブラウザベースのウォレット
       button: 近日公開
   quickstart:
     title: CashShuffleクイックスタートガイド
-    description: 3つの簡単なステップであなたのBitcoin Cashをシャッフルし始めます。
+    description: 3つの簡単なステップでBitcoin Cashをシャッフルしましょう
     hero:
-      heading: 3つの簡単なステップであなたのBitcoin Cashをシャッフルし始める
-      text: CashShuffleの背後にある概念はかなり複雑ですが、自分で実行するのは非常に簡単です。 あなたのプライバシーを保護し始めましょう。
+      heading: 3つの簡単なステップであなたのBitcoin Cashをシャッフルしましょう
+      text: CashShuffleの技術的な概念は複雑ですが、使い方はとても簡単です。いますぐあなたのプライバシーを保護しましょう。
     step-one:
-      heading: 1.電子マネーをダウンロードする
-      text: CashShuffleは現在、Windows、Mac OSX、およびLinux版の人気の高いオープンソースのWallet Electron Cashに組み込まれています。
-      button: ダウンロード中
+      heading: 1.Electron Cashをダウンロードする
+      text: CashShuffleは、Windows、Mac OSX、およびLinux版のオープンソースウォレット、Electron Cashに組み込まれています。
+      button: ダウンロードする
     step-two:
       heading: 2. CashShuffleを有効にする
-      text: 有効にするには、右下隅にあるCashShuffleアイコンをクリックします。 CashShuffleはバックグラウンドで実行され、シャッフルされた（プライベート）コインのみを使うようにします。 それはあなたの財布の寿命の間有効にされたままで、すべての取引のためにあなたのプライバシーを保護することを意図しています。
+      text: 有効にするには、右下にあるCashShuffleアイコンをクリックします。 CashShuffleはバックグラウンドで実行されます。シャッフルされた（プライベート）コインのみを使うようにしましょう。 ウォレットを使用する間はずっと有効にするようにしてください。これによってすべての取引であなたのプライバシーが保護されます。
     step-three:
       heading: 3.シャッフルしたコインを使う
-      text: あなたのコインがシャッフルされると、それらは「シャッフル可能」セクションに表示され、好きなときにいつでも使うことができます。 財布はあなたのプライバシーが常に尊重されることを確認するためにシャッフルされたコインを使うことにあなたを制限するでしょう。
+      text: コインのシャッフルが終わると、"shuffled available" セクションに使用できるコインが表示されます。このコインは好きなときにいつでも使うことができます。 ウォレットはあなたのプライバシーを常に保護するためにシャッフルされていないコインの使用を制限します。
     video:
-      heading: 実際に見る
-      text: これは、CashShuffleの動作を示す2分間の簡単なビデオです。
+      heading: 動画を見る
+      text: CashShuffleの使い方を説明した、2分間の簡単なビデオです。
       youtube-link: https://www.youtube.com/embed/IJlAas387SE
   faqs:
     title: よくある質問 キャッシュシャッフル
-    description: CashShuffleの技術とセキュリティに関するあなたの質問への回答。
+    description: CashShuffleの技術とセキュリティに関する質問への回答。
     overview:
       title: 概要
       question-one: CashShuffleとは何ですか？
-      answer-one: CashShuffleは、あなたのBitcoin Cashを他のネットワーク参加者とシャッフルする、完全に分散されたプライバシープロトコルです。 このシャッフルプロセスはあなたの実際の支出を覆い隠し、チェーン分析会社があなたのコインを追跡することを非常に困難にします。
+      answer-one: CashShuffleは、あなたのBitcoin Cashを他のネットワーク参加者とシャッフルする、完全に分散されたプライバシープロトコルです。 コインの支出を覆い隠し、チェーン分析会社があなたのコインを追跡することを非常に困難にします。
       question-two: CashShuffleのユースケースは何ですか？
-      answer-two: CashShuffleは、企業の機密購入、個人のプライバシー、および全体的な硬貨代替性の向上を目的としています。
+      answer-two: CashShuffleのユースケースは企業秘密に関わる取引や個人のプライバシーの向上、およびファンジビリティの向上を目的としています。
       question-three: コインミキシングとCashShuffleの違いは何ですか？
       answer-three:
-        p1: 「コインミキシング」は、一般に、ユーザが自分のコインを異なるコインのセットと交換することを可能にするサービスの使用を指す。 CashShuffleは違います。 ユーザーが自分のトランザクションを他のユーザーと組み合わせることで難読化を可能にします。
-        p2: コインミキシングのデメリットは、ユーザーがミキシングサービスを信頼しなければならず、通常は料金を支払う必要があることです。 しかし、CashShuffleを使えば、資金を失うリスクや追加料金は発生しません。
-      question-four: CashShuffleのプライバシーとMoneroのようなコインとの違いは何ですか？
+        p1: コインミキシングとは、一般的にユーザーが自分のコインを他のコインと交換するサービスです。 CashShuffleは違います。ユーザーが自分のトランザクションを他のユーザーと組み合わせることで難読化します。
+        p2: コインミキシングのデメリットはミキシングサービスにコインを預けなければならない事と手数料を支払う必要がある事です。しかし、CashShuffleはコインを預けないので資金を失うリスクが無く、又追加手数料も発生しません。
+      question-four: CashShuffleのプライバシーとMoneroのような匿名コインとの違いは何ですか？
       answer-four:
-        p1: CashShuffleはBitcoinプロトコルの上にCoinJoinの実用的な実装を提供することを目的としています。 CashShuffleは、Moneroが提供するすべての機能を提供するわけではなく、プライバシーに対する「究極の」ソリューションでもありません。
-        p2: しかし、それを主要な財布に統合することで、Bitcoin Cashエコシステムは実用性とユーザーフレンドリーなプライバシーツールを享受することができます。 これはまた、匿名セットの増加にもつながります。これは、あらゆるシステムで最も重要な要素となる可能性があります。
-        p3: CashShuffleは、追加のプライバシーツールと一緒に使用することもできます。 これは、継続的にプライバシーと代替性を向上させることを目的とした、Bitcoin Cashの進化するアプリケーション層の一部です。
+        p1: CashShuffleはBitcoin Cashプロトコル上にCoinJoinの実用的な実装を提供することを目的としています。 CashShuffleはMoneroが出来る事全てが可能な訳では無く、プライバシーに関する「究極の」ソリューションでもありません。
+        p2: しかし、CashShuffleをウォレットに統合することで、Bitcoin Cashエコシステムに簡単で実用的なプライバシーツールを利用することが可能になり利便性が向上します。 これはまた、匿名セットの増加にもつながります。これは、あらゆるシステムで最も重要な要素となる可能性があります。
+        p3: CashShuffleはプライバシーとファンジビリティを向上させることを目的としたBitcoin Cashのアプリケーション層の一部として、その他のプライバシーツールと同時に使用することもできます。
     security:
       title: セキュリティ
-      question-one: これは安全ですか？
+      question-one: CashShuffleは安全ですか？
       answer-one: 
-        p1: CashShuffleは最近<a href="https://www.kudelskisecurity.com/" target="_blank"> Kudelski Securityの有償監査を受けました<img src="<%= assemble.options.svg_dir %>extlink.svg" class="extLink"></a> 「資金を盗まれる危険性なしに、 CashShuffleがシャッフルのための実用的な解決策を提供することを確認したのは、」。 続いて、「コードベースに悪意のある意図、欠陥のあるロジック、または潜在的なバックドアの証拠は見つかりませんでした」と述べています。
-        p2: ご希望の場合は、<a href="<%= assemble.options.downloads_dir %>REPORT-CashShuffle-20190325.pdf" target="_blank">レポート全体</a>をご覧ください。
-      question-two: サーバーはお金を盗むことができますか？
-      answer-two: トランザクションは有効な場合にのみクライアント側で署名されるため、サーバーは適切なCashShuffle実装でお金を盗むことはできません。
+        p1: CashShuffleは<a href="https://www.kudelskisecurity.com/" target="_blank"> Kudelski Securityの監査を受け<img src="<%= assemble.options.svg_dir %>extlink.svg" class="extLink"></a> 「資金を盗まれる危険性なしに、 CashShuffleがプライバシー向上のため実用的な解決策を提供している事を確認した。」「コードベースに悪意は無く、欠陥のあるロジックや潜在的なバックドアの証拠も見つから無かった」と評価されています。
+        p2: リポートの詳細は<a href="<%= assemble.options.downloads_dir %>REPORT-CashShuffle-20190325.pdf" target="_blank">こちら</a>をご覧ください。
+      question-two: CashShuffleサーバーはお金を盗むことができますか？
+      answer-two: 正しく設定されたCashShuffleサーバーがお金を盗むことはできません。これはトランザクションがクライアント側でのみ署名されるためです。
       question-three: CashShuffleはTorをサポートしていますか？
-      answer-three: はい、そうです。 Torユーザーは通常のユーザーとシャッフルプールを共有しているので、他のシャッフラーを見つけるのはTorを使っていないのと同じくらい簡単です。
+      answer-three: はい。 Torユーザーは一般のユーザーとシャッフルプールを共有しているので、Torを使っていても簡単に他のユーザーとシャッフルする事が出来ます。
       question-four: シャッフルされていないコインは安全に使えますか？
-      answer-four: いいえそうではありません。 シャッフルされていないコインを使うと、CashShuffleのセキュリティ機能が損なわれ、過去の取引のプライバシーが失われる可能性があります。 CashShuffleをオフにすることはお勧めできません。
+      answer-four: いいえ。シャッフルされていないコインを使うと、CashShuffleのセキュリティ機能が損なわれ、過去の取引のプライバシーが失われる可能性があります。 CashShuffleを無効化することはお勧めできません。
     tech:
-      title: 技術
-      question-one: ユーザー間のシャッフルを調整するものは何ですか？
-      answer-one: CashShuffleはクライアントサーバーモデルを使用します。 サーバーはどのユーザーがシャッフルしているかを調整します。
-      question-two: シャッフルサービスを行っていますか？ これらのサーバーの1つを実行していますか？
-      answer-two: いいえ。コードを公開するだけです。 サーバーを実行するのはコミュニティ次第です。
-      question-three: ネットワークはどのようにしてブートストラップされますか？
-      answer-three: サーバーがオンラインになると、GitHubを介してクライアント側のシードサーバーリストに含めることを要求できます。
-      question-four: より分散化したサーバーをできるだけ多く設定する必要がありますか。
-      answer-four: いいえ。最初は、より少ないが信頼性の高いサーバーが理想的です。 サーバーが多すぎると、ユーザーは薄くなり、参加パートナーを見つけるのが難しくなります。
+      title: テクノロジー
+      question-one: ユーザー間のシャッフルはどの様に行われるのですか？
+      answer-one: CashShuffleはクライアントサーバーモデルを使用します。サーバーが自動的にユーザー同士を見つけ効率よくシャッフルします。      
+      question-two: CashShuffleサーバー使ったシャッフルサービスを行っているのですか？ 
+      answer-two: いいえ。私達はコードを公開しているだけです。サーバーはコミュニティによって自発的に利用されています。
+      question-three: ネットワークはどのようにしてブートされますか？
+      answer-three: サーバーがオンラインになると、サーバーはGitHubを介してクライアント側のシードリストに含めるようリクエストを送ります。      
+      question-four: より分散化させる為にサーバーをできるだけ多く設定する必要がありますか。
+      answer-four: いいえ。最初は信頼性が高いサーバーを少数設置する方が理想的です。 サーバーが多すぎるとユーザーが疎らになりシャッフルする相手を見つけるのが難しくなるからです。
       question-five: CoinJoinとは何ですか？
-      answer-five: CoinJoinは、そうでなければ別々のトランザクションであるものからの入力と出力を1つの巨大なトランザクションに結合するという単純だが効果的なアイデアです。 これはどの出力がどの入力に対応するかを知ることを非常に困難にします。
-      question-six: コインシャッフルとは何ですか？
-      answer-six: CoinShuffleはCoinJoinを実用的な方法で実装するプロトコルです。 参加者の誰も他の参加者の出力を知ることができないように、階層化された暗号化スキームが使用されます。 さらに、時間の浪費しているサービス拒否攻撃を軽減するために非難プロトコルが使用されています。
+      answer-five: CoinJoinは、別々のトランザクションからの入力と出力を1つの巨大なトランザクションに結合するという、シンプルで効果的なアイデアです。これによってどの出力がどの入力に対応するかを知ることを非常に難しくします。
+      question-six: CoinShuffleとは何ですか？
+      answer-six: CoinShuffleはCoinJoinを実用的な方法で実装したプロトコルです。 階層化された暗号化スキームにより誰も他の参加者の出力を知ることは出来ません。 更に時間の無駄となるDoS攻撃を軽減する為、ペナルティシステムが採用されています。
       question-seven: CoinShuffleとCashShuffleの違いは何ですか？
-      answer-seven: 参加した取引の参加者がすでに選択されている場合、CoinShuffleは優れたプロトコルです。 しかしながら、それはそのようなグループを確立するための手段を提供しません。 CashShuffleはCoinShuffle上に構築され、マッチングサービスを追加します。 そういうものとして、それはより完全で使いやすいプロトコルです。 個々の参加者と同様に、サーバーにもどの入力がどの出力に対応するかについての知識はありません。
+      answer-seven: CoinShuffleは取引の参加者がすでに決まっている場合には優れたプロトコルです。しかし、CoinShuffleにはそのようなグループを確立するための手段がありません。 CashShuffleはCoinShuffle上に更にマッチングサービスを追加し、使いやすく完成させたプロトコルです。 個々の参加者と同様に、サーバーもどの入力がどの出力に対応するか知る事はありません。
     misc:
       title: その他
       question-one: Bitcoin Cashとは何ですか？
-      answer-one: Bitcoin Cashは、Bitcoinプロトコルに基づくピアツーピアの電子現金です。 <a href="https://bitcoincash.org/" target="_blank">詳細についてはここをクリックしてください。</a>
-      question-two: ソフトウェアは将来的に改善されますか？ ロードマップはありますか？
-      answer-two: 私達は絶えず働き、造り、そして研究している。 私たちの目標は、完全に分散化された、摩擦のない、ピアツーピアのプライバシーおよび代替性のソリューションをBitcoin Cashに提供することです。
+      answer-one: Bitcoin Cashは、Bitcoinを元にしたP2P電子通貨です。 <a href="https://bitcoincash.org/" target="_blank">詳細についてはここをクリックしてください。</a>
+      question-two: ソフトウェアは将来的に改善されますか？
+      answer-two: 私たちの目標は、Bitcoin Cashに完全に分散化され、しかも使いやすいプライバシーとファンジビリティを提供することです。この目標の為に常に努力と研究を続けています。
       question-three: これは違法な目的に使用できますか？
-      answer-three: 私たちは違法な目的のためにこの技術を使用することを推奨、容認、または促進しません。 それは合法的なプライバシーの使用のみを目的としています。
+      answer-three: 私たちは違法な目的のためにこの技術を使用することを推奨、容認、または促進しません。合法的なプライバシー保護の為に使用する事を目的としています。
