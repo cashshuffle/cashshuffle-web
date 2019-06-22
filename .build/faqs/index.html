@@ -25,8 +25,8 @@
   <body>
     <div id="navbar-xs" class="hidden-md hidden-lg">
       <div id="navbar-xs-brand">
-        <a href="/" title="Cash Shuffle">
-          <img src="/_assets/svg/logo.svg" alt="Cash Shuffle" class="img-responsive">
+        <a href="/" title="CashShuffle">
+          <img src="/_assets/svg/logo.svg" alt="CashShuffle" class="img-responsive">
         </a>
       </div>
       <button id="navbar-xs-menu-toggle" class="btn">
@@ -43,8 +43,16 @@
     <nav id="navbar-md" class="hidden-xs hidden-sm">
       <div class="container">
         <div id="navbar-md-brand" class="pull-left">
-          <a href="/" title="Cash Shuffle">
-            <img src="/_assets/svg/logo.svg" alt="Cash Shuffle" class="img-responsive">
+          <a href="/" title="CashShuffle">
+            <img src="/_assets/svg/logo.svg" alt="CashShuffle" class="img-responsive">
+          </a>
+        </div>
+        <div class="navbar-md-i18n pull-right">
+          <a role="button" class="modal-open">
+            <div class="navbar-md-i18n-opener md-sn-btn-language">
+              <span class="navbar-md-i18n-openerLine"></span>
+              <img src="/_assets/svg/ico-i18n.svg" alt="" class="navbar-md-i18n-openerIcon">
+            </div>
           </a>
         </div>
         <div class="navbar-md-list-wrapper pull-right">
@@ -69,6 +77,12 @@
           <li class="mobile-nav-item"><a href="/quickstart/">Quickstart</a></li>
           <li class="mobile-nav-item"><a href="/faqs/">FAQs</a></li>
         </ul>
+        <a role="button" class="modal-open mobile-nav-i18nSelectLink">
+          <p class="mobile-nav-i18nSelect">
+            <img src="/_assets/svg/ico-i18n-footer.svg" alt="" class="mobile-nav-i18nSelectIcon">
+            English
+          </p>
+        </a>
       </nav>
     </div>
     <div class="page-wrap">
@@ -94,16 +108,16 @@
         <p><span class="leading">Q</span>What is the difference between coin mixing and CashShuffle?</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>"Coin mixing" commonly refers to the use of services that allow a user to replace his or her coins with a different set of coins. CashShuffle is different. It allows users to combine their transactions with others, creating obfuscation.</p>
+        <p><span class="leading">A</span>&quot;Coin mixing&quot; commonly refers to the use of services that allow a user to replace his or her coins with a different set of coins. CashShuffle is different. It allows users to combine their transactions with others, creating obfuscation.</p>
         <p>The disadvantages of coin mixing is that the user must trust the mixing service, and usually has to pay a fee. But with CashShuffle, there is no risk of lost funds, and no additional fees.</p>
       </div>
       <div class="faqs-q">
-        <p><span class="leading">Q</span>How does CashShuffle's privacy compare to coins like Monero?</p>
+        <p><span class="leading">Q</span>How does CashShuffle&#x27;s privacy compare to coins like Monero?</p>
       </div>
       <div class="faqs-a">
-        <p><span class="leading">A</span>CashShuffle aims to provide a working implementation of CoinJoin on top of the Bitcoin protocol. CashShuffle doesn't offer everything Monero does, nor is it an "ultimate" solution to privacy.</p>
+        <p><span class="leading">A</span>CashShuffle aims to provide a working implementation of CoinJoin on top of the Bitcoin protocol. CashShuffle doesn&#x27;t offer everything Monero does, nor is it an &quot;ultimate&quot; solution to privacy.</p>
         <p>However, by integrating it in major wallets, the Bitcoin Cash ecosystem can enjoy a practical and user-friendly privacy tool that will increase usage and adoption. This will also lead to a growing anonymity set, which may be the most important factor in any system.</p>
-        <p>CashShuffle can also be used together with additional privacy tools.  It's part of an evolving application layer for Bitcoin Cash that aims to continually improve privacy and fungibility.</p>
+        <p>CashShuffle can also be used together with additional privacy tools.  It&#x27;s part of an evolving application layer for Bitcoin Cash that aims to continually improve privacy and fungibility.</p>
       </div>
     </div>
     <div class="faqsBlock">
@@ -240,7 +254,7 @@
             <div class="footerMenuItem">
               <a href="/quickstart/" class="footerMenuItem-link">
                 <img src="/_assets/svg/ico-play.svg" class="footerMenuItem-icon">
-                <h4 class="footerMenuItem-heading">QuickStart</h4>
+                <h4 class="footerMenuItem-heading">Quickstart</h4>
               </a>
             </div>
             <div class="footerMenuItem">
@@ -302,10 +316,38 @@
             </div>
           </div>
         </div>
-        <div class="footer-copyright">
-          <p>Copyright &copy; 2017-2019 CashShuffle. All rights reserved.</p>
+        <div class="footerBottom">
+          <div class="container">
+            <p class="footerBottom-copyright">Copyright &copy; 2017-2019 CashShuffle. All rights reserved.</p>
+            <a role="button" class="modal-open footerBottom-i18nSelectLink">
+              <p class="footerBottom-i18nSelect">
+                <img src="/_assets/svg/ico-i18n-footer.svg" alt="" class="footerBottom-i18nSelectIcon">
+                English
+              </p>
+            </a>
+          </div>
         </div>
       </footer>
+    </div>
+    <div class="i18nModal">
+      <div class="i18nModal-content">
+        <h1 class="i18nModal-heading">Select Your Language</h1>
+        <span class="i18nModal-border"></span>
+        <ul class="i18nModal-language">
+          
+          <li class="i18nModal-languageBtn selected">
+            <p>English</p>
+          </li>
+          
+          <li class="i18nModal-languageBtn">
+            <a role="button" href="/ja/faqs/">日本語</a>
+          </li>
+          
+          <li class="i18nModal-cancel">
+            <a role="button" class="modal-close">Cancel</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>

@@ -384,14 +384,44 @@
 
 /* Footer Copyright Bar
 ------------------------------------------------------------- */
-.footer-copyright {
+.footerBottom {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #313335;
+  text-align: center;
 }
-.footer-copyright p {
+.footerBottom-copyright {
   color: #969696;
   font-size: 0.8rem;
-  margin-bottom: 0;
-  text-align: center;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.footerBottom-i18nSelect {
+  color: #ccc;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+  padding: 8px 16px;
+  display: inline-block;
+}
+.footerBottom-i18nSelectIcon {
+  width: 20px;
+  vertical-align: text-bottom;
+  margin-right: 8px;
+}
+.footerBottom-i18nSelectLink:hover .footerBottom-i18nSelect {
+  color: #fff;
+  border-color: #f60;
+}
+@media (min-width: 768px) {
+  .footerBottom-copyright {
+    width: auto;
+    float: left;
+    margin-top: 12px;
+    margin-bottom: 0;
+  }
+  .footerBottom-i18nSelect {
+    float: right;
+  }
 }

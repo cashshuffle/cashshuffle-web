@@ -1,0 +1,34 @@
+<div class="i18nModal">
+  <div class="i18nModal-content">
+    <h1 class="i18nModal-heading">Select Your Language</h1>
+    <span class="i18nModal-border"></span>
+    <ul class="i18nModal-language">
+      
+      {{!-- English --}}
+      {{# if i18n.lang.en }}
+      <li class="i18nModal-languageBtn selected">
+        <p>English</p>
+      </li>
+      {{ else }}
+      <li class="i18nModal-languageBtn">
+        <a role="button" href="/{{this.path}}">English</a>
+      </li>
+      {{/ if }}
+      
+      {{!-- Japanese --}}
+      {{# if i18n.lang.ja }}
+      <li class="i18nModal-languageBtn selected">
+        <p>日本語</p>
+      </li>
+      {{ else }}
+      <li class="i18nModal-languageBtn">
+        <a role="button" href="/ja/{{this.path}}">日本語</a>
+      </li>
+      {{/ if }}
+      
+      <li class="i18nModal-cancel">
+        <a role="button" class="modal-close">Cancel</a>
+      </li>
+    </ul>
+  </div>
+</div>
