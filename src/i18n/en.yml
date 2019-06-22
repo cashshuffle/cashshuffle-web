@@ -45,7 +45,7 @@ i18n:
     description: Built into the wallets you already know and love.
     hero:
       heading: CashShuffle is being built into the wallets you already know and love
-      text:  Scroll down to download a wallet that features enhanced privacy via the CashShuffle protocol.
+      text: Scroll down to download a wallet that features enhanced privacy via the CashShuffle protocol.
     electron:
       heading: Electron Cash
       text: A lightweight yet powerful Bitcoin Cash thin client.
@@ -96,7 +96,7 @@ i18n:
       answer-four:
         p1: CashShuffle aims to provide a working implementation of CoinJoin on top of the Bitcoin Cash protocol. CashShuffle doesn't offer everything Monero does, nor is it an "ultimate" solution to privacy.
         p2: However, by integrating it in major wallets, the Bitcoin Cash ecosystem can enjoy a practical and user-friendly privacy tool that will increase usage and adoption. This will also lead to a growing anonymity set, which may be the most important factor in any system.
-        p3: CashShuffle can also be used together with additional privacy tools.  It's part of an evolving application layer for Bitcoin Cash that aims to continually improve privacy and fungibility.
+        p3: CashShuffle can also be used together with additional privacy tools. It's part of an evolving application layer for Bitcoin Cash that aims to continually improve privacy and fungibility.
     security:
       title: Security
       question-one: Are you sure this is secure?
