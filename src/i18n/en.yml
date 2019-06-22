@@ -94,7 +94,7 @@ i18n:
         p2: The disadvantages of coin mixing is that the user must trust the mixing service, and usually has to pay a fee. But with CashShuffle, there is no risk of lost funds, and no additional fees.
       question-four: How does CashShuffle's privacy compare to coins like Monero?
       answer-four:
-        p1: CashShuffle aims to provide a working implementation of CoinJoin on top of the Bitcoin protocol. CashShuffle doesn't offer everything Monero does, nor is it an "ultimate" solution to privacy.
+        p1: CashShuffle aims to provide a working implementation of CoinJoin on top of the Bitcoin Cash protocol. CashShuffle doesn't offer everything Monero does, nor is it an "ultimate" solution to privacy.
         p2: However, by integrating it in major wallets, the Bitcoin Cash ecosystem can enjoy a practical and user-friendly privacy tool that will increase usage and adoption. This will also lead to a growing anonymity set, which may be the most important factor in any system.
         p3: CashShuffle can also be used together with additional privacy tools.  It's part of an evolving application layer for Bitcoin Cash that aims to continually improve privacy and fungibility.
     security:
@@ -129,7 +129,7 @@ i18n:
       title: Miscellaneous
       question-one: What is Bitcoin Cash?
       answer-one: Bitcoin Cash is peer to peer electronic cash, based on the Bitcoin protocol. <a href="https://bitcoincash.org/" target="_blank">Click here to learn more.</a>
-      question-two: Will the software be improved in the future? Is there a roadmap?
+      question-two: Will the software be improved in the future?
       answer-two: We are constantly working, building, and researching. Our goal is to bring fully decentralized, frictionless, and peer-to-peer privacy and fungibility solutions to Bitcoin Cash.
       question-three: Can this be used for illegal purposes?
       answer-three: We do not advocate, condone, or promote the use of this technology for illegal purposes. It is intended for legal privacy use only.
