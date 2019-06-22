@@ -22,7 +22,7 @@ i18n:
       title: ドキュメンテーション
       description: 開発者および愛好家のための技術文書
   home:
-    title: CashShuffle  -  Bitcoin Cashのためのプライバシー機能
+    title: CashShuffle - Bitcoin Cashのためのプライバシー機能
     description: あなたがお金を使うと言う事は、あなたの私生活上の個人的な事柄です。
     hero:
       heading: Bitcoin Cashに強力なプライバシー機能を追加
@@ -100,7 +100,7 @@ i18n:
     security:
       title: セキュリティ
       question-one: CashShuffleは安全ですか？
-      answer-one: 
+      answer-one:
         p1: CashShuffleは<a href="https://www.kudelskisecurity.com/" target="_blank"> Kudelski Securityの監査を受け<img src="<%= assemble.options.svg_dir %>extlink.svg" class="extLink"></a> 「資金を盗まれる危険性なしに、 CashShuffleがプライバシー向上のため実用的な解決策を提供している事を確認した。」「コードベースに悪意は無く、欠陥のあるロジックや潜在的なバックドアの証拠も見つから無かった」と評価されています。
         p2: リポートの詳細は<a href="<%= assemble.options.downloads_dir %>REPORT-CashShuffle-20190325.pdf" target="_blank">こちら</a>をご覧ください。
       question-two: CashShuffleサーバーはお金を盗むことができますか？
@@ -112,11 +112,11 @@ i18n:
     tech:
       title: テクノロジー
       question-one: ユーザー間のシャッフルはどの様に行われるのですか？
-      answer-one: CashShuffleはクライアントサーバーモデルを使用します。サーバーが自動的にユーザー同士を見つけ効率よくシャッフルします。      
-      question-two: CashShuffleサーバー使ったシャッフルサービスを行っているのですか？ 
+      answer-one: CashShuffleはクライアントサーバーモデルを使用します。サーバーが自動的にユーザー同士を見つけ効率よくシャッフルします。
+      question-two: CashShuffleサーバー使ったシャッフルサービスを行っているのですか？
       answer-two: いいえ。私達はコードを公開しているだけです。サーバーはコミュニティによって自発的に利用されています。
       question-three: ネットワークはどのようにしてブートされますか？
-      answer-three: サーバーがオンラインになると、サーバーはGitHubを介してクライアント側のシードリストに含めるようリクエストを送ります。      
+      answer-three: サーバーがオンラインになると、サーバーはGitHubを介してクライアント側のシードリストに含めるようリクエストを送ります。
       question-four: より分散化させる為にサーバーをできるだけ多く設定する必要がありますか。
       answer-four: いいえ。最初は信頼性が高いサーバーを少数設置する方が理想的です。 サーバーが多すぎるとユーザーが疎らになりシャッフルする相手を見つけるのが難しくなるからです。
       question-five: CoinJoinとは何ですか？
