@@ -11,7 +11,7 @@ i18n:
   footer:
     copyright: Copyright &copy; 2017-2019 CashShuffle. All rights reserved.
     donate:
-      instructions: 私たちはBitcoin Cashにプライバシーとファンジビリティをもたらすため、常に努力しています。皆様から寄付を頂ければ幸いに存じます。
+      instructions: 私たちはBitcoin Cashにプライバシーとファンジビリティをもたらすため、鋭意努力しております。皆様から寄付を頂ければ幸いに存じます。
     client:
       title: クライアントソフトウェア
       description: CashShuffleのリファレンス実装は、人気のElectron Cashウォレットから利用可能です。
@@ -35,25 +35,25 @@ i18n:
       heading: CashShuffleはバックグラウンドで実行され、必要な時にいつでもプライバシーコインを利用できます。
       text: CashShuffleが有効化されたウォレットはシャッフルされたコインとシャッフルされていないコインを識別します。バックグラウンドでは、未シャッフルのコインをシャッフルし続けます。これによって誰かに覗き見される心配も無く、いつでもコインを素早く使うことができます。
     builtin:
-      heading: CashShuffleは現在多くの人気のあるBitcoin Cashウォレットに組み込まれています
-      text: CashShuffleはすでにElectron Cashウォレットに組み込まれており、他にも多くの人気のあるBitcoin Cashウォレット用に開発されています。 あなたのお気に入りのウォレットがサポートされているかどうかを確認するために私たちの<a href="wallets/">ウォレットページ</a>をご覧下さい。
+      heading: CashShuffleは現在多くのBitcoin Cashウォレットに組み込まれています
+      text: CashShuffleはすでにElectron Cashウォレットに組み込まれており、他にも多くのBitcoin Cashウォレット用に開発されています。 あなたのお気に入りのウォレットがサポートされているかどうかを確認するために私たちの<a href="wallets/">ウォレットページ</a>をご覧下さい。
     action:
       heading: 始める準備はできましたか？
       button: ウォレットをダウンロードする
   wallets:
     title: CashShuffleと互換性のあるウォレット
-    description: あなたのお気に入りのウォレットに組み込まれています。
+    description: あなたのお気に入りのウォレットに組み込まれています
     hero:
       heading: CashShuffleはあなたのお気に入りのウォレットに組み込まれています
-      text: CashShuffleプロトコルを使用してプライバシーを強化したウォレットをダウンロードするには、スクロールダウンしてください。
+      text: スクロールダウンしてCashShuffleプロトコルを使用してプライバシーを強化したウォレットをダウンロードしてください。
     electron:
       heading: Electron Cash
-      text: パワフルでとても軽いBitcoin Cash ウォレット
+      text: パワフルで軽量なBitcoin Cash ウォレット
       button: ダウンロードする
     in-development: 以下のウォレットは現在開発中です
     bitcoin-com:
       heading: Bitcoin.comウォレット
-      text: スマホおよびデスクトップで利用出来る機能性の高いウォレット
+      text: スマートフォンおよびデスクトップPCで利用出来る機能性の高いウォレット
       button: 近日公開
     badger:
       heading: Badgerウォレット
@@ -61,7 +61,7 @@ i18n:
       button: 近日公開
   quickstart:
     title: CashShuffleクイックスタートガイド
-    description: 3つの簡単なステップでBitcoin Cashをシャッフルしましょう
+    description: 3つの簡単なステップでBitcoin Cashをシャッフルしましょう。
     hero:
       heading: 3つの簡単なステップであなたのBitcoin Cashをシャッフルしましょう
       text: CashShuffleの技術的な概念は複雑ですが、使い方はとても簡単です。いますぐあなたのプライバシーを保護しましょう。
@@ -71,7 +71,7 @@ i18n:
       button: ダウンロードする
     step-two:
       heading: 2. CashShuffleを有効にする
-      text: 有効にするには、右下にあるCashShuffleアイコンをクリックします。 CashShuffleはバックグラウンドで実行されます。シャッフルされた（プライベート）コインのみを使うようにしましょう。 ウォレットを使用する間はずっと有効にするようにしてください。これによってすべての取引であなたのプライバシーが保護されます。
+      text: 有効にするには、右下にあるCashShuffleアイコンをクリックします。 CashShuffleはバックグラウンドで実行されます。シャッフルされたコインのみを使うようにしましょう。 ウォレットを使用する間はずっと有効にするようにしてください。これによってすべての取引であなたのプライバシーが保護されます。
     step-three:
       heading: 3.シャッフルしたコインを使う
       text: コインのシャッフルが終わると、"shuffled available" セクションに使用できるコインが表示されます。このコインは好きなときにいつでも使うことができます。 ウォレットはあなたのプライバシーを常に保護するためにシャッフルされていないコインの使用を制限します。
@@ -91,11 +91,11 @@ i18n:
       question-three: コインミキシングとCashShuffleの違いは何ですか？
       answer-three:
         p1: コインミキシングとは、一般的にユーザーが自分のコインを他のコインと交換するサービスです。 CashShuffleは違います。ユーザーが自分のトランザクションを他のユーザーと組み合わせることで難読化します。
-        p2: コインミキシングのデメリットはミキシングサービスにコインを預けなければならない事と手数料を支払う必要がある事です。しかし、CashShuffleはコインを預けないので資金を失うリスクが無く、又追加手数料も発生しません。
+        p2: コインミキシングのデメリットはミキシングサービスにコインを預けなければならない事と手数料を支払う必要がある事です。しかし、CashShuffleはコインを預けないので資金を失うリスクが無く、追加手数料も発生しません。
       question-four: CashShuffleのプライバシーとMoneroのような匿名コインとの違いは何ですか？
       answer-four:
         p1: CashShuffleはBitcoin Cashプロトコル上にCoinJoinの実用的な実装を提供することを目的としています。 CashShuffleはMoneroが出来る事全てが可能な訳では無く、プライバシーに関する「究極の」ソリューションでもありません。
-        p2: しかし、CashShuffleをウォレットに統合することで、Bitcoin Cashエコシステムに簡単で実用的なプライバシーツールを利用することが可能になり利便性が向上します。 これはまた、匿名セットの増加にもつながります。これは、あらゆるシステムで最も重要な要素となる可能性があります。
+        p2: しかし、CashShuffleをウォレットに統合することで、Bitcoin Cashエコシステムに簡単で実用的なプライバシーツールを利用することが可能になり利便性が向上します。 また、匿名セットの増加を促進するため、あらゆるシステムの中で最も重要な要素となる可能性があります。
         p3: CashShuffleはプライバシーとファンジビリティを向上させることを目的としたBitcoin Cashのアプリケーション層の一部として、その他のプライバシーツールと同時に使用することもできます。
     security:
       title: セキュリティ
