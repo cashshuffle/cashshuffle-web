@@ -1,6 +1,6 @@
 <div class="i18nModal">
   <div class="i18nModal-content">
-    <h1 class="i18nModal-heading">Select Your Language</h1>
+    <h1 class="i18nModal-heading">{{ i18n.lang-modal.select }}</h1>
     <span class="i18nModal-border"></span>
     <ul class="i18nModal-language">
       
@@ -11,7 +11,7 @@
       </li>
       {{ else }}
       <li class="i18nModal-languageBtn">
-        <a role="button" href="/{{this.path}}">English</a>
+        <a role="button" href="/{{ this.path }}">English</a>
       </li>
       {{/ if }}
       
@@ -22,12 +22,12 @@
       </li>
       {{ else }}
       <li class="i18nModal-languageBtn">
-        <a role="button" href="/ja/{{this.path}}">日本語</a>
+        <a role="button" href="/ja/{{ this.path }}">日本語</a>
       </li>
       {{/ if }}
       
       <li class="i18nModal-cancel">
-        <a role="button" class="modal-close">Cancel</a>
+        <a role="button" class="modal-close">{{ i18n.lang-modal.cancel }}</a>
       </li>
     </ul>
   </div>

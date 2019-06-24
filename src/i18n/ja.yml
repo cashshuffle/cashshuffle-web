@@ -8,6 +8,9 @@ i18n:
     wallets: ウォレット
     quickstart: クイックスタート
     faqs: よくある質問
+  lang-modal: 
+    select: 言語を選択
+    cancel: キャンセル
   footer:
     copyright: Copyright &copy; 2017-2019 CashShuffle. All rights reserved.
     donate:

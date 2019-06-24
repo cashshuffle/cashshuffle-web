@@ -8,6 +8,9 @@ i18n:
     wallets: Wallets
     quickstart: Quickstart
     faqs: FAQs
+  lang-modal: 
+    select: Select Your Language
+    cancel: Cancel
   footer:
     copyright: Copyright &copy; 2017-2019 CashShuffle. All rights reserved.
     donate:
