@@ -76,6 +76,14 @@ Unfortunately there are some blocks that simply require HTML in the middle of th
 
 If you have a string in a template file shown as `{{ i18n.page.section.content }}`, any text in that string will be encoded. In order to show the raw HTML use three braces around the variable name like this `{{{ i18n.page.section.content }}}`.
 
+### Prevent line breaks on specific content
+Especially for languages like Chinese and Japanese that do not use whitespace to separate words, browsers often insert line breaks in places that are inappropriate and make reading more difficult.
+If there are some specific words or phrases that you want to ensure are not split by a line break, you can use this tag:
+
+`<span class=keep-together>プライバシー</span>`
+
+The templater will add quotations to the class so you do not need to. Also make sure to change the template to triple braces `{{{...}}}` so that it will accept the HTML tag.
+
 ### Accessing variables within our language files
 There are a few variables defined in the Grunt file that we may need to access from within our language files. Those variables are:
 ```
