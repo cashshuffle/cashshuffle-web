@@ -64,7 +64,7 @@ Open the file `src/partials/i18n.hbs` and add a new list element to the HTML. In
 ### Step 4: Build!
 Rebuild the site with Grunt and the new language should be available on the site.
 Due to limitations of the current design, you will need to rebuild with grunt every time you make changes to a localization file.
-If you run any issues, the information below should help you troubleshoot.
+If you have any issues, the information below should help you troubleshoot.
 
 ## More Information
 
