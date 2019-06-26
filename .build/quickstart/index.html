@@ -25,8 +25,8 @@
   <body>
     <div id="navbar-xs" class="hidden-md hidden-lg">
       <div id="navbar-xs-brand">
-        <a href="/" title="Cash Shuffle">
-          <img src="/_assets/svg/logo.svg" alt="Cash Shuffle" class="img-responsive">
+        <a href="/" title="CashShuffle">
+          <img src="/_assets/svg/logo.svg" alt="CashShuffle" class="img-responsive">
         </a>
       </div>
       <button id="navbar-xs-menu-toggle" class="btn">
@@ -43,8 +43,16 @@
     <nav id="navbar-md" class="hidden-xs hidden-sm">
       <div class="container">
         <div id="navbar-md-brand" class="pull-left">
-          <a href="/" title="Cash Shuffle">
-            <img src="/_assets/svg/logo.svg" alt="Cash Shuffle" class="img-responsive">
+          <a href="/" title="CashShuffle">
+            <img src="/_assets/svg/logo.svg" alt="CashShuffle" class="img-responsive">
+          </a>
+        </div>
+        <div class="navbar-md-i18n pull-right">
+          <a role="button" class="modal-open">
+            <div class="navbar-md-i18n-opener md-sn-btn-language">
+              <span class="navbar-md-i18n-openerLine"></span>
+              <img src="/_assets/svg/ico-i18n.svg" alt="" class="navbar-md-i18n-openerIcon">
+            </div>
           </a>
         </div>
         <div class="navbar-md-list-wrapper pull-right">
@@ -69,6 +77,12 @@
           <li class="mobile-nav-item"><a href="/quickstart/">Quickstart</a></li>
           <li class="mobile-nav-item"><a href="/faqs/">FAQs</a></li>
         </ul>
+        <a role="button" class="modal-open mobile-nav-i18nSelectLink">
+          <p class="mobile-nav-i18nSelect">
+            <img src="/_assets/svg/ico-i18n-footer.svg" alt="" class="mobile-nav-i18nSelectIcon">
+            English
+          </p>
+        </a>
       </nav>
     </div>
     <div class="page-wrap">
@@ -79,7 +93,7 @@
     <img src="/_assets/svg/hero-quickstart.svg" class="img-responsive hero-img">
     <div class="hero-textWrapper">
       <h1 class="hero-heading">Start shuffling your Bitcoin Cash in three easy steps</h1>
-      <p class="hero-leadText">The concepts behind CashShuffle are fairly complex, but running it yourself is super simple. Let's get you started preserving your privacy.</p>
+      <p class="hero-leadText">The concepts behind CashShuffle are fairly complex, but running it yourself is super simple. Let&#x27;s get you started preserving your privacy.</p>
     </div>
   </div>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 96" preserveAspectRatio="none" class="bg-curve bottom">
@@ -95,7 +109,9 @@
       </div><div class="imgCard-textWrapper">
       <h3 class="imgCard-heading">1. Download Electron Cash</h3>
       <p class="imgCard-leadText">CashShuffle is currently built into the Windows, Mac OSX and Linux versions of the popular open-source wallet Electron Cash.</p>
-      <a href="https://electroncash.org/" role="button" class="btn btn-primary" target="_blank">Download Now</a>
+      <a href="https://electroncash.org/" role="button" class="btn btn-primary" target="_blank">
+        Download Now
+      </a>
       </div>
     </div>
     <div class="imgCard-wrapper">
@@ -111,7 +127,7 @@
         <img src="/_assets/img/quickstart-step-3.png" class="img-responsive" />
       </div><div class="imgCard-textWrapper">
       <h3 class="imgCard-heading">3. Spend your shuffled coins</h3>
-      <p class="imgCard-leadText">As your coins are shuffled they will appear in the "shuffled available" section and can be spent whenever you like. The wallet will limit you to spending shuffled coins to make sure your privacy is always respected.</p>
+      <p class="imgCard-leadText">As your coins are shuffled they will appear in the &quot;shuffled available&quot; section and can be spent whenever you like. The wallet will limit you to spending shuffled coins to make sure your privacy is always respected.</p>
       </div>
     </div>
   </div>
@@ -120,7 +136,7 @@
 <div class="quickstartVideo">
   <div class="quickstartVideo-wrapper">
     <h3 class="quickstartVideo-heading">See it in Action</h3>
-    <p class="quickstartVideo-text">Here's a quick two-minute video showing CashShuffle in action.</p>
+    <p class="quickstartVideo-text">Here&#x27;s a quick two-minute video showing CashShuffle in action.</p>
   <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IJlAas387SE" allowfullscreen=""></iframe>
   </div>
@@ -149,7 +165,7 @@
             <div class="footerMenuItem">
               <a href="/quickstart/" class="footerMenuItem-link">
                 <img src="/_assets/svg/ico-play.svg" class="footerMenuItem-icon">
-                <h4 class="footerMenuItem-heading">QuickStart</h4>
+                <h4 class="footerMenuItem-heading">Quickstart</h4>
               </a>
             </div>
             <div class="footerMenuItem">
@@ -211,10 +227,38 @@
             </div>
           </div>
         </div>
-        <div class="footer-copyright">
-          <p>Copyright &copy; 2017-2019 CashShuffle. All rights reserved.</p>
+        <div class="footerBottom">
+          <div class="container">
+            <p class="footerBottom-copyright">Copyright &copy; 2017-2019 CashShuffle. All rights reserved.</p>
+            <a role="button" class="modal-open footerBottom-i18nSelectLink">
+              <p class="footerBottom-i18nSelect">
+                <img src="/_assets/svg/ico-i18n-footer.svg" alt="" class="footerBottom-i18nSelectIcon">
+                English
+              </p>
+            </a>
+          </div>
         </div>
       </footer>
+    </div>
+    <div class="i18nModal">
+      <div class="i18nModal-content">
+        <h1 class="i18nModal-heading">Select Your Language</h1>
+        <span class="i18nModal-border"></span>
+        <ul class="i18nModal-language">
+          
+          <li class="i18nModal-languageBtn selected">
+            <p>English</p>
+          </li>
+          
+          <li class="i18nModal-languageBtn">
+            <a role="button" href="/ja/quickstart/">日本語</a>
+          </li>
+          
+          <li class="i18nModal-cancel">
+            <a role="button" class="modal-close">Cancel</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
