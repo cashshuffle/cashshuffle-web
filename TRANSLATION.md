@@ -62,7 +62,9 @@ Open the file `src/partials/i18n.hbs` and add a new list element to the HTML. In
       {{/ if }}
 ```
 ### Step 4: Build!
-That's really all you need to do. Rebuild the site with Grunt and the new language should be available on the site. If you run any issues, the information below should help you troubleshoot.
+Rebuild the site with Grunt and the new language should be available on the site.
+Due to limitations of the current design, you will need to rebuild with grunt every time you make changes to a localization file.
+If you run any issues, the information below should help you troubleshoot.
 
 ## More Information
 
@@ -93,7 +95,8 @@ We cannot simply use the Handlebars format as in the rest of the site, but we ca
 In the Grunt file the `base_dir` variable is updated for each language. Unfortunately, for some reason we can't access that updated variable within the language files. So although the consistent way to write internal links to other pages would be `<a href="<%= assemble.options.base_dir %>wallets/">` , you'll need to hard code the language directories in like this `<a href="/de/wallets/">`
 
 ### Language files are not watched by Grunt
-When you make changes to a language file, you will need to manually stop and re-run Grunt in order to process the changes.
+It is possible to monitor the language files with grunt but due to limitations of the current design, grunt does not include language file changes in the build.
+Please manually re-run Grunt in order to process the changes.
 
 ### What does i18n mean?
 It's the strange-yet-common abbreviation for "internationalization". It basically means "the letter i plus 18 letters plus the letter n."
