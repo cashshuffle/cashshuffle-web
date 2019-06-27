@@ -14,32 +14,32 @@ i18n:
   footer:
     copyright: Copyright &copy; 2017-2019 CashShuffle. All rights reserved.
     donate:
-      instructions: 私たちはBitcoin Cashにプライバシーとファンジビリティをもたらすため、鋭意努力しております。皆様から寄付を頂ければ幸いに存じます。
+      instructions: <span class=keep-together>私たちは</span><span class=keep-together>Bitcoin Cashに</span><span class=keep-together>プライバシーと</span><span class=keep-together>ファンジビリティを</span><span class=keep-together>もたらすため、</span><br><span class=keep-together>鋭意努力して</span><span class=keep-together>おります。</span><br><span class=keep-together>皆様から</span><span class=keep-together>寄付を</span><span class=keep-together>頂ければ</span><span class=keep-together>幸いに</span><span class=keep-together>存じます。</span>
     client:
-      title: クライアントソフトウェア
-      description: CashShuffleのリファレンス実装は、人気のElectron Cashウォレットから利用可能です。
+      title: <span class=keep-together>クライアント</span><span class=keep-together>ソフトウェア</span>
+      description: <span class=keep-together>CashShuffleの</span><span class=keep-together>リファレンス実装は、</span><span class=keep-together>人気の</span><span class=keep-together>Electron Cash</span><span class=keep-together>ウォレットから</span><span class=keep-together>利用可能です。</span>
     server:
-      title: サーバーソフトウェア
-      description: サーバーサイドソフトウェアはGolangで書かれておりGitHubで利用可能です。
+      title: <span class=keep-together>サーバー</span><span class=keep-together>ソフトウェア</span>
+      description: <span class=keep-together>サーバーサイド</span><span class=keep-together>ソフトウェアは</span><span class=keep-together>Golangで</span><span class=keep-together>書かれており</span><span class=keep-together>GitHubで</span><span class=keep-together>利用可能です。</span>
     docs:
       title: ドキュメンテーション
-      description: 開発者および愛好家のための技術文書
+      description: <span class=keep-together>開発者</span><span class=keep-together>および</span><span class=keep-together>愛好家の</span><span class=keep-together>ための</span><span class=keep-together>技術文書</span>
   home:
     title: CashShuffle - Bitcoin Cashのためのプライバシー機能
     description: あなたがお金を使うと言う事は、あなたの私生活上の個人的な事柄です。
     hero:
-      heading: Bitcoin Cashに強力なプライバシー機能を追加
-      text: あなたがお金を使うと言う事は、あなたの私生活上の個人的な事柄です。 CashShuffleはあなたのプライバシーを守る為に役立ちます。
+      heading: <span class=keep-together>Bitcoin Cashに</span><span class=keep-together>強力な</span><span class=keep-together>プライバシー</span><span class=keep-together>機能を追加</span>
+      text: <span class=keep-together>あなたが</span><span class=keep-together>お金を使うと</span><span class=keep-together>言う事は、</span><br><span class=keep-together>あなたの私生活上の</span><span class=keep-together>個人的な事柄です。</span><br><span class=keep-together>CashShuffleは</span><span class=keep-together>あなたのプライバシーを</span><span class=keep-together>守る為に役立ちます。</span>
       button: ウォレットをダウンロードする
     overview:
-      heading: 他のユーザーと一緒にシャッフルする事でコインの追跡を難しくします
-      text: CashShuffleは、あなたのBitcoin Cashを他のユーザーとシャッフルする完全分散型のコインミキシングプロトコルです。このプロセスによってあなたの支払いは見えにくくなり、ブロックチェーン分析によるプライバシー権の侵害を防止します。
+      heading: <span class=keep-together>他のユーザーと</span><span class=keep-together>一緒に</span><br><span class=keep-together>シャッフル</span><span class=keep-together>する事で</span><br><span class=keep-together>コインの</span><span class=keep-together>追跡を</span><span class=keep-together>難しく</span><span class=keep-together>します</span>
+      text: <span class=keep-together>CashShuffleは、</span><span class=keep-together>あなたの</span><span class=keep-together>Bitcoin Cashを</span><span class=keep-together>他のユーザーと</span><span class=keep-together>シャッフルする</span><span class=keep-together>完全分散型の</span><span class=keep-together>コインミキシング</span><span class=keep-together>プロトコルです。</span><span class=keep-together>このプロセスによって</span><span class=keep-together>あなたの</span><span class=keep-together>支払いは</span><span class=keep-together>見えにくくなり、</span><span class=keep-together>ブロックチェーン</span><span class=keep-together>分析会社による</span><span class=keep-together>プライバシー権の</span><span class=keep-together>侵害を</span><span class=keep-together>防止します。</span>
     easy:
-      heading: CashShuffleはバックグラウンドで実行され、必要な時にいつでもプライバシーコインを利用できます。
-      text: CashShuffleが有効化されたウォレットはシャッフルされたコインとシャッフルされていないコインを識別します。バックグラウンドでは、未シャッフルのコインをシャッフルし続けます。これによって誰かに覗き見される心配も無く、いつでもコインを素早く使うことができます。
+      heading: CashShuffleは<br>バックグラウンドで<span class=keep-together>実行され、</span><br>必要な時にいつでも<br>プライバシーコインを<span class=keep-together>利用できます。</span>
+      text: <span class=keep-together>CashShuffleが</span><span class=keep-together>有効化された</span><span class=keep-together>ウォレットは</span><span class=keep-together>シャッフルされた</span><span class=keep-together>コインと</span><span class=keep-together>シャッフル</span><span class=keep-together>されて</span><span class=keep-together>いない</span><span class=keep-together>コインを</span><span class=keep-together>識別します。</span><span class=keep-together>バックグラウンドでは、</span><span class=keep-together>未シャッフルの</span><span class=keep-together>コインを</span><span class=keep-together>シャッフル</span><span class=keep-together>し続けます。</span><span class=keep-together>これによって</span><span class=keep-together>誰かに</span><span class=keep-together>覗き見</span><span class=keep-together>される</span><span class=keep-together>心配無く、</span><span class=keep-together>いつでも</span><span class=keep-together>コインを</span><span class=keep-together>素早く</span><span class=keep-together>使うことが</span><span class=keep-together>できます。</span>
     builtin:
-      heading: CashShuffleは現在多くのBitcoin Cashウォレットに組み込まれています
-      text: CashShuffleはすでにElectron Cashウォレットに組み込まれており、他にも多くのBitcoin Cashウォレット用に開発されています。 あなたのお気に入りのウォレットがサポートされているかどうかを確認するために私たちの<a href="wallets/">ウォレットページ</a>をご覧下さい。
+      heading: CashShuffleは<br>既にたくさんの<br>Bitcoin Cashウォレットに<br>組み込まれています
+      text: <span class=keep-together>CashShuffleは</span><span class=keep-together>すでに</span><span class=keep-together>Electron Cash</span><span class=keep-together>ウォレットに</span><span class=keep-together>組み込まれており、</span><span class=keep-together>他にも</span><span class=keep-together>多くの</span><span class=keep-together>Bitcoin Cashウォレット用に</span><span class=keep-together>開発されています。</span><span class=keep-together> あなたの</span><span class=keep-together>お気に入りのウォレットが</span><span class=keep-together>サポートされているか</span><span class=keep-together>どうかを</span><span class=keep-together>確認するには、</span><span class=keep-together>私たちの</span><span class=keep-together><a href="wallets/">ウォレットページ</a></span><span class=keep-together>をご覧下さい。</span>
     action:
       heading: 始める準備はできましたか？
       button: ウォレットをダウンロードする
@@ -47,37 +47,37 @@ i18n:
     title: CashShuffleと互換性のあるウォレット
     description: あなたのお気に入りのウォレットに組み込まれています
     hero:
-      heading: CashShuffleはあなたのお気に入りのウォレットに組み込まれています
-      text: スクロールダウンしてCashShuffleプロトコルを使用してプライバシーを強化したウォレットをダウンロードしてください。
+      heading: CashShuffleは<br>あなたの<span class=keep-together>お気に入りの</span><span class=keep-together>ウォレットに</span><span class=keep-together>組み込まれて</span><span class=keep-together>います</span>
+      text: <span class=keep-together>スクロールダウンして</span><span class=keep-together>CashShuffle</span><span class=keep-together>プロトコルを</span><span class=keep-together>使用して</span><span class=keep-together>プライバシーを</span><span class=keep-together>強化した</span><span class=keep-together>ウォレットを</span><span class=keep-together>ダウンロードしてください。</span>
     electron:
       heading: Electron Cash
       text: パワフルで軽量なBitcoin Cash ウォレット
       button: ダウンロードする
-    in-development: 以下のウォレットは現在開発中です
+    in-development: <span class=keep-together>以下の</span><span class=keep-together>ウォレットは</span><span class=keep-together>現在開発中です</span>
     bitcoin-com:
-      heading: Bitcoin.comウォレット
-      text: スマートフォンおよびデスクトップPCで利用出来る機能性の高いウォレット
+      heading: <span class=keep-together>Bitcoin.com</span><span class=keep-together>ウォレット</span>
+      text: <span class=keep-together>スマートフォン</span><span class=keep-together>および</span><span class=keep-together>デスクトップPCで</span><span class=keep-together>利用出来る</span><span class=keep-together>高機能ウォレット</span>
       button: 近日公開
     badger:
-      heading: Badgerウォレット
-      text: ChromeとFirefoxで利用可能なブラウザベースのウォレット
+      heading: <span class=keep-together>Badger</span><span class=keep-together>ウォレット</span>
+      text: <span class=keep-together>Chromeと</span><span class=keep-together>Firefoxで</span><span class=keep-together>利用可能な</span><span class=keep-together>ブラウザベースの</span><span class=keep-together>ウォレット</span>
       button: 近日公開
   quickstart:
     title: CashShuffleクイックスタートガイド
     description: 3つの簡単なステップでBitcoin Cashをシャッフルしましょう。
     hero:
-      heading: 3つの簡単なステップであなたのBitcoin Cashをシャッフルしましょう
-      text: CashShuffleの技術的な概念は複雑ですが、使い方はとても簡単です。いますぐあなたのプライバシーを保護しましょう。
+      heading: <span class=keep-together>3つの</span><span class=keep-together>簡単な</span><span class=keep-together>ステップで</span><span class=keep-together>Bitcoin Cashを</span><span class=keep-together>シャッフル</span><span class=keep-together>しましょう</span>
+      text: <span class=keep-together>CashShuffleの</span><span class=keep-together>技術的な</span><span class=keep-together>概念は</span><span class=keep-together>複雑ですが、</span><span class=keep-together>使い方は</span><span class=keep-together>とても</span><span class=keep-together>簡単です。</span><span class=keep-together>いますぐ</span><span class=keep-together>あなたの</span><span class=keep-together>プライバシーを</span><span class=keep-together>保護しましょう。</span>
     step-one:
-      heading: 1.Electron Cashをダウンロードする
-      text: CashShuffleは、Windows、Mac OSX、およびLinux版のオープンソースウォレット、Electron Cashに組み込まれています。
+      heading: <span class=keep-together>1. </span><span class=keep-together>Electron Cashを</span><span class=keep-together>ダウンロード</span><span class=keep-together>する</span>
+      text: <span class=keep-together>CashShuffleは、</span>Windows、Mac OSX、<span class=keep-together>および</span><span class=keep-together>Linux版の</span><span class=keep-together>オープンソース</span><span class=keep-together>ウォレット、</span><span class=keep-together>Electron Cash</span><span class=keep-together>に</span><span class=keep-together>組み込まれています。</span>
       button: ダウンロードする
     step-two:
       heading: 2. CashShuffleを有効にする
-      text: 有効にするには、右下にあるCashShuffleアイコンをクリックします。 CashShuffleはバックグラウンドで実行されます。シャッフルされたコインのみを使うようにしましょう。 ウォレットを使用する間はずっと有効にするようにしてください。これによってすべての取引であなたのプライバシーが保護されます。
+      text: <span class=keep-together>有効に</span><span class=keep-together>するには、</span><span class=keep-together>右下に</span><span class=keep-together>ある</span><span class=keep-together>CashShuffle</span><span class=keep-together>アイコンを</span><span class=keep-together>クリックします。</span> <span class=keep-together>CashShuffleは</span><span class=keep-together>バックグラウンドで</span><span class=keep-together>実行</span><span class=keep-together>されます。</span><span class=keep-together>シャッフル</span><span class=keep-together>された</span><span class=keep-together>コイン</span><span class=keep-together>のみを</span><span class=keep-together>使うように</span><span class=keep-together>しましょう。</span> <span class=keep-together>ウォレット</span><span class=keep-together>を</span><span class=keep-together>使用する</span><span class=keep-together>間は</span><span class=keep-together>ずっと</span><span class=keep-together>有効に</span><span class=keep-together>するように</span><span class=keep-together>してください。</span><span class=keep-together>これに</span><span class=keep-together>よって</span><span class=keep-together>すべての</span><span class=keep-together>取引で</span><span class=keep-together>あなたの</span><span class=keep-together>プライバシーが</span><span class=keep-together>保護されます。</span>
     step-three:
-      heading: 3.シャッフルしたコインを使う
-      text: コインのシャッフルが終わると、"shuffled available" セクションに使用できるコインが表示されます。このコインは好きなときにいつでも使うことができます。 ウォレットはあなたのプライバシーを常に保護するためにシャッフルされていないコインの使用を制限します。
+      heading: 3.シャッフルした<span class=keep-together>コインを</span><span class=keep-together>使う</span>
+      text: <span class=keep-together>コインの</span><span class=keep-together>シャッフルが</span><span class=keep-together>終わると、</span>"shuffled available" <span class=keep-together>セクションに</span><span class=keep-together>使用できる</span><span class=keep-together>コインが</span><span class=keep-together>表示</span><span class=keep-together>されます。</span><span class=keep-together>この</span><span class=keep-together>コインは</span><span class=keep-together>好きな</span><span class=keep-together>ときに</span><span class=keep-together>いつでも</span><span class=keep-together>使うことが</span><span class=keep-together>できます。</span> <span class=keep-together>CashShuffleが</span><span class=keep-together>有効な</span><span class=keep-together>場合、</span><span class=keep-together>あなたの</span><span class=keep-together>プライバシーを</span><span class=keep-together>常に</span><span class=keep-together>保護する</span><span class=keep-together>ために</span><span class=keep-together>シャッフル</span><span class=keep-together>されて</span><span class=keep-together>いない</span><span class=keep-together>コインの</span><span class=keep-together>使用は</span><span class=keep-together>出来ません。</span>
     video:
       heading: 動画を見る
       text: CashShuffleの使い方を説明した、2分間の簡単なビデオです。
@@ -88,13 +88,13 @@ i18n:
     overview:
       title: 概要
       question-one: CashShuffleとは何ですか？
-      answer-one: CashShuffleは、あなたのBitcoin Cashを他のネットワーク参加者とシャッフルする、完全に分散されたプライバシープロトコルです。 コインの支出を覆い隠し、チェーン分析会社があなたのコインを追跡することを非常に困難にします。
+      answer-one: <span class=keep-together>CashShuffleは、</span><span class=keep-together>あなたの</span><span class=keep-together>Bitcoin Cash</span><span class=keep-together>を</span><span class=keep-together>他の</span><span class=keep-together>ネットワーク</span><span class=keep-together>参加者</span><span class=keep-together>と</span><span class=keep-together>シャッフル</span><span class=keep-together>する、</span><span class=keep-together>完全に</span><span class=keep-together>分散された</span><span class=keep-together>プライバシー</span><span class=keep-together>プロトコル</span><span class=keep-together>です。 </span><span class=keep-together>コインの</span><span class=keep-together>支出を</span><span class=keep-together>覆い隠し、</span><span class=keep-together>ブロックチェーン</span><span class=keep-together>分析会社</span><span class=keep-together>が</span><span class=keep-together>あなたの</span><span class=keep-together>コインを</span><span class=keep-together>追跡</span><span class=keep-together>することを</span><span class=keep-together>非常に</span><span class=keep-together>困難にします。</span>
       question-two: CashShuffleのユースケースは何ですか？
-      answer-two: CashShuffleのユースケースは企業秘密に関わる取引や個人のプライバシーの向上、およびファンジビリティの向上を目的としています。
+      answer-two: <span class=keep-together>CashShuffle</span><span class=keep-together>の</span><span class=keep-together>ユースケース</span><span class=keep-together>は</span><span class=keep-together>企業秘密</span><span class=keep-together>に</span><span class=keep-together>関わる</span><span class=keep-together>取引</span><span class=keep-together>や</span><span class=keep-together>個人</span><span class=keep-together>の</span><span class=keep-together>プライバシー</span><span class=keep-together>の</span><span class=keep-together>向上、</span><span class=keep-together>および</span><span class=keep-together>ファンジビリティ</span><span class=keep-together>の</span><span class=keep-together>向上を</span><span class=keep-together>目的としています。</span>
       question-three: コインミキシングとCashShuffleの違いは何ですか？
       answer-three:
-        p1: コインミキシングとは、一般的にユーザーが自分のコインを他のコインと交換するサービスです。 CashShuffleは違います。ユーザーが自分のトランザクションを他のユーザーと組み合わせることで難読化します。
-        p2: コインミキシングのデメリットはミキシングサービスにコインを預けなければならない事と手数料を支払う必要がある事です。しかし、CashShuffleはコインを預けないので資金を失うリスクが無く、追加手数料も発生しません。
+        p1: <span class=keep-together>コインミキシング</span><span class=keep-together>とは、</span><span class=keep-together>一般的</span><span class=keep-together>に</span><span class=keep-together>ユーザー</span><span class=keep-together>が</span><span class=keep-together>自分の</span><span class=keep-together>コインを</span><span class=keep-together>他の</span><span class=keep-together>コインと</span><span class=keep-together>交換する</span><span class=keep-together>サービスです。</span><span class=keep-together> CashShuffle</span><span class=keep-together>は</span><span class=keep-together>違います。</span><span class=keep-together>CashShuffleは</span><span class=keep-together>ユーザーが</span><span class=keep-together>自分の</span><span class=keep-together>トランザクションを</span><span class=keep-together>他のユーザーと</span><span class=keep-together>組み合わせる</span><span class=keep-together>ことで</span><span class=keep-together>難読化</span><span class=keep-together>します。</span>
+        p2: <span class=keep-together>コインミキシングの</span><span class=keep-together>デメリットは</span><span class=keep-together>ミキシング</span><span class=keep-together>サービスに</span><span class=keep-together>コインを</span><span class=keep-together>預け</span><span class=keep-together>なければ</span><span class=keep-together>ならない</span><span class=keep-together>事と</span><span class=keep-together>手数料を</span><span class=keep-together>支払う</span><span class=keep-together>必要が</span><span class=keep-together>ある事</span><span class=keep-together>です。</span><span class=keep-together>しかし、</span><span class=keep-together>CashShuffle</span><span class=keep-together>は</span><span class=keep-together>コインを</span><span class=keep-together>預け</span><span class=keep-together>ないので</span><span class=keep-together>資金を</span><span class=keep-together>失う</span><span class=keep-together>リスクが</span><span class=keep-together>無く、</span><span class=keep-together>追加手数料も</span><span class=keep-together>発生</span><span class=keep-together>しません。</span>
       question-four: CashShuffleのプライバシーとMoneroのような匿名コインとの違いは何ですか？
       answer-four:
         p1: CashShuffleはBitcoin Cashプロトコル上にCoinJoinの実用的な実装を提供することを目的としています。 CashShuffleはMoneroが出来る事全てが可能な訳では無く、プライバシーに関する「究極の」ソリューションでもありません。
