@@ -62,7 +62,9 @@ Open the file `src/partials/i18n.hbs` and add a new list element to the HTML. In
       {{/ if }}
 ```
 ### Step 4: Build!
-That's really all you need to do. Rebuild the site with Grunt and the new language should be available on the site. If you run any issues, the information below should help you troubleshoot.
+Rebuild the site with Grunt and the new language should be available on the site.
+Due to limitations of the current design, you will need to rebuild with grunt every time you make changes to a localization file.
+If you have any issues, the information below should help you troubleshoot.
 
 ## More Information
 
@@ -73,6 +75,14 @@ If you're not used to YAML, it may be weird seeing a lack of quotes around the s
 Unfortunately there are some blocks that simply require HTML in the middle of the string. Not only does this make it a bit tougher for the translator, we have to be careful that we present the HTML in it's raw form. We do that with a simple tweak to the template files.
 
 If you have a string in a template file shown as `{{ i18n.page.section.content }}`, any text in that string will be encoded. In order to show the raw HTML use three braces around the variable name like this `{{{ i18n.page.section.content }}}`.
+
+### Prevent line breaks on specific content
+Especially for languages like Chinese and Japanese that do not use whitespace to separate words, browsers often insert line breaks in places that are inappropriate and make reading more difficult.
+If there are some specific words or phrases that you want to ensure are not split by a line break, you can use this tag:
+
+`<span class=keep-together>プライバシー</span>`
+
+The templater will add quotations to the class so you do not need to. Also make sure to change the template to triple braces `{{{...}}}` so that it will accept the HTML tag.
 
 ### Accessing variables within our language files
 There are a few variables defined in the Grunt file that we may need to access from within our language files. Those variables are:
@@ -93,7 +103,8 @@ We cannot simply use the Handlebars format as in the rest of the site, but we ca
 In the Grunt file the `base_dir` variable is updated for each language. Unfortunately, for some reason we can't access that updated variable within the language files. So although the consistent way to write internal links to other pages would be `<a href="<%= assemble.options.base_dir %>wallets/">` , you'll need to hard code the language directories in like this `<a href="/de/wallets/">`
 
 ### Language files are not watched by Grunt
-When you make changes to a language file, you will need to manually stop and re-run Grunt in order to process the changes.
+It is possible to monitor the language files with grunt but due to limitations of the current design, grunt does not include language file changes in the build.
+Please manually re-run Grunt in order to process the changes.
 
 ### What does i18n mean?
 It's the strange-yet-common abbreviation for "internationalization". It basically means "the letter i plus 18 letters plus the letter n."
