@@ -36,7 +36,7 @@ i18n:
       text: CashShuffle is a fully decentralized coin mixing protocol that shuffles your Bitcoin Cash with other network participants. This shuffling process obscures your real spending and makes it difficult for chain analysis companies to follow your transactions.
     easy:
       heading: CashShuffle runs in the background, so your private coins are ready when you are
-      text: CashShuffle is enabled, your Bitcoin Cash wallet will keep track of shuffled (private) and unshuffled coins. In the background it continuously shuffles any unshuffled UTXOs for you. This way you can always spend your coins quickly and without worrying about prying eyes.
+      text: When CashShuffle is enabled, your Bitcoin Cash wallet will keep track of shuffled (private) and unshuffled coins. In the background it continuously shuffles any unshuffled UTXOs for you. This way you can always spend your coins quickly and without worrying about prying eyes.
     builtin:
       heading: CashShuffle is currently being built into many popular Bitcoin Cash wallets
       text: CashShuffle is already built into the Electron Cash wallet and is currently being developed for a number of other popular Bitcoin Cash wallets. Keep an eye on our <a href="wallets/">wallets page</a> to see if your favorite wallet is supported.
