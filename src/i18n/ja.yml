@@ -88,7 +88,7 @@ i18n:
     overview:
       title: 概要
       question-one: CashShuffleとは何ですか？
-      answer-one: <span class=keep-together>CashShuffleは、</span><span class=keep-together>あなたの</span><span class=keep-together>Bitcoin Cash</span><span class=keep-together>を</span><span class=keep-together>他の</span><span class=keep-together>ネットワーク</span><span class=keep-together>参加者</span><span class=keep-together>と</span><span class=keep-together>シャッフル</span><span class=keep-together>する、</span><span class=keep-together>完全に</span><span class=keep-together>分散された</span><span class=keep-together>プライバシー</span><span class=keep-together>プロトコル</span><span class=keep-together>です。 </span><span class=keep-together>コインの</span><span class=keep-together>支出を</span><span class=keep-together>覆い隠し、</span><span class=keep-together>ブロックチェーン</span><span class=keep-together>分析会社</span><span class=keep-together>が</span><span class=keep-together>あなたの</span><span class=keep-together>コインを</span><span class=keep-together>追跡</span><span class=keep-together>することを</span><span class=keep-together>非常に</span><span class=keep-together>困難にします。</span>
+      answer-one: <span class=keep-together>CashShuffleは、</span><span class=keep-together>あなたの</span><span class=keep-together>Bitcoin Cash</span><span class=keep-together>を</span><span class=keep-together>他の</span><span class=keep-together>ネットワーク</span><span class=keep-together>参加者</span><span class=keep-together>と</span><span class=keep-together>シャッフル</span><span class=keep-together>する、</span><span class=keep-together>完全に</span><span class=keep-together>分散された</span><span class=keep-together>プライバシー</span><span class=keep-together>プロトコル</span><span class=keep-together>です。</span><span class=keep-together>コインの</span><span class=keep-together>支出を</span><span class=keep-together>覆い隠し、</span><span class=keep-together>ブロックチェーン</span><span class=keep-together>分析会社</span><span class=keep-together>が</span><span class=keep-together>あなたの</span><span class=keep-together>コインを</span><span class=keep-together>追跡</span><span class=keep-together>することを</span><span class=keep-together>非常に</span><span class=keep-together>困難にします。</span>
       question-two: CashShuffleのユースケースは何ですか？
       answer-two: <span class=keep-together>CashShuffle</span><span class=keep-together>の</span><span class=keep-together>ユースケース</span><span class=keep-together>は</span><span class=keep-together>企業秘密</span><span class=keep-together>に</span><span class=keep-together>関わる</span><span class=keep-together>取引</span><span class=keep-together>や</span><span class=keep-together>個人</span><span class=keep-together>の</span><span class=keep-together>プライバシー</span><span class=keep-together>の</span><span class=keep-together>向上、</span><span class=keep-together>および</span><span class=keep-together>ファンジビリティ</span><span class=keep-together>の</span><span class=keep-together>向上を</span><span class=keep-together>目的としています。</span>
       question-three: コインミキシングとCashShuffleの違いは何ですか？
@@ -97,8 +97,8 @@ i18n:
         p2: <span class=keep-together>コインミキシングの</span><span class=keep-together>デメリットは</span><span class=keep-together>ミキシング</span><span class=keep-together>サービスに</span><span class=keep-together>コインを</span><span class=keep-together>預け</span><span class=keep-together>なければ</span><span class=keep-together>ならない</span><span class=keep-together>事と</span><span class=keep-together>手数料を</span><span class=keep-together>支払う</span><span class=keep-together>必要が</span><span class=keep-together>ある事</span><span class=keep-together>です。</span><span class=keep-together>しかし、</span><span class=keep-together>CashShuffle</span><span class=keep-together>は</span><span class=keep-together>コインを</span><span class=keep-together>預け</span><span class=keep-together>ないので</span><span class=keep-together>資金を</span><span class=keep-together>失う</span><span class=keep-together>リスクが</span><span class=keep-together>無く、</span><span class=keep-together>追加手数料も</span><span class=keep-together>発生</span><span class=keep-together>しません。</span>
       question-four: CashShuffleのプライバシーとMoneroのような匿名コインとの違いは何ですか？
       answer-four:
-        p1: CashShuffleはBitcoin Cashプロトコル上にCoinJoinの実用的な実装を提供することを目的としています。 CashShuffleはMoneroが出来る事全てが可能な訳では無く、プライバシーに関する「究極の」ソリューションでもありません。
-        p2: しかし、CashShuffleをウォレットに統合することで、Bitcoin Cashエコシステムに簡単で実用的なプライバシーツールを利用することが可能になり利便性が向上します。 また、匿名セットの増加を促進するため、あらゆるシステムの中で最も重要な要素となる可能性があります。
+        p1: CashShuffleはBitcoin Cashプロトコル上にCoinJoinの実用的な実装を提供することを目的としています。CashShuffleはMoneroが出来る事全てが可能な訳では無く、プライバシーに関する「究極の」ソリューションでもありません。
+        p2: しかし、CashShuffleをウォレットに統合することで、Bitcoin Cashエコシステムに簡単で実用的なプライバシーツールを利用することが可能になり利便性が向上します。また、匿名セットの増加を促進するため、あらゆるシステムの中で最も重要な要素となる可能性があります。
         p3: CashShuffleはプライバシーとファンジビリティを向上させることを目的としたBitcoin Cashのアプリケーション層の一部として、その他のプライバシーツールと同時に使用することもできます。
     security:
       title: セキュリティ
@@ -109,9 +109,9 @@ i18n:
       question-two: CashShuffleサーバーはお金を盗むことができますか？
       answer-two: 正しく設定されたCashShuffleサーバーがお金を盗むことはできません。これはトランザクションがクライアント側でのみ署名されるためです。
       question-three: CashShuffleはTorをサポートしていますか？
-      answer-three: はい。 Torユーザーは一般のユーザーとシャッフルプールを共有しているので、Torを使っていても簡単に他のユーザーとシャッフルする事が出来ます。
+      answer-three: はい。Torユーザーは一般のユーザーとシャッフルプールを共有しているので、Torを使っていても簡単に他のユーザーとシャッフルする事が出来ます。
       question-four: シャッフルされていないコインは安全に使えますか？
-      answer-four: いいえ。シャッフルされていないコインを使うと、CashShuffleのセキュリティ機能が損なわれ、過去の取引のプライバシーが失われる可能性があります。 CashShuffleを無効化することはお勧めできません。
+      answer-four: いいえ。シャッフルされていないコインを使うと、CashShuffleのセキュリティ機能が損なわれ、過去の取引のプライバシーが失われる可能性があります。CashShuffleを無効化することはお勧めできません。
     tech:
       title: テクノロジー
       question-one: ユーザー間のシャッフルはどの様に行われるのですか？
@@ -121,17 +121,17 @@ i18n:
       question-three: ネットワークはどのようにしてブートされますか？
       answer-three: サーバーがオンラインになると、サーバーはGitHubを介してクライアント側のシードリストに含めるようリクエストを送ります。
       question-four: より分散化させる為にサーバーをできるだけ多く設定する必要がありますか。
-      answer-four: いいえ。最初は信頼性が高いサーバーを少数設置する方が理想的です。 サーバーが多すぎるとユーザーが疎らになりシャッフルする相手を見つけるのが難しくなるからです。
+      answer-four: いいえ。最初は信頼性が高いサーバーを少数設置する方が理想的です。サーバーが多すぎるとユーザーが疎らになりシャッフルする相手を見つけるのが難しくなるからです。
       question-five: CoinJoinとは何ですか？
       answer-five: CoinJoinは、別々のトランザクションからの入力と出力を1つの巨大なトランザクションに結合するという、シンプルで効果的なアイデアです。これによってどの出力がどの入力に対応するかを知ることを非常に難しくします。
       question-six: CoinShuffleとは何ですか？
-      answer-six: CoinShuffleはCoinJoinを実用的な方法で実装したプロトコルです。 階層化された暗号化スキームにより誰も他の参加者の出力を知ることは出来ません。 更に時間の無駄となるDoS攻撃を軽減する為、ペナルティシステムが採用されています。
+      answer-six: CoinShuffleはCoinJoinを実用的な方法で実装したプロトコルです。階層化された暗号化スキームにより誰も他の参加者の出力を知ることは出来ません。更に時間の無駄となるDoS攻撃を軽減する為、ペナルティシステムが採用されています。
       question-seven: CoinShuffleとCashShuffleの違いは何ですか？
-      answer-seven: CoinShuffleは取引の参加者がすでに決まっている場合には優れたプロトコルです。しかし、CoinShuffleにはそのようなグループを確立するための手段がありません。 CashShuffleはCoinShuffle上に更にマッチングサービスを追加し、使いやすく完成させたプロトコルです。 個々の参加者と同様に、サーバーもどの入力がどの出力に対応するか知る事はありません。
+      answer-seven: CoinShuffleは取引の参加者がすでに決まっている場合には優れたプロトコルです。しかし、CoinShuffleにはそのようなグループを確立するための手段がありません。CashShuffleはCoinShuffle上に更にマッチングサービスを追加し、使いやすく完成させたプロトコルです。個々の参加者と同様に、サーバーもどの入力がどの出力に対応するか知る事はありません。
     misc:
       title: その他
       question-one: Bitcoin Cashとは何ですか？
-      answer-one: Bitcoin Cashは、Bitcoinを元にしたP2P電子通貨です。 <a href="https://bitcoincash.org/" target="_blank">詳細についてはここをクリックしてください。</a>
+      answer-one: Bitcoin Cashは、Bitcoinを元にしたP2P電子通貨です。<a href="https://bitcoincash.org/" target="_blank">詳細についてはここをクリックしてください。</a>
       question-two: ソフトウェアは将来的に改善されますか？
       answer-two: 私たちの目標は、Bitcoin Cashに完全に分散化され、しかも使いやすいプライバシーとファンジビリティを提供することです。この目標の為に常に努力と研究を続けています。
       question-three: これは違法な目的に使用できますか？
