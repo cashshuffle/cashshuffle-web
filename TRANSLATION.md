@@ -69,20 +69,45 @@ If you have any issues, the information below should help you troubleshoot.
 ## More Information
 
 ### YAML: Strings and Quotes
-If you're not used to YAML, it may be weird seeing a lack of quotes around the strings in the language files. For the most part, all the strings in the site are just fine without quotes. Even if quotes appear in the middle of the string it's ok. However, if a string **begins** with quotes, you will need to wrap the entire string in quotes. 
+If you're not used to YAML, it may be strange to see a lack of quotes around the strings in the language files.
+Basically, all the strings in the site are fine without quotes.
+Even if quotes appear in the middle of the string it's ok.
+However, if a string **begins** with quotes, you will need to escape the string following yaml standards.
+The easiest way to do that is usually wrap the entire string in single quotes and use `\'` when you need a single quote.
 
 ### Handlebars wants to encode your HTML
-Unfortunately there are some blocks that simply require HTML in the middle of the string. Not only does this make it a bit tougher for the translator, we have to be careful that we present the HTML in it's raw form. We do that with a simple tweak to the template files.
+Unfortunately there are some blocks that simply require HTML in the middle of the string.
+Not only does this make it a bit tougher for the translator, we have to be careful that we present the HTML in it's raw form.
+We do that with a change to the template files.
 
-If you have a string in a template file shown as `{{ i18n.page.section.content }}`, any text in that string will be encoded. In order to show the raw HTML use three braces around the variable name like this `{{{ i18n.page.section.content }}}`.
+For example, this string in a template file:
+
+`{{ i18n.page.section.content }}`
+
+Any text in that string will be escaped automatically to follow HTML rules so you can type your content normally.
+In order to use raw HTML you must change it to three braces like this:
+
+`{{{ i18n.page.section.content }}}`
+
+Now you can insert raw HTML.
+However since it is raw HTML, you must also use appropriate HTML escape characters in ***all*** translation files for that string.
+Specifically:
+
+- `"` --> `&quot;`
+- `&` --> `&amp;`
+- `'` --> `&#x27;`
+- `<` --> `&lt;`
+- `>` --> `&gt;`
+
+Within html tags, please follow standard escaping rules.
 
 ### Prevent line breaks on specific content
 Especially for languages like Chinese and Japanese that do not use whitespace to separate words, browsers often insert line breaks in places that are inappropriate and make reading more difficult.
 If there are some specific words or phrases that you want to ensure are not split by a line break, you can use this tag:
 
-`<span class=keep-together>プライバシー</span>`
+`<span class="nowrap">プライバシー</span>`
 
-The templater will add quotations to the class so you do not need to. Also make sure to change the template to triple braces `{{{...}}}` so that it will accept the HTML tag.
+Make sure to change the template to triple braces `{{{...}}}` and follow the rules above about raw HTML.
 
 ### Accessing variables within our language files
 There are a few variables defined in the Grunt file that we may need to access from within our language files. Those variables are:
