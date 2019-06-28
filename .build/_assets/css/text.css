@@ -95,7 +95,7 @@ h3 {
 Wrap a span with this class around
 text you dont want to break
 ------------------------------------------------------------- */
-.keep-together {
+.nowrap {
   display: inline-block;
 }
 

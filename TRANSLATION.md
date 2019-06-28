@@ -105,7 +105,7 @@ Within html tags, please follow standard escaping rules.
 Especially for languages like Chinese and Japanese that do not use whitespace to separate words, browsers often insert line breaks in places that are inappropriate and make reading more difficult.
 If there are some specific words or phrases that you want to ensure are not split by a line break, you can use this tag:
 
-`<span class="keep-together">プライバシー</span>`
+`<span class="nowrap">プライバシー</span>`
 
 Make sure to change the template to triple braces `{{{...}}}` and follow the rules above about raw HTML.
 

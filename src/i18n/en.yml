@@ -67,7 +67,7 @@ i18n:
     description: Start shuffling your Bitcoin Cash in three easy steps.
     hero:
       heading: Start shuffling your Bitcoin Cash in three easy steps
-      text: The concepts behind CashShuffle are fairly complex, but running it yourself is super simple. Let&#x27s get you started preserving your privacy.
+      text: The concepts behind CashShuffle are fairly complex, but running it yourself is super simple. Let&#x27;s get you started preserving your privacy.
     step-one:
       heading: 1. Download Electron Cash
       text: CashShuffle is currently built into the Windows, Mac OSX and Linux versions of the popular open-source wallet Electron Cash.
@@ -77,7 +77,7 @@ i18n:
       text: Click the CashShuffle icon in the lower right corner to enable it. CashShuffle runs in the background and ensures you only spend shuffled (private) coins. It is intended to stay enabled for the lifetime of your wallet, preserving your privacy for all transactions.
     step-three:
       heading: 3. Spend your shuffled coins
-      text: As your coins are shuffled they will appear in the "shuffled available" section and can be spent whenever you like. The wallet will limit you to spending shuffled coins to make sure your privacy is always respected.
+      text: As your coins are shuffled they will appear in the &quot;shuffled available&quot; section and can be spent whenever you like. The wallet will limit you to spending shuffled coins to make sure your privacy is always respected.
     video:
       heading: See it in Action
       text: Here is a quick two-minute video showing CashShuffle in action.
