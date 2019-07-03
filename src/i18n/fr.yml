@@ -26,10 +26,10 @@ i18n:
       description: Documentation technique pour développeurs et passionnés.
   home:
     title: CashShuffle - Vie privée pour Bitcoin Cash
-    description: Parce que ce que vous faites avec votre argent ne regardent personne d'autre que vous.
+    description: Parce que ce que vous faites avec votre monnaie ne regardent personne d'autre que vous.
     hero:
       heading: La protection de la vie privée améliorée est maintenant disponible sur Bitcoin Cash
-      text: Ce que vous faites avec votre argent ne regardent personne d'autre que vous. CashShuffle aide à ce que ça demeure ainsi.
+      text: Ce que vous faites avec votre monnaie ne regardent personne d'autre que vous. CashShuffle aide à ce que ça demeure ainsi.
       button: Télécharger un portefeuille
     overview:
       heading: Rendez difficile le fait de suivre votre monnaie à la trace en mélangeant votre monnaie avec d'autres utilisateurs
