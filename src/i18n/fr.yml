@@ -17,7 +17,7 @@ i18n:
       instructions: Nous travaillons incessamment pour améliorer la vie privée des utilisateurs de Bitcoin Cash ainsi que la fongibilité de celle-ci. Tous les dons sont les bienvenus.
     client:
       title: Logiciel client
-      description: Notre implémentation de référence peut être trouvé à l'intérieur du portefeuille bien connu Electron Cash.
+      description: Notre implémentation de référence peut être trouvé à l&#x27;intérieur du portefeuille bien connu Electron Cash.
     server:
       title: Logiciel serveur
       description: Le logiciel serveur est écrit en Golang et est disponible sur Github.
@@ -29,16 +29,16 @@ i18n:
     description: Parce que ce que vous faites avec votre monnaie ne regardent personne d'autre que vous.
     hero:
       heading: La protection de la vie privée améliorée est maintenant disponible sur Bitcoin Cash
-      text: Ce que vous faites avec votre monnaie ne regardent personne d'autre que vous. CashShuffle aide à ce que ça demeure ainsi.
+      text: Ce que vous faites avec votre monnaie ne regardent personne d&#x27;autre que vous. CashShuffle aide à ce que ça demeure ainsi.
       button: Télécharger un portefeuille
     overview:
-      heading: Rendez difficile le fait de suivre votre monnaie à la trace en mélangeant votre monnaie avec d'autres utilisateurs
-      text: CashShuffle est un protocole complètement décentralisé permettant de mélanger vos Bitcoin Cash avec d'autres utilisateurs sur le réseau. Le procédé obscure vos paiements légitimes et rend difficile de vous suivre à la trace en faisant de l'analyse de chaîne.
+      heading: Rendez difficile le fait de suivre votre monnaie à la trace en mélangeant votre monnaie avec d&#x27;autres utilisateurs
+      text: CashShuffle est un protocole complètement décentralisé permettant de mélanger vos Bitcoin Cash avec d&#x27;autres utilisateurs sur le réseau. Le procédé obscure vos paiements légitimes et rend difficile de vous suivre à la trace en faisant de l&#x27;analyse de chaîne.
     easy:
-      heading: CashShuffle opère en tous temps en arrière-plan, de cette façon, votre monnaie privée est prête lorsque vous l'êtes
-      text: Lorsque CashShuffle est en opérations, votre portefeuille Bitcoin Cash suivra votre monnaie privée (déjà mélangée) et la monnaie qui n'a pas été mélangée. Votre portefeuille tente en arrière-plan de mélanger toutes monnaie le nécessitant pour vous. De cette façon, vous pouvez toujours faire des paiements rapidement sans avoir à vous préoccuper des regards indiscrets.
+      heading: CashShuffle opère en tous temps en arrière-plan, de cette façon, votre monnaie privée est prête lorsque vous l&#x27;êtes
+      text: Lorsque CashShuffle est en opérations, votre portefeuille Bitcoin Cash suivra votre monnaie privée (déjà mélangée) et la monnaie qui n&#x27;a pas été mélangée. Votre portefeuille tente en arrière-plan de mélanger toutes monnaie le nécessitant pour vous. De cette façon, vous pouvez toujours faire des paiements rapidement sans avoir à vous préoccuper des regards indiscrets.
     builtin:
-      heading: CashShuffle est présentement en cours d'implantation dans plusieurs portefeuilles Bitcoin Cash populaires
+      heading: CashShuffle est présentement en cours d&#x27;implantation dans plusieurs portefeuilles Bitcoin Cash populaires
       text: CashShuffle est déjà disponible dans le portefeuille Electron Cash et est en cours d&#x27;implantation dans plusieurs portefeuilles Bitcoin Cash populaires. Restez à jour avec notre liste de <a href="wallets/">portefeuilles</a> pour voir quand votre portefeuille favoris sera disponible.
     action:
       heading: Prêt à commencer?
@@ -48,7 +48,7 @@ i18n:
     description: Déjà disponible dans les portefeuilles que vous connaissez et adorez.
     hero:
       heading: CashShuffle est déjà disponible dans les portefeuilles que vous connaissez et adorez.
-      text: Faites défiler la page vers le bas pour télécharger un portefeuille qui incorpore une vie privée améliorée à l'aide du protocole CashShuffle.
+      text: Faites défiler la page vers le bas pour télécharger un portefeuille qui incorpore une vie privée améliorée à l&#x27;aide du protocole CashShuffle.
     electron:
       heading: Electron Cash
       text: Un portefeuille léger mais puissant pour Bitcoin Cash.
@@ -67,7 +67,7 @@ i18n:
     description: Commencer à mélanger votre monnaie en trois étapes facile.
     hero:
       heading: Commencer à mélanger votre monnaie en trois étapes facile.
-      text: Les concepts régissant CashShuffle sont très complexes, mais l'utiliser vous-même est très facile. Embarquez sur la route de la vie privée améliorée.
+      text: Les concepts régissant CashShuffle sont très complexes, mais l&#x27;utiliser vous-même est très facile. Embarquez sur la route de la vie privée améliorée.
     step-one:
       heading: 1. Télécharger Electron Cash
       text: CashShuffle est présentement disponible dans les versions pour Windows, Mac OSX et Linux du populaire portefeuille à code ouvert Electro Cash.
@@ -77,7 +77,7 @@ i18n:
       text: Cliquer sur l&#x27;icône CashShuffle dans le coin droit en bas pour l&#x27;activer. CashShuffle opère en arrière-plan et s&#x27;assure que vous ne dépensez que la monnaie ayant déjà été mélangée (privée). CashShuffle doit rester activé pour la durée de vie de ce portefeuille, préservant votre vie privée pour toutes les transactions.
     step-three:
       heading: 3. Dépenser votre monnaie privée
-      text: Après que votre monnaie ait été mélangée, le solde disponible apparaîtra dans la section "shuffled available" et pourra être dépensé tel que bon vous semble. Le portefeuille nous vous permettra que de dépenser la monnaie privée pour s&#x27;assurer que votre vie privée soit respectée.
+      text: Après que votre monnaie ait été mélangée, le solde disponible apparaîtra dans la section &quot;shuffled available&quot; et pourra être dépensé tel que bon vous semble. Le portefeuille nous vous permettra que de dépenser la monnaie privée pour s&#x27;assurer que votre vie privée soit respectée.
     video:
       heading: Voir en action
       text: Voici un court vidéo de deux minutes faisant la démonstration de CashShuffle <span class="nowrap">(en anglais)</span>.
@@ -88,13 +88,13 @@ i18n:
     overview:
       title: Aperçu
       question-one: Qu'est-ce qu'est CashShuffle?
-      answer-one: CashShuffle est un protocole complètement décentralisé vous permettant d'améliorer votre vie privée en mélangeant vos Bitcoin Cash avec d'autres participants sur le réseau. Ce procédé obscure vos vraies dépenses et rend excessivement difficile pour les compagnies d'analyse de chaine de vous suivre à la trace.
-      question-two: Quels sont les cas d'utilisation pour CashShuffle?
+      answer-one: CashShuffle est un protocole complètement décentralisé vous permettant d&#x27;améliorer votre vie privée en mélangeant vos Bitcoin Cash avec d&#x27;autres participants sur le réseau. Ce procédé obscure vos vraies dépenses et rend excessivement difficile pour les compagnies d&#x27;analyse de chaine de vous suivre à la trace.
+      question-two: Quels sont les cas d&#x27;utilisation pour CashShuffle?
       answer-two: CashShuffle a été conçu pour rendre les achats commerciaux confidentiels, pour augmenter votre vie privée, et accroitre la fongibilité du réseau Bitcoin Cash en général.
-      question-three: Quelle est la différence entre le "coin mixing" et CashShuffle?
+      question-three: Quelle est la différence entre le &quot;coin mixing&quot; et CashShuffle?
       answer-three:
-        p1: "\"Coin mixing\" fait référence à l'utilisation d'un service commercial qui permet à l'utilisateur d'échanger sa monnaie pour un différent ensemble de monnaie. CashShuffle est différent. CashShuffle permet à l'utilisateur de combiner sa transaction avec celle d'autres utilisateurs, augmentant ainsi sa vie privée ainsi que celle des autres utilisateurs."
-        p2: Les désavantages du "coin mixing" sont que l'utilisateur doit faire confiance à la personne offrant ce service, et doit habituellement payer un frais pour le service. Avec CashShuffle, il n'y a aucun risque de perte de fonds et aucun frais additionnel.
+        p1: "&quot;Coin mixing&quot; fait référence à l&#x27;utilisation d&#x27;un service commercial qui permet à l&#x27;utilisateur d&#x27;échanger sa monnaie pour un différent ensemble de monnaie. CashShuffle est différent. CashShuffle permet à l&#x27;utilisateur de combiner sa transaction avec celle d&#x27;autres utilisateurs, augmentant ainsi sa vie privée ainsi que celle des autres utilisateurs."
+        p2: Les désavantages du &quot;coin mixing&quot; sont que l&#x27;utilisateur doit faire confiance à la personne offrant ce service, et doit habituellement payer un frais pour le service. Avec CashShuffle, il n&#x27;y a aucun risque de perte de fonds et aucun frais additionnel.
       question-four: Comment est-ce que CashShuffle se compare avec d'autre monnaies tel que Monero?
       answer-four:
         p1: Le but de CashShuffle était d'offrir une implémentation complète du protocole "Coinjoin" opérant sur Bitcoin Cash. CashShuffle n'offre pas toutes les fonctionnalités que Monero offre, et n'est pas la solution utilime à la préservation de votre vie privée.
