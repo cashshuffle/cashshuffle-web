@@ -39,7 +39,7 @@ i18n:
       text: Lorsque CashShuffle est en opérations, votre portefeuille Bitcoin Cash suivra votre monnaie privée (déjà mélangée) et la monnaie qui n'a pas été mélangée. Votre portefeuille tente en arrière-plan de mélanger toutes monnaie le nécessitant pour vous. De cette façon, vous pouvez toujours faire des paiements rapidement sans avoir à vous préoccuper des regards indiscrets.
     builtin:
       heading: CashShuffle est présentement en cours d'implantation dans plusieurs portefeuilles Bitcoin Cash populaires
-       text: CashShuffle est déjà disponible dans le portefeuille Electron Cash et est en cours d&#x27;implantation dans plusieurs portefeuilles Bitcoin Cash populaires. Restez à jour avec notre liste de <a href="wallets/">portefeuilles</a> pour voir quand votre portefeuille favoris sera disponible.
+      text: CashShuffle est déjà disponible dans le portefeuille Electron Cash et est en cours d&#x27;implantation dans plusieurs portefeuilles Bitcoin Cash populaires. Restez à jour avec notre liste de <a href="wallets/">portefeuilles</a> pour voir quand votre portefeuille favoris sera disponible.
     action:
       heading: Prêt à commencer?
       button: Télécharger un portefeuille
