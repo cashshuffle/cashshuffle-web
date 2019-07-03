@@ -104,7 +104,7 @@ i18n:
       title: Security
       question-one: Are you sure this is secure?
       answer-one:
-        p1: CashShuffle recently went through a paid audit from <a href="https://www.kudelskisecurity.com/" target="_blank">Kudelski Security<img src="<%= assemble.options.svg_dir %>extlink.svg" class="extLink"></a> who verified that CashShuffle provides a practical solution for shuffling "without the risk of funds being stolen in the process." They went on to state that "we did not find any evidence of malicious intent, flawed logic or potential backdoor in the codebase."
+        p1: CashShuffle recently went through a paid audit from <a href="https://www.kudelskisecurity.com/" target="_blank">Kudelski Security<img src="<%= assemble.options.svg_dir %>extlink.svg" class="extLink"></a> who verified that CashShuffle provides a practical solution for shuffling &quot;without the risk of funds being stolen in the process.&quot; They went on to state that &quot;we did not find any evidence of malicious intent, flawed logic or potential backdoor in the codebase.&quot;
         p2: If you like, you can read <a href="<%= assemble.options.downloads_dir %>REPORT-CashShuffle-20190325.pdf" target="_blank">the whole report</a>.
       question-two: Can the server(s) steal money?
       answer-two: The server cannot steal money in a proper CashShuffle implementation because the transactions are only signed on the client side if they are valid.
