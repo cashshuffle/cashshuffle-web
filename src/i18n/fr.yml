@@ -104,7 +104,7 @@ i18n:
       title: Securité
       question-one: Êtes-vous bien sur que c'est sécuritaire?
       answer-one: 
-        p1: "CashShuffle a récemment été audité à grand frais par <a href="https://www.kudelskisecurity.com/" target="_blank">Kudelski Security<img src="<%= assemble.options.svg_dir %>extlink.svg" class="extLink"></a>. Kudelski Securité ont vérifiés que CashShuffle était bel et bien une solution pratique et efficace pour mélanger la monnaie "sans risque que les fonds soient volés en cours de processus." Ils ont commenté sur ce fait: "nous n'avons trouvé aucun signe d'intention malveillante, de mauvais raisonnement ou bien de cheval-de-troie dans le code source.""
+        p1: "CashShuffle a récemment été audité à grand frais par <a href="https://www.kudelskisecurity.com/" target="_blank">Kudelski Security<img src="<%= assemble.options.svg_dir %>extlink.svg" class="extLink"></a>. Kudelski Security ont vérifiés que CashShuffle était bel et bien une solution pratique et efficace pour mélanger la monnaie "sans risque que les fonds soient volés en cours de processus." Ils ont commenté sur ce fait: "nous n'avons trouvé aucun signe d'intention malveillante, de mauvais raisonnement ou bien de cheval-de-troie dans le code source.""
         p2: Si vous le souhaitez, vous pouvez lire <a href="<%= assemble.options.downloads_dir %>REPORT-CashShuffle-20190325.pdf" target="_blank">le rapport complet (en anglais)</a>.
       question-two: Est-ce que les serveurs peuvent voler ma monnaie?
       answer-two: Les serveurs ne peuvent pas voler votre monnaie dans une bonne implantation de CashShuffle car les transactions ne sont signées que par les participants si elles sont valides.
