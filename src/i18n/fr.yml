@@ -74,13 +74,13 @@ i18n:
       button: Télécharger maintenant
     step-two:
       heading: 2. Activer CashShuffle
-      text: Cliquer sur l'icône CashShuffle dans le coin droit en bas pour l'activer. CashShuffle opère en arrière-plan et s'assure que vous ne dépensez que la monnaie ayant déjà été mélangée (privée). CashShuffle doit rester activé pour la durée de vie de ce portefeuille, préservant votre vie privée pour toutes les transactions.
+      text: Cliquer sur l&#x27;icône CashShuffle dans le coin droit en bas pour l&#x27;activer. CashShuffle opère en arrière-plan et s&#x27;assure que vous ne dépensez que la monnaie ayant déjà été mélangée (privée). CashShuffle doit rester activé pour la durée de vie de ce portefeuille, préservant votre vie privée pour toutes les transactions.
     step-three:
       heading: 3. Dépenser votre monnaie privée
-      text: Après que votre monnaie ait été mélangée, le solde disponible apparaîtra dans la section "shuffled available" et pourra être dépensé tel que bon vous semble. Le portefeuille nous vous permettra que de dépenser la monnaie privée pour s'assurer que votre vie privée soit respectée.
+      text: Après que votre monnaie ait été mélangée, le solde disponible apparaîtra dans la section "shuffled available" et pourra être dépensé tel que bon vous semble. Le portefeuille nous vous permettra que de dépenser la monnaie privée pour s&#x27;assurer que votre vie privée soit respectée.
     video:
       heading: Voir en action
-      text: Voici un court vidéo de deux minutes faisant la démonstration de CashShuffle (en anglais).
+      text: Voici un court vidéo de deux minutes faisant la démonstration de CashShuffle <span class="nowrap">(en anglais)</span>.
       youtube-link: https://www.youtube.com/embed/IJlAas387SE
   faqs:
     title: Foire aux questions | CashShuffle
