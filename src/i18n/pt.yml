@@ -104,7 +104,7 @@ i18n:
       title: Segurança
       question-one: Têm a certeza que é seguro?
       answer-one:
-        p1: CashShuffle foi recentemente auditado pela <a href="https://www.kudelskisecurity.com/" target="_blank">Kudelski Security<img src="<%= assemble.options.svg_dir %>extlink.svg" class="extLink"></a> que verificou que o CashShuffle fornece uma solução prática para misturar moedas "sem o risco de os fundos serem roubados durante o processo." Eles também afirmaram "nós não encontrámos qualquer evidência de intenção maliciosa, erros de lógica ou potenciais falhas de segurança no código fonte."
+        p1: CashShuffle foi recentemente auditado pela <a href="https://www.kudelskisecurity.com/" target="_blank">Kudelski Security<img src="<%= assemble.options.svg_dir %>extlink.svg" class="extLink"></a> que verificou que o CashShuffle fornece uma solução prática para misturar moedas &quot;sem o risco de os fundos serem roubados durante o processo.&quot; Eles também afirmaram &quot;nós não encontrámos qualquer evidência de intenção maliciosa, erros de lógica ou potenciais falhas de segurança no código fonte.&quot;
         p2: Se preferires, podes ler <a href="<%= assemble.options.downloads_dir %>REPORT-CashShuffle-20190325.pdf" target="_blank">o relatório completo</a>.
       question-two: O servidor pode roubar dinheiro?
       answer-two: O servidor não pode roubar dinheiro em qualquer implementação correta de CashShuffle porque as transações apenas são assinadas pelos clientes e ser forem válidas.
