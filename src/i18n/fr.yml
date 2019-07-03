@@ -12,7 +12,7 @@ i18n:
     select: Choisissez votre langue
     cancel: Annuler
   footer:
-    copyright: &copy; 2017-2019 CashShuffle. Tous droit réservés.
+    copyright: "&copy; 2017-2019 CashShuffle. Tous droit réservés."
     donate:
       instructions: Nous travaillons incessamment pour améliorer la vie privée des utilisateurs de Bitcoin Cash ainsi que la fongibilité de celle-ci. Tous les dons sont les bienvenus.
     client:
