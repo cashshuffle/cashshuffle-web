@@ -8,7 +8,7 @@ i18n:
     wallets: Portefeuilles
     quickstart: Bien commencer
     faqs: Foire aux questions
-  lang-modal: 
+  lang-modal:
     select: Choisissez votre langue
     cancel: Annuler
   footer:
@@ -39,7 +39,7 @@ i18n:
       text: Lorsque CashShuffle est en opérations, votre portefeuille Bitcoin Cash suivra votre monnaie privée (déjà mélangée) et la monnaie qui n'a pas été mélangée. Votre portefeuille tente en arrière-plan de mélanger toutes monnaie le nécessitant pour vous. De cette façon, vous pouvez toujours faire des paiements rapidement sans avoir à vous préoccuper des regards indiscrets.
     builtin:
       heading: CashShuffle est présentement en cours d'implantation dans plusieurs portefeuilles Bitcoin Cash populaires
-      text: CashShuffle est déjà disponible dans le portefeuille Electron Cash et est en cours d'implantation dans plusieurs portefeuilles Bitcoin Cash populaires. Restez à jour avec notre liste de <a href="wallets/">portefeuilles</a> pour voir quand votre portefeuille favoris sera disponible.
+       text: CashShuffle est déjà disponible dans le portefeuille Electron Cash et est en cours d&#x27;implantation dans plusieurs portefeuilles Bitcoin Cash populaires. Restez à jour avec notre liste de <a href="wallets/">portefeuilles</a> pour voir quand votre portefeuille favoris sera disponible.
     action:
       heading: Prêt à commencer?
       button: Télécharger un portefeuille
@@ -93,7 +93,7 @@ i18n:
       answer-two: CashShuffle a été conçu pour rendre les achats commerciaux confidentiels, pour augmenter votre vie privée, et accroitre la fongibilité du réseau Bitcoin Cash en général.
       question-three: Quelle est la différence entre le "coin mixing" et CashShuffle?
       answer-three:
-        p1: "Coin mixing" fait référence à l'utilisation d'un service commercial qui permet à l'utilisateur d'échanger sa monnaie pour un différent ensemble de monnaie. CashShuffle est différent. CashShuffle permet à l'utilisateur de combiner sa transaction avec celle d'autres utilisateurs, augmentant ainsi sa vie privée ainsi que celle des autres utilisateurs.
+        p1: "\"Coin mixing\" fait référence à l'utilisation d'un service commercial qui permet à l'utilisateur d'échanger sa monnaie pour un différent ensemble de monnaie. CashShuffle est différent. CashShuffle permet à l'utilisateur de combiner sa transaction avec celle d'autres utilisateurs, augmentant ainsi sa vie privée ainsi que celle des autres utilisateurs."
         p2: Les désavantages du "coin mixing" sont que l'utilisateur doit faire confiance à la personne offrant ce service, et doit habituellement payer un frais pour le service. Avec CashShuffle, il n'y a aucun risque de perte de fonds et aucun frais additionnel.
       question-four: Comment est-ce que CashShuffle se compare avec d'autre monnaies tel que Monero?
       answer-four:
@@ -103,8 +103,8 @@ i18n:
     security:
       title: Securité
       question-one: Êtes-vous bien sur que c'est sécuritaire?
-      answer-one: 
-        p1: "CashShuffle a récemment été audité à grand frais par <a href="https://www.kudelskisecurity.com/" target="_blank">Kudelski Security<img src="<%= assemble.options.svg_dir %>extlink.svg" class="extLink"></a>. Kudelski Security ont vérifiés que CashShuffle était bel et bien une solution pratique et efficace pour mélanger la monnaie "sans risque que les fonds soient volés en cours de processus." Ils ont commenté sur ce fait: "nous n'avons trouvé aucun signe d'intention malveillante, de mauvais raisonnement ou bien de cheval-de-troie dans le code source.""
+      answer-one:
+        p1: "CashShuffle a récemment été audité à grand frais par <a href=\"https://www.kudelskisecurity.com/\" target=\"_blank\">Kudelski Security<img src=\"<%= assemble.options.svg_dir %>extlink.svg\" class=\"extLink\"></a>. Kudelski Security ont vérifiés que CashShuffle était bel et bien une solution pratique et efficace pour mélanger la monnaie &quot;sans risque que les fonds soient volés en cours de processus.&quot; Ils ont commenté sur ce fait: &quot;nous n&#x27;avons trouvé aucun signe d&#x27;intention malveillante, de mauvais raisonnement ou bien de cheval-de-troie dans le code source.&quot;"
         p2: Si vous le souhaitez, vous pouvez lire <a href="<%= assemble.options.downloads_dir %>REPORT-CashShuffle-20190325.pdf" target="_blank">le rapport complet (en anglais)</a>.
       question-two: Est-ce que les serveurs peuvent voler ma monnaie?
       answer-two: Les serveurs ne peuvent pas voler votre monnaie dans une bonne implantation de CashShuffle car les transactions ne sont signées que par les participants si elles sont valides.
