@@ -6,7 +6,7 @@ i18n:
   nav:
     home: Accueil
     wallets: Portefeuilles
-    quickstart: Bien commencer
+    quickstart: Démarrage rapide
     faqs: Foire aux questions
   lang-modal:
     select: Choisissez votre langue
