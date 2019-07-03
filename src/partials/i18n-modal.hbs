@@ -26,6 +26,17 @@
       </li>
       {{/ if }}
       
+      {{!-- French --}}
+      {{# if i18n.lang.fr }}
+      <li class="i18nModal-languageBtn selected">
+        <p>Français</p>
+      </li>
+      {{ else }}
+      <li class="i18nModal-languageBtn">
+        <a role="button" href="/fr/{{ this.path }}">Français</a>
+      </li>
+      {{/ if }}
+      
       <li class="i18nModal-cancel">
         <a role="button" class="modal-close">{{ i18n.lang-modal.cancel }}</a>
       </li>
