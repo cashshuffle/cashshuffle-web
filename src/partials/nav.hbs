@@ -1,8 +1,8 @@
 {{!-- Mobile Navigation Bar --}}
 <div id="navbar-xs" class="hidden-md hidden-lg">
   <div id="navbar-xs-brand">
-    <a href="{{ base_dir }}" title="Cash Shuffle">
-      <img src="{{ svg_dir }}logo.svg" alt="Cash Shuffle" class="img-responsive">
+    <a href="{{ base_dir }}" title="CashShuffle">
+      <img src="{{ svg_dir }}logo.svg" alt="CashShuffle" class="img-responsive">
     </a>
   </div>
   <button id="navbar-xs-menu-toggle" class="btn">
@@ -20,20 +20,29 @@
 <nav id="navbar-md" class="hidden-xs hidden-sm">
   <div class="container">
     <div id="navbar-md-brand" class="pull-left">
-      <a href="{{ base_dir }}" title="Cash Shuffle">
-        <img src="{{ svg_dir }}logo.svg" alt="Cash Shuffle" class="img-responsive">
+      <a href="{{ base_dir }}" title="CashShuffle">
+        <img src="{{ svg_dir }}logo.svg" alt="CashShuffle" class="img-responsive">
+      </a>
+    </div>
+    {{!-- Desktop i18n Select Button --}}
+    <div class="navbar-md-i18n pull-right">
+      <a role="button" class="modal-open">
+        <div class="navbar-md-i18n-opener md-sn-btn-language">
+          <span class="navbar-md-i18n-openerLine"></span>
+          <img src="{{ svg_dir }}ico-i18n.svg" alt="" class="navbar-md-i18n-openerIcon">
+        </div>
       </a>
     </div>
     <div class="navbar-md-list-wrapper pull-right">
       <ul class="navbar-md-list pull-right">
         <li class="navbar-md-list-item{{# if wallets }} active {{/ if }}">
-          <a href="{{ base_dir }}wallets/">Wallets</a>
+          <a href="{{ base_dir }}wallets/">{{ i18n.nav.wallets }}</a>
         </li>
         <li class="navbar-md-list-item{{# if quickstart }} active {{/ if }}">
-          <a href="{{ base_dir }}quickstart/">Quickstart</a>
+          <a href="{{ base_dir }}quickstart/">{{ i18n.nav.quickstart }}</a>
         </li>
         <li class="navbar-md-list-item{{# if faqs }} active {{/ if }}">
-          <a href="{{ base_dir }}faqs/">FAQs</a>
+          <a href="{{ base_dir }}faqs/">{{ i18n.nav.faqs }}</a>
         </li>
       </ul>
     </div>
@@ -43,9 +52,15 @@
 <div id="mobile-nav-panel">
   <nav role="navigation">
     <ul class="mobile-nav">
-      <li class="mobile-nav-item"><a href="{{ base_dir }}wallets/">Wallets</a></li>
-      <li class="mobile-nav-item"><a href="{{ base_dir }}quickstart/">Quickstart</a></li>
-      <li class="mobile-nav-item"><a href="{{ base_dir }}faqs/">FAQs</a></li>
+      <li class="mobile-nav-item"><a href="{{ base_dir }}wallets/">{{ i18n.nav.wallets }}</a></li>
+      <li class="mobile-nav-item"><a href="{{ base_dir }}quickstart/">{{ i18n.nav.quickstart }}</a></li>
+      <li class="mobile-nav-item"><a href="{{ base_dir }}faqs/">{{ i18n.nav.faqs }}</a></li>
     </ul>
+    <a role="button" class="modal-open mobile-nav-i18nSelectLink">
+      <p class="mobile-nav-i18nSelect">
+        <img src="{{ svg_dir }}ico-i18n-footer.svg" alt="" class="mobile-nav-i18nSelectIcon">
+        {{{ i18n.lang.display }}}
+      </p>
+    </a>
   </nav>
 </div>

@@ -1,6 +1,6 @@
 ---
-title:           CashShuffle - Privacy for Bitcoin Cash
-description:     Because what you do with your money is your business.
+title:           <%= i18n.home.title %>
+description:     <%= i18n.home.description %>
 path:            
 og_img:          opengraph-default.jpg
 home:            true
@@ -10,9 +10,9 @@ home:            true
   <div class="container">
     <img src="{{ img_dir }}hero-home.png" class="img-responsive hero-img">
     <div class="hero-textWrapper">
-      <h1 class="hero-heading">Enhanced privacy is now available for Bitcoin Cash</h1>
-      <p class="hero-leadText">What you do with your money is your business. CashShuffle helps keep it that way.</p>
-      <a href="{{ base_dir }}wallets/" class="btn btn-primary hero-btn">Download a Wallet</a>
+      <h1 class="hero-heading">{{{ i18n.home.hero.heading }}}</h1>
+      <p class="hero-leadText">{{{ i18n.home.hero.text }}}</p>
+      <a href="{{ base_dir }}wallets/" class="btn btn-primary hero-btn">{{{ i18n.home.hero.button }}}</a>
     </div>
   </div>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 96" preserveAspectRatio="none" class="bg-curve bottom">
@@ -23,8 +23,8 @@ home:            true
   <div class="container">
     <img src="{{ svg_dir }}home-obfuscate.svg" class="img-responsive homeFeature-img">
     <div class="homeFeature-textWrapper">
-      <h2 class="homeFeature-heading">Make it hard to track your coins by shuffling them together with other users</h2>
-      <p class="homeFeature-text">CashShuffle is a fully decentralized coin mixing protocol that shuffles your Bitcoin Cash with other network participants. This shuffling process obscures your real spending and makes it difficult for chain analysis companies to follow your transactions.</p>
+      <h2 class="homeFeature-heading">{{{ i18n.home.overview.heading }}}</h2>
+      <p class="homeFeature-text">{{{ i18n.home.overview.text }}}</p>
     </div>
   </div>
 </div>
@@ -35,8 +35,8 @@ home:            true
   <div class="container">
     <img src="{{ svg_dir }}home-background.svg" class="img-responsive homeFeature-img">
     <div class="homeFeature-textWrapper">
-      <h2 class="homeFeature-heading">CashShuffle runs in the background, so your private coins are ready when you are</h2>
-      <p class="homeFeature-text">CashShuffle is enabled, your Bitcoin Cash wallet will keep track of shuffled (private) and unshuffled coins. In the background it continuously shuffles any unshuffled UTXOs for you. This way you can always spend your coins quickly and without worrying about prying eyes.</p>
+      <h2 class="homeFeature-heading">{{{ i18n.home.easy.heading }}}</h2>
+      <p class="homeFeature-text">{{{ i18n.home.easy.text }}}</p>
     </div>
   </div>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 96" preserveAspectRatio="none" class="bg-curve bottom">
@@ -47,8 +47,8 @@ home:            true
   <div class="container">
     <img src="{{ svg_dir }}home-wallets.svg" class="img-responsive homeFeature-img">
     <div class="homeFeature-textWrapper">
-      <h2 class="homeFeature-heading">CashShuffle is currently being built into many popular Bitcoin Cash wallets</h2>
-      <p class="homeFeature-text">CashShuffle is already built into the Electron Cash wallet and is currently being developed for a number of other popular Bitcoin Cash wallets. Keep an eye on our <a href="{{ base_dir }}wallets/">wallets page</a> to see if your favorite wallet is supported.</p>
+      <h2 class="homeFeature-heading">{{{ i18n.home.builtin.heading }}}</h2>
+      <p class="homeFeature-text">{{{ i18n.home.builtin.text }}}</p>
     </div>
   </div>
 </div>
@@ -57,8 +57,8 @@ home:            true
     <path d="M0 131C101.08 87.8 224.38 51.48 359.5 27.71 466.21 8.93 568.66.02 661.04-1H0v131zM661.04 0c13.2-1 26.19.17 38.96.53V-1h-38.96z" fill="#fff"/>
   </svg>
   <div class="homeAction-textWrapper">
-    <h3 class="homeAction-leadText">Ready to get started?</h3>
-    <a href="{{ base_dir }}wallets/" class="btn btn-primary homeAction-btn">Download a Wallet</a>
+    <h3 class="homeAction-leadText">{{{ i18n.home.action.heading }}}</h3>
+    <a href="{{ base_dir }}wallets/" class="btn btn-primary homeAction-btn">{{{ i18n.home.action.button }}}</a>
   </div>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 96" preserveAspectRatio="none" class="bg-curve bottom">
     <path d="M0 90.06V96h700V0c-94.65 33.25-205.31 60.13-324.78 77C238.77 96.26 109.73 99.81 0 90.06z" fill="#909298"/>

@@ -23,6 +23,29 @@ module.exports = function(grunt) {
   for (var j = 0; j < includes.js.length; j++) {
     jsFiles.push("src/assets/js/" + includes.js[j]);
   }
+  
+  // List of target files and respective templates
+  var files = {
+    'index.html':              ['src/content/home.hbs'],
+    'wallets/index.html':      ['src/content/wallets.hbs'],
+    'quickstart/index.html':   ['src/content/quickstart.hbs'],
+    'faqs/index.html':         ['src/content/faqs.hbs'],
+  };
+  
+  // Function to generate assemble target with localization data
+  function i18nTarget(lang, root) {
+    let destDir = root ? '.build/' : `.build/${lang}/`;
+    let i18nData = grunt.file.readYAML(`src/i18n/${lang}.yml`);
+    let i18nFiles = {};
+    Object.entries(files).forEach(entry => i18nFiles[destDir + entry[0]] = entry[1]);
+    return {
+      options: {
+        data: i18nData,
+        base_dir: root ? '/' : `/${lang}/`
+      },
+      files: i18nFiles
+    };
+  }
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -91,17 +114,21 @@ module.exports = function(grunt) {
         flatten: true,
         layout: 'default.hbs',
         partials: 'src/partials/*.hbs',
-        data: 'src/data.yml',
+        base_dir:         '/',
+        css_dir:          '/_assets/css/',
+        js_dir:           '/_assets/js/',
+        img_dir:          '/_assets/img/',
+        svg_dir:          '/_assets/svg/',
+        downloads_dir:    '/downloads/',
+        base_url:         'https://cashshuffle.com',
+        twitter_site:     'cashshuffle',
+        twitter_creator:  'cashshuffle',
         production: IS_PRODUCTION
       },
-      page: {
-        files: {
-          '.build/index.html':                            ['src/content/home.hbs'],
-          '.build/wallets/index.html':                    ['src/content/wallets.hbs'],
-          '.build/quickstart/index.html':                 ['src/content/quickstart.hbs'],
-          '.build/faqs/index.html':                       ['src/content/faqs.hbs']
-        }
-      }
+      root: i18nTarget('en', true),
+      ja: i18nTarget('ja'),
+      fr: i18nTarget('fr'),
+      pt: i18nTarget('pt')
     },
 
     // Watch for changes

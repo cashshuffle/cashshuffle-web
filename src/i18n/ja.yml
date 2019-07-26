@@ -1,0 +1,138 @@
+i18n:
+  lang:
+    code: ja
+    display: 日本語
+    ja: true
+  nav:
+    home: ホーム
+    wallets: ウォレット
+    quickstart: クイックスタート
+    faqs: よくある質問
+  lang-modal:
+    select: 言語を選択
+    cancel: キャンセル
+  footer:
+    copyright: Copyright &copy; 2017-2019 CashShuffle. All rights reserved.
+    donate:
+      instructions: <span class="nowrap">私たちは</span><span class="nowrap">Bitcoin Cashに</span><span class="nowrap">プライバシーと</span><span class="nowrap">ファンジビリティを</span><span class="nowrap">もたらすため、</span><br><span class="nowrap">鋭意努力して</span><span class="nowrap">おります。</span><br><span class="nowrap">皆様から</span><span class="nowrap">寄付を</span><span class="nowrap">頂ければ</span><span class="nowrap">幸いに</span><span class="nowrap">存じます。</span>
+    client:
+      title: <span class="nowrap">クライアント</span><span class="nowrap">ソフトウェア</span>
+      description: <span class="nowrap">CashShuffleの</span><span class="nowrap">リファレンス実装は、</span><span class="nowrap">人気の</span><span class="nowrap">Electron Cash</span><span class="nowrap">ウォレットから</span><span class="nowrap">利用可能です。</span>
+    server:
+      title: <span class="nowrap">サーバー</span><span class="nowrap">ソフトウェア</span>
+      description: <span class="nowrap">サーバーサイド</span><span class="nowrap">ソフトウェアは</span><span class="nowrap">Golangで</span><span class="nowrap">書かれており</span><span class="nowrap">GitHubで</span><span class="nowrap">利用可能です。</span>
+    docs:
+      title: ドキュメンテーション
+      description: <span class="nowrap">開発者</span><span class="nowrap">および</span><span class="nowrap">愛好家の</span><span class="nowrap">ための</span><span class="nowrap">技術文書</span>
+  home:
+    title: CashShuffle - Bitcoin Cashのためのプライバシー機能
+    description: あなたがお金を使うと言う事は、あなたの私生活上の個人的な事柄です。
+    hero:
+      heading: <span class="nowrap">Bitcoin Cashで</span><span class="nowrap">強力な</span><span class="nowrap">プライバシー機能</span><span class="nowrap">を</span><span class="nowrap">実現。</span>
+      text: <span class="nowrap">あなたが</span><span class="nowrap">お金を使うと</span><span class="nowrap">言う事は、</span><br><span class="nowrap">あなたの私生活上の</span><span class="nowrap">個人的な事柄です。</span><br><span class="nowrap">CashShuffleは</span><span class="nowrap">あなたのプライバシーを</span><span class="nowrap">守る為に役立ちます。</span>
+      button: ウォレットをダウンロードする
+    overview:
+      heading: <span class="nowrap">他のユーザーと</span><span class="nowrap">一緒に</span><br><span class="nowrap">シャッフル</span><span class="nowrap">する事で、</span><br><span class="nowrap">コインの</span><span class="nowrap">追跡を</span><span class="nowrap">難しくします。</span>
+      text: <span class="nowrap">CashShuffleは、</span><span class="nowrap">あなたの</span><span class="nowrap">Bitcoin Cashを</span><span class="nowrap">他のユーザーと</span><span class="nowrap">シャッフルする</span><span class="nowrap">完全分散型の</span><span class="nowrap">コインミキシング</span><span class="nowrap">プロトコルです。</span><span class="nowrap">このプロセスによって</span><span class="nowrap">あなたの</span><span class="nowrap">支払いは</span><span class="nowrap">見えにくくなり、</span><span class="nowrap">ブロックチェーン分析による</span><span class="nowrap">プライバシー権の</span><span class="nowrap">侵害を</span><span class="nowrap">防止します。</span>
+    easy:
+      heading: CashShuffleは<br>バックグラウンドで<span class="nowrap">実行され、</span><br>必要な時にいつでも<br>プライバシーコインを<span class="nowrap">利用できます。</span>
+      text: <span class="nowrap">CashShuffleが</span><span class="nowrap">有効化された</span><span class="nowrap">ウォレットは</span><span class="nowrap">シャッフルされた</span><span class="nowrap">コインと</span><span class="nowrap">シャッフル</span><span class="nowrap">されて</span><span class="nowrap">いない</span><span class="nowrap">コインを</span><span class="nowrap">識別します。</span><span class="nowrap">バックグラウンドでは、</span><span class="nowrap">未シャッフルの</span><span class="nowrap">コインを</span><span class="nowrap">シャッフル</span><span class="nowrap">し続けます。</span><span class="nowrap">これによって</span><span class="nowrap">誰かに</span><span class="nowrap">覗き見</span><span class="nowrap">される</span><span class="nowrap">心配無く、</span><span class="nowrap">いつでも</span><span class="nowrap">コインを</span><span class="nowrap">素早く</span><span class="nowrap">使うことが</span><span class="nowrap">できます。</span>
+    builtin:
+      heading: CashShuffleは、<br>既にたくさんの<br>Bitcoin Cashウォレットに<br>組み込まれています。
+      text: <span class="nowrap">CashShuffleは</span><span class="nowrap">すでに</span><span class="nowrap">Electron Cash</span><span class="nowrap">ウォレットに</span><span class="nowrap">組み込まれており、</span><span class="nowrap">他にも</span><span class="nowrap">多くの</span><span class="nowrap">Bitcoin Cashウォレット用で</span><span class="nowrap">開発が進んでいます。</span><span class="nowrap"> あなたの</span><span class="nowrap">お気に入りのウォレットが</span><span class="nowrap">サポートされているか</span><span class="nowrap">どうかを</span><span class="nowrap">確認するには、</span><span class="nowrap">私たちの</span><span class="nowrap"><a href="wallets/">ウォレットページ</a></span><span class="nowrap">をご覧下さい。</span>
+    action:
+      heading: 始める準備はできましたか？
+      button: ウォレットをダウンロードする
+  wallets:
+    title: CashShuffleと互換性のあるウォレット
+    description: あなたのお気に入りのウォレットに組み込まれています
+    hero:
+      heading: CashShuffleは、<br>あなたの<span class="nowrap">お気に入りの</span><span class="nowrap">ウォレットに</span><span class="nowrap">組み込まれて</span><span class="nowrap">います。</span>
+      text: <span class="nowrap">スクロールダウンして、</span><br><span class="nowrap">CashShuffle</span><span class="nowrap">プロトコルで</span><span class="nowrap">プライバシーを</span><span class="nowrap">強化できる</span><span class="nowrap">ウォレットを</span><span class="nowrap">ダウンロードしてください。</span>
+    electron:
+      heading: Electron Cash
+      text: パワフルで軽量なBitcoin Cash ウォレット
+      button: ダウンロードする
+    in-development: <span class="nowrap">以下の</span><span class="nowrap">ウォレットは</span><span class="nowrap">現在開発中です</span>
+    bitcoin-com:
+      heading: <span class="nowrap">Bitcoin.com</span><span class="nowrap">ウォレット</span>
+      text: <span class="nowrap">スマートフォン</span><span class="nowrap">および</span><span class="nowrap">デスクトップPCで</span><span class="nowrap">利用出来る</span><span class="nowrap">高機能ウォレット</span>
+      button: 近日公開
+    badger:
+      heading: <span class="nowrap">Badger</span><span class="nowrap">ウォレット</span>
+      text: <span class="nowrap">Chromeと</span><span class="nowrap">Firefoxで</span><span class="nowrap">利用可能な</span><span class="nowrap">ブラウザベースの</span><span class="nowrap">ウォレット</span>
+      button: 近日公開
+  quickstart:
+    title: CashShuffleクイックスタートガイド
+    description: 3つの簡単なステップでBitcoin Cashをシャッフルしましょう。
+    hero:
+      heading: <span class="nowrap">3つの</span><span class="nowrap">簡単な</span><span class="nowrap">ステップで</span><span class="nowrap">Bitcoin Cashを</span><span class="nowrap">シャッフル</span><span class="nowrap">しましょう。</span>
+      text: <span class="nowrap">CashShuffleの</span><span class="nowrap">技術的な</span><span class="nowrap">概念は</span><span class="nowrap">複雑ですが、</span><span class="nowrap">使い方は</span><span class="nowrap">とても</span><span class="nowrap">簡単です。</span><span class="nowrap">いますぐ</span><span class="nowrap">あなたの</span><span class="nowrap">プライバシーを</span><span class="nowrap">保護しましょう。</span>
+    step-one:
+      heading: <span class="nowrap">1. </span><span class="nowrap">Electron Cashを</span><span class="nowrap">ダウンロード</span><span class="nowrap">する</span>
+      text: <span class="nowrap">CashShuffleは、</span>Windows、Mac OSX、<span class="nowrap">および</span><span class="nowrap">Linux版の</span><span class="nowrap">オープンソース</span><span class="nowrap">ウォレット、</span><span class="nowrap">Electron Cash</span><span class="nowrap">に</span><span class="nowrap">組み込まれています。</span>
+      button: ダウンロードする
+    step-two:
+      heading: 2. CashShuffleを有効にする
+      text: <span class="nowrap">有効に</span><span class="nowrap">するには、</span><span class="nowrap">右下に</span><span class="nowrap">ある</span><span class="nowrap">CashShuffle</span><span class="nowrap">アイコンを</span><span class="nowrap">クリックします。</span> <span class="nowrap">CashShuffleは</span><span class="nowrap">バックグラウンドで</span><span class="nowrap">実行</span><span class="nowrap">されます。</span><span class="nowrap">シャッフル</span><span class="nowrap">された</span><span class="nowrap">コイン</span><span class="nowrap">のみを</span><span class="nowrap">使うように</span><span class="nowrap">しましょう。</span> <span class="nowrap">ウォレット</span><span class="nowrap">を</span><span class="nowrap">使用する</span><span class="nowrap">間は</span><span class="nowrap">ずっと</span><span class="nowrap">有効に</span><span class="nowrap">するように</span><span class="nowrap">してください。</span><span class="nowrap">これに</span><span class="nowrap">よって</span><span class="nowrap">すべての</span><span class="nowrap">取引で</span><span class="nowrap">あなたの</span><span class="nowrap">プライバシーが</span><span class="nowrap">保護されます。</span>
+    step-three:
+      heading: 3.シャッフルした<span class="nowrap">コインを</span><span class="nowrap">使う</span>
+      text: <span class="nowrap">コインの</span><span class="nowrap">シャッフルが</span><span class="nowrap">終わると、</span>&quot;shuffled available&quot;<span class="nowrap">セクションに</span><span class="nowrap">使用できる</span><span class="nowrap">コインが</span><span class="nowrap">表示</span><span class="nowrap">されます。</span><span class="nowrap">この</span><span class="nowrap">コインは</span><span class="nowrap">好きな</span><span class="nowrap">ときに</span><span class="nowrap">いつでも</span><span class="nowrap">使うことが</span><span class="nowrap">できます。</span> <span class="nowrap">CashShuffleが</span><span class="nowrap">有効な</span><span class="nowrap">場合、</span><span class="nowrap">あなたの</span><span class="nowrap">プライバシーを</span><span class="nowrap">常に</span><span class="nowrap">保護する</span><span class="nowrap">ために</span><span class="nowrap">シャッフル</span><span class="nowrap">されて</span><span class="nowrap">いない</span><span class="nowrap">コインの</span><span class="nowrap">使用は</span><span class="nowrap">出来ません。</span>
+    video:
+      heading: 動画を見る
+      text: CashShuffleの使い方を説明した、2分間の簡単なビデオです。
+      youtube-link: https://www.youtube.com/embed/IJlAas387SE
+  faqs:
+    title: よくある質問 キャッシュシャッフル
+    description: CashShuffleの技術とセキュリティに関する質問への回答。
+    overview:
+      title: 概要
+      question-one: CashShuffleとは何ですか？
+      answer-one: <span class="nowrap">CashShuffleは、</span><span class="nowrap">あなたの</span><span class="nowrap">Bitcoin Cash</span><span class="nowrap">を</span><span class="nowrap">他の</span><span class="nowrap">ネットワーク</span><span class="nowrap">参加者</span><span class="nowrap">と</span><span class="nowrap">シャッフル</span><span class="nowrap">する、</span><span class="nowrap">完全に</span><span class="nowrap">分散された</span><span class="nowrap">プライバシー</span><span class="nowrap">プロトコル</span><span class="nowrap">です。</span><span class="nowrap">コインの</span><span class="nowrap">支出を</span><span class="nowrap">覆い隠し、</span><span class="nowrap">誰かが</span><span class="nowrap">あなたの</span><span class="nowrap">コインを</span><span class="nowrap">追跡</span><span class="nowrap">することを</span><span class="nowrap">非常に</span><span class="nowrap">困難にします。</span>
+      question-two: CashShuffleのユースケースは何ですか？
+      answer-two: <span class="nowrap">CashShuffle</span><span class="nowrap">の</span><span class="nowrap">ユースケース</span><span class="nowrap">は</span><span class="nowrap">企業秘密</span><span class="nowrap">に</span><span class="nowrap">関わる</span><span class="nowrap">取引</span><span class="nowrap">や</span><span class="nowrap">個人</span><span class="nowrap">の</span><span class="nowrap">プライバシー</span><span class="nowrap">の</span><span class="nowrap">向上、</span><span class="nowrap">および</span><span class="nowrap">ファンジビリティ</span><span class="nowrap">の</span><span class="nowrap">向上を</span><span class="nowrap">目的としています。</span>
+      question-three: コインミキシングとCashShuffleの違いは何ですか？
+      answer-three:
+        p1: <span class="nowrap">コインミキシング</span><span class="nowrap">とは、</span><span class="nowrap">一般的</span><span class="nowrap">に</span><span class="nowrap">ユーザー</span><span class="nowrap">が</span><span class="nowrap">自分の</span><span class="nowrap">コインを</span><span class="nowrap">他の</span><span class="nowrap">コインと</span><span class="nowrap">交換する</span><span class="nowrap">サービスです。</span><span class="nowrap"> CashShuffle</span><span class="nowrap">は</span><span class="nowrap">違います。</span><span class="nowrap">CashShuffleは</span><span class="nowrap">ユーザーが</span><span class="nowrap">自分の</span><span class="nowrap">トランザクションを</span><span class="nowrap">他のユーザーと</span><span class="nowrap">組み合わせる</span><span class="nowrap">ことで</span><span class="nowrap">難読化</span><span class="nowrap">します。</span>
+        p2: <span class="nowrap">コインミキシングの</span><span class="nowrap">デメリットは</span><span class="nowrap">ミキシング</span><span class="nowrap">サービスに</span><span class="nowrap">コインを</span><span class="nowrap">預け</span><span class="nowrap">なければ</span><span class="nowrap">ならない</span><span class="nowrap">事と</span><span class="nowrap">手数料を</span><span class="nowrap">支払う</span><span class="nowrap">必要が</span><span class="nowrap">ある事</span><span class="nowrap">です。</span><span class="nowrap">しかし、</span><span class="nowrap">CashShuffle</span><span class="nowrap">は</span><span class="nowrap">コインを</span><span class="nowrap">預け</span><span class="nowrap">ないので</span><span class="nowrap">資金を</span><span class="nowrap">失う</span><span class="nowrap">リスクが</span><span class="nowrap">無く、</span><span class="nowrap">追加手数料も</span><span class="nowrap">発生</span><span class="nowrap">しません。</span>
+      question-four: CashShuffleのプライバシーとMoneroのような匿名コインとの違いは何ですか？
+      answer-four:
+        p1: CashShuffleはBitcoin Cashプロトコル上にCoinJoinの実用的な実装を提供することを目的としています。CashShuffleはMoneroが出来る事全てが可能な訳では無く、プライバシーに関する「究極の」ソリューションでもありません。
+        p2: しかし、CashShuffleをウォレットに統合することで、Bitcoin Cashエコシステムに簡単で実用的なプライバシーツールを利用することが可能になり利便性が向上します。また、匿名セットの増加を促進するため、あらゆるシステムの中で最も重要な要素となる可能性があります。
+        p3: CashShuffleはプライバシーとファンジビリティを向上させることを目的としたBitcoin Cashのアプリケーション層の一部として、その他のプライバシーツールと同時に使用することもできます。
+    security:
+      title: セキュリティ
+      question-one: CashShuffleは安全ですか？
+      answer-one:
+        p1: CashShuffleは<a href="https://www.kudelskisecurity.com/" target="_blank"> Kudelski Securityの監査を受け<img src="<%= assemble.options.svg_dir %>extlink.svg" class="extLink"></a> 「資金を盗まれる危険性なしに、 CashShuffleがプライバシー向上のため実用的な解決策を提供している事を確認した。」「コードベースに悪意は無く、欠陥のあるロジックや潜在的なバックドアの証拠も見つから無かった」と評価されています。
+        p2: リポートの詳細は<a href="<%= assemble.options.downloads_dir %>REPORT-CashShuffle-20190325.pdf" target="_blank">こちら</a>をご覧ください。
+      question-two: CashShuffleサーバーはお金を盗むことができますか？
+      answer-two: 正しく設定されたCashShuffleサーバーがお金を盗むことはできません。これはトランザクションがクライアント側でのみ署名されるためです。
+      question-three: CashShuffleはTorをサポートしていますか？
+      answer-three: はい。Torユーザーは一般のユーザーとシャッフルプールを共有しているので、Torを使っていても簡単に他のユーザーとシャッフルする事が出来ます。
+      question-four: シャッフルされていないコインは安全に使えますか？
+      answer-four: いいえ。シャッフルされていないコインを使うと、CashShuffleのセキュリティ機能が損なわれ、過去の取引のプライバシーが失われる可能性があります。CashShuffleを無効化することはお勧めできません。
+    tech:
+      title: テクノロジー
+      question-one: ユーザー間のシャッフルはどの様に行われるのですか？
+      answer-one: CashShuffleはクライアントサーバーモデルを使用します。サーバーが自動的にユーザー同士を見つけ効率よくシャッフルします。
+      question-two: CashShuffleサーバー使ったシャッフルサービスを行っているのですか？
+      answer-two: いいえ。私達はコードを公開しているだけです。サーバーはコミュニティによって自発的に利用されています。
+      question-three: ネットワークはどのようにしてブートされますか？
+      answer-three: サーバーがオンラインになると、サーバーはGitHubを介してクライアント側のシードリストに含めるようリクエストを送ります。
+      question-four: より分散化させる為にサーバーをできるだけ多く設定する必要がありますか。
+      answer-four: いいえ。最初は信頼性が高いサーバーを少数設置する方が理想的です。サーバーが多すぎるとユーザーが疎らになりシャッフルする相手を見つけるのが難しくなるからです。
+      question-five: CoinJoinとは何ですか？
+      answer-five: CoinJoinは、別々のトランザクションからの入力と出力を1つの巨大なトランザクションに結合するという、シンプルで効果的なアイデアです。これによってどの出力がどの入力に対応するかを知ることを非常に難しくします。
+      question-six: CoinShuffleとは何ですか？
+      answer-six: CoinShuffleはCoinJoinを実用的な方法で実装したプロトコルです。階層化された暗号化スキームにより誰も他の参加者の出力を知ることは出来ません。更に時間の無駄となるDoS攻撃を軽減する為、ペナルティシステムが採用されています。
+      question-seven: CoinShuffleとCashShuffleの違いは何ですか？
+      answer-seven: CoinShuffleは取引の参加者がすでに決まっている場合には優れたプロトコルです。しかし、CoinShuffleにはそのようなグループを確立するための手段がありません。CashShuffleはCoinShuffle上に更にマッチングサービスを追加し、使いやすく完成させたプロトコルです。個々の参加者と同様に、サーバーもどの入力がどの出力に対応するか知る事はありません。
+    misc:
+      title: その他
+      question-one: Bitcoin Cashとは何ですか？
+      answer-one: Bitcoin Cashは、Bitcoinを元にしたP2P電子通貨です。<a href="https://bitcoincash.org/" target="_blank">詳細についてはここをクリックしてください。</a>
+      question-two: ソフトウェアは将来的に改善されますか？
+      answer-two: 私たちの目標は、Bitcoin Cashに完全に分散化され、しかも使いやすいプライバシーとファンジビリティを提供することです。この目標の為に常に努力と研究を続けています。
+      question-three: これは違法な目的に使用できますか？
+      answer-three: 私たちは違法な目的のためにこの技術を使用することを推奨、容認、または促進しません。合法的なプライバシー保護の為に使用する事を目的としています。

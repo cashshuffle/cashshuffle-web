@@ -1,0 +1,138 @@
+i18n:
+  lang:
+    code: en
+    display: English
+    en: true
+  nav:
+    home: Home
+    wallets: Wallets
+    quickstart: Quickstart
+    faqs: FAQs
+  lang-modal:
+    select: Select Your Language
+    cancel: Cancel
+  footer:
+    copyright: Copyright &copy; 2017-2019 CashShuffle. All rights reserved.
+    donate:
+      instructions: We are constantly working to bring fully decentralized privacy and fungibility to Bitcoin Cash. All donations are welcome and appreciated.
+    client:
+      title: Client Software
+      description: Our reference implementation can be found in the popular Electron Cash wallet.
+    server:
+      title: Server Software
+      description: The server-side software is written in Golang and available on GitHub.
+    docs:
+      title: Documentation
+      description: Technical documentation for developers and enthusiasts.
+  home:
+    title: CashShuffle - Privacy for Bitcoin Cash
+    description: Because what you do with your money is your business.
+    hero:
+      heading: Enhanced privacy is now available for Bitcoin Cash
+      text: What you do with your money is your business. CashShuffle helps keep it that way.
+      button: Download a Wallet
+    overview:
+      heading: Make it hard to track your coins by shuffling them together with other users
+      text: CashShuffle is a fully decentralized coin mixing protocol that shuffles your Bitcoin Cash with other network participants. This shuffling process obscures your real spending and makes it difficult for chain analysis companies to follow your transactions.
+    easy:
+      heading: CashShuffle runs in the background, so your private coins are ready when you are
+      text: When CashShuffle is enabled, your Bitcoin Cash wallet will keep track of shuffled (private) and unshuffled coins. In the background it continuously shuffles any unshuffled UTXOs for you. This way you can always spend your coins quickly and without worrying about prying eyes.
+    builtin:
+      heading: CashShuffle is currently being built into many popular Bitcoin Cash wallets
+      text: CashShuffle is already built into the Electron Cash wallet and is currently being developed for a number of other popular Bitcoin Cash wallets. Keep an eye on our <a href="wallets/">wallets page</a> to see if your favorite wallet is supported.
+    action:
+      heading: Ready to get started?
+      button: Download a Wallet
+  wallets:
+    title: Wallets Compatible with CashShuffle
+    description: Built into the wallets you already know and love.
+    hero:
+      heading: CashShuffle is being built into the wallets you already know and love
+      text: Scroll down to download a wallet that features enhanced privacy via the CashShuffle protocol.
+    electron:
+      heading: Electron Cash
+      text: A lightweight yet powerful Bitcoin Cash thin client.
+      button: Download Now
+    in-development: The wallets below are currently in development
+    bitcoin-com:
+      heading: Bitcoin.com Wallet
+      text: A feature-rich wallet available on mobile and desktop devices.
+      button: Coming Soon
+    badger:
+      heading: Badger Wallet
+      text: A browser-based wallet available for Chrome and Firefox.
+      button: Coming Soon
+  quickstart:
+    title: CashShuffle Quickstart Guide
+    description: Start shuffling your Bitcoin Cash in three easy steps.
+    hero:
+      heading: Start shuffling your Bitcoin Cash in three easy steps
+      text: The concepts behind CashShuffle are fairly complex, but running it yourself is super simple. Let&#x27;s get you started preserving your privacy.
+    step-one:
+      heading: 1. Download Electron Cash
+      text: CashShuffle is currently built into the Windows, Mac OSX and Linux versions of the popular open-source wallet Electron Cash.
+      button: Download Now
+    step-two:
+      heading: 2. Enable CashShuffle
+      text: Click the CashShuffle icon in the lower right corner to enable it. CashShuffle runs in the background and ensures you only spend shuffled (private) coins. It is intended to stay enabled for the lifetime of your wallet, preserving your privacy for all transactions.
+    step-three:
+      heading: 3. Spend your shuffled coins
+      text: As your coins are shuffled they will appear in the &quot;shuffled available&quot; section and can be spent whenever you like. The wallet will limit you to spending shuffled coins to make sure your privacy is always respected.
+    video:
+      heading: See it in Action
+      text: Here is a quick two-minute video showing CashShuffle in action.
+      youtube-link: https://www.youtube.com/embed/IJlAas387SE
+  faqs:
+    title: Frequently Asked Questions | CashShuffle
+    description: Answers to your questions about the technology and security of CashShuffle.
+    overview:
+      title: Overview
+      question-one: What is CashShuffle?
+      answer-one: CashShuffle is a fully decentralized privacy protocol that shuffles your Bitcoin Cash with other network participants. This shuffling process obscures your real spending and makes it extremely difficult for chain analysis companies to track your coins.
+      question-two: What are the use-cases for CashShuffle?
+      answer-two: CashShuffle is intended for confidential business purchases, personal privacy, and increasing overall coin fungibility.
+      question-three: What is the difference between coin mixing and CashShuffle?
+      answer-three:
+        p1: '&quot;Coin mixing&quot; commonly refers to the use of services that allow a user to replace his or her coins with a different set of coins. CashShuffle is different. It allows users to combine their transactions with others, creating obfuscation.'
+        p2: The disadvantages of coin mixing is that the user must trust the mixing service, and usually has to pay a fee. But with CashShuffle, there is no risk of lost funds, and no additional fees.
+      question-four: How does CashShuffle's privacy compare to coins like Monero?
+      answer-four:
+        p1: CashShuffle aims to provide a working implementation of CoinJoin on top of the Bitcoin Cash protocol. CashShuffle does not offer everything Monero does, nor is it an "ultimate" solution to privacy.
+        p2: However, by integrating it in major wallets, the Bitcoin Cash ecosystem can enjoy a practical and user-friendly privacy tool that will increase usage and adoption. This will also lead to a growing anonymity set, which may be the most important factor in any system.
+        p3: CashShuffle can also be used together with additional privacy tools. It is part of an evolving application layer for Bitcoin Cash that aims to continually improve privacy and fungibility.
+    security:
+      title: Security
+      question-one: Are you sure this is secure?
+      answer-one:
+        p1: CashShuffle recently went through a paid audit from <a href="https://www.kudelskisecurity.com/" target="_blank">Kudelski Security<img src="<%= assemble.options.svg_dir %>extlink.svg" class="extLink"></a> who verified that CashShuffle provides a practical solution for shuffling &quot;without the risk of funds being stolen in the process.&quot; They went on to state that &quot;we did not find any evidence of malicious intent, flawed logic or potential backdoor in the codebase.&quot;
+        p2: If you like, you can read <a href="<%= assemble.options.downloads_dir %>REPORT-CashShuffle-20190325.pdf" target="_blank">the whole report</a>.
+      question-two: Can the server(s) steal money?
+      answer-two: The server cannot steal money in a proper CashShuffle implementation because the transactions are only signed on the client side if they are valid.
+      question-three: Does CashShuffle support Tor?
+      answer-three: Yes it does. Tor users share shuffling pools with normal users so finding other shufflers is just as easy as if you were not using Tor.
+      question-four: Are unshuffled coins safe to spend?
+      answer-four: No they are not. Spending unshuffled coins can compromise the security features of CashShuffle and can undo the privacy of any past transactions. Turning off CashShuffle is not recommended.
+    tech:
+      title: Technology
+      question-one: What coordinates the shuffle between users?
+      answer-one: CashShuffle uses a client-server model. The servers coordinate which users are shuffling.
+      question-two: Are you running a shuffling service? Are you running one of these servers?
+      answer-two: No. We simply publish code. It is up to the community to run servers.
+      question-three: How does the network get bootstrapped?
+      answer-three: As servers come online, they can request inclusion to the client side seed server list via GitHub.
+      question-four: Should users set up as many servers as possible so its more decentralized?
+      answer-four: No. In the beginning, fewer, but more reliable servers are ideal. Too many servers means users will be thinly spread and will have a harder time finding join partners.
+      question-five: What is CoinJoin?
+      answer-five: CoinJoin is the simple, but effective idea of combining inputs and outputs from what would otherwise be separate transactions, into one jumbo transaction. This makes it extremely difficult to know which outputs correspond to which inputs.
+      question-six: What is CoinShuffle?
+      answer-six: CoinShuffle is a protocol which implements CoinJoin in a practical way. A layered encryption scheme is used so that none of the participants know the outputs of the other participants. In addition, a blame protocol is used to mitigate time-wasting denial-of-service type attacks.
+      question-seven: What is the difference between CoinShuffle and CashShuffle?
+      answer-seven: CoinShuffle is an excellent protocol once the participants for a joined transaction have already been chosen. However, it provides no means for establishing such groupings. CashShuffle builds upon CoinShuffle and adds a matching service. As such, it is a more complete and usable protocol. The server, like the individual participants, also has no knowledge of which input corresponds to which output.
+    misc:
+      title: Miscellaneous
+      question-one: What is Bitcoin Cash?
+      answer-one: Bitcoin Cash is peer to peer electronic cash, based on the Bitcoin protocol. <a href="https://bitcoincash.org/" target="_blank">Click here to learn more.</a>
+      question-two: Will the software be improved in the future?
+      answer-two: We are constantly working, building, and researching. Our goal is to bring fully decentralized, frictionless, and peer-to-peer privacy and fungibility solutions to Bitcoin Cash.
+      question-three: Can this be used for illegal purposes?
+      answer-three: We do not advocate, condone, or promote the use of this technology for illegal purposes. It is intended for legal privacy use only.
