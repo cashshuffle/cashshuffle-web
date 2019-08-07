@@ -155,6 +155,8 @@
 .imgCard-wrapper {
   background-color: #fff;
   margin-bottom: 70px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .imgCard-img {
   padding: 0;
