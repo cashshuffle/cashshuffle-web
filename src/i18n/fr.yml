@@ -31,7 +31,7 @@ i18n:
       heading: La vie privée améliorée est maintenant disponible sur Bitcoin Cash
       text: Faites de votre monnaie ce qui vous chante. Cashshuffle aide à ce que ça reste ainsi.
       button: Télécharger un portefeuille
-      video: Apprendre encore plus
+      video: Learn More
       youtube: 8g0Levpj1I4
     overview:
       heading: Rendez difficile le fait de suivre votre monnaie à la trace en mélangeant votre monnaie avec d&#x27;autres utilisateurs
@@ -84,7 +84,7 @@ i18n:
       heading: Voir en action
       text: Voici un court vidéo de deux minutes faisant la démonstration de CashShuffle <span class="nowrap">(en anglais)</span>.
       button: Watch Now
-      youtube: 8g0Levpj1I4
+      youtube: IJlAas387SE
   faqs:
     title: Foire aux questions | CashShuffle
     description: Les réponses à vos questions à propos de la technologie et la sécurité de CashShuffle.
