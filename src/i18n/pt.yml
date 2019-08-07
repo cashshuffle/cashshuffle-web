@@ -83,7 +83,8 @@ i18n:
     video:
       heading: Vê o sistema em acção
       text: Aqui está um vídeo rápido de dois minutos a mostrar o CashShuffle em acção.
-      youtube-link: https://www.youtube.com/embed/IJlAas387SE
+      button: Watch Now
+      youtube: 8g0Levpj1I4
   faqs:
     title: Preguntas Frequentes | CashShuffle
     description: Respostas para as tuas perguntas sobre a tecnologia e segurança do CashShuffle.
