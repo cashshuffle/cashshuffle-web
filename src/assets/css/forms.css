@@ -71,14 +71,10 @@
   border-color: #e3e3e3;
   color: #333;
 }
-.hero-btn {
-  margin-bottom: 10px;
-}
 
 
 /* Misc
 ------------------------------------------------------------- */
-
 .form-group label,
 .form-inline label {
   display: none;

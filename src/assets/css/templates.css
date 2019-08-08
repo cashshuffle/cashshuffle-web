@@ -54,6 +54,9 @@
   color: #707070;
   margin-bottom: 20px;
 }
+.hero-btn {
+  margin-bottom: 10px;
+}
 @media (min-width: 450px) {
   .hero {
     padding-top: 10px;
