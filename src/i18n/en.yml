@@ -31,6 +31,8 @@ i18n:
       heading: Enhanced privacy is now available for Bitcoin Cash
       text: What you do with your money is your business. CashShuffle helps keep it that way.
       button: Download a Wallet
+      video: Learn More
+      youtube: 8g0Levpj1I4
     overview:
       heading: Make it hard to track your coins by shuffling them together with other users
       text: CashShuffle is a fully decentralized coin mixing protocol that shuffles your Bitcoin Cash with other network participants. This shuffling process obscures your real spending and makes it difficult for chain analysis companies to follow your transactions.
@@ -81,7 +83,8 @@ i18n:
     video:
       heading: See it in Action
       text: Here is a quick two-minute video showing CashShuffle in action.
-      youtube-link: https://www.youtube.com/embed/IJlAas387SE
+      button: Watch Now
+      youtube: IJlAas387SE
   faqs:
     title: Frequently Asked Questions | CashShuffle
     description: Answers to your questions about the technology and security of CashShuffle.
