@@ -31,6 +31,8 @@ i18n:
       heading: <span class="nowrap">Bitcoin Cashで</span><span class="nowrap">強力な</span><span class="nowrap">プライバシー機能</span><span class="nowrap">を</span><span class="nowrap">実現。</span>
       text: <span class="nowrap">あなたが</span><span class="nowrap">お金を使うと</span><span class="nowrap">言う事は、</span><br><span class="nowrap">あなたの私生活上の</span><span class="nowrap">個人的な事柄です。</span><br><span class="nowrap">CashShuffleは</span><span class="nowrap">あなたのプライバシーを</span><span class="nowrap">守る為に役立ちます。</span>
       button: ウォレットをダウンロードする
+      video: 詳細を見る
+      youtube: 8g0Levpj1I4
     overview:
       heading: <span class="nowrap">他のユーザーと</span><span class="nowrap">一緒に</span><br><span class="nowrap">シャッフル</span><span class="nowrap">する事で、</span><br><span class="nowrap">コインの</span><span class="nowrap">追跡を</span><span class="nowrap">難しくします。</span>
       text: <span class="nowrap">CashShuffleは、</span><span class="nowrap">あなたの</span><span class="nowrap">Bitcoin Cashを</span><span class="nowrap">他のユーザーと</span><span class="nowrap">シャッフルする</span><span class="nowrap">完全分散型の</span><span class="nowrap">コインミキシング</span><span class="nowrap">プロトコルです。</span><span class="nowrap">このプロセスによって</span><span class="nowrap">あなたの</span><span class="nowrap">支払いは</span><span class="nowrap">見えにくくなり、</span><span class="nowrap">ブロックチェーン分析による</span><span class="nowrap">プライバシー権の</span><span class="nowrap">侵害を</span><span class="nowrap">防止します。</span>
@@ -81,7 +83,8 @@ i18n:
     video:
       heading: 動画を見る
       text: CashShuffleの使い方を説明した、2分間の簡単なビデオです。
-      youtube-link: https://www.youtube.com/embed/IJlAas387SE
+      button: 今すぐ見る
+      youtube: IJlAas387SE
   faqs:
     title: よくある質問 キャッシュシャッフル
     description: CashShuffleの技術とセキュリティに関する質問への回答。

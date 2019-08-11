@@ -62,9 +62,18 @@
   color: #333;
 }
 .btn-secondary {
-  background-color: #fff;
-  border-color: #bac1c5;
-  color: #2a2a2a;
+  background-color: #22cc77;
+  border-color: #22cc77;
+  color: #fff;
+}
+.btn-secondary:hover {
+  background-color: #14a359;
+  border-color: #14a359;
+  color: #fff;
+}
+.btn-videoIcon {
+  width: 24px;
+  margin-left: 5px;
 }
 
 
@@ -73,6 +82,7 @@
 .form-group label,
 .form-inline label {
   display: none;
+  -webkit-appearance: none;
 }
 textarea,
 input[type="text"],

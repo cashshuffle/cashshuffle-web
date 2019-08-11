@@ -31,6 +31,8 @@ i18n:
       heading: Privacidade melhorada está agora disponível para o Bitcoin Cash
       text: O que fazes com o teu dinheiro só a ti te diz respeito. CashShuffle ajuda a manter isso verdade.
       button: Baixar uma Carteira
+      video: Sabe Mais
+      youtube: 8g0Levpj1I4
     overview:
       heading: Torna difícil seguir as tuas moedas ao misturá-las com as de outros utilizadores
       text: CashShuffle é um protocolo de mistura completamente descentralizado que permite misturar o teu Bitcoin Cash com outros participantes na rede. Este processo de mistura ofusca o teu registo de gastos e tornar difícil, às empresas de análise, seguir as tuas transações.
@@ -81,7 +83,8 @@ i18n:
     video:
       heading: Vê o sistema em acção
       text: Aqui está um vídeo rápido de dois minutos a mostrar o CashShuffle em acção.
-      youtube-link: https://www.youtube.com/embed/IJlAas387SE
+      button: Ver Agora
+      youtube: IJlAas387SE
   faqs:
     title: Preguntas Frequentes | CashShuffle
     description: Respostas para as tuas perguntas sobre a tecnologia e segurança do CashShuffle.

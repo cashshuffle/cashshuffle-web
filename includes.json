@@ -15,6 +15,7 @@
     "footer-partials.css",
     "footer.css",
     "i18n-modal.css",
+    "modal-video.css",
     "home.css",
     "wallets.css",
     "quickstart.css",
@@ -27,6 +28,8 @@
     "navbar-md.js",
     "menu-slider.js",
     "i18n-modal.js",
-    "footer.js"
+    "footer.js",
+    "modal-video.js",
+    "video-trigger.js"
   ]
 }
