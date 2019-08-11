@@ -2867,9 +2867,13 @@ text you dont want to break
   color: #fff;
 }
 .btn-secondary:hover {
-  background-color: #f5f5f5;
-  border-color: #e3e3e3;
-  color: #333;
+  background-color: #14a359;
+  border-color: #14a359;
+  color: #fff;
+}
+.btn-videoIcon {
+  width: 24px;
+  margin-left: 5px;
 }
 
 
@@ -4394,7 +4398,6 @@ p.i18nModal-text {
     border-radius: 5px;
     margin-top: -6px
 }
-
 
 /* Home Features General
 ------------------------------------------------------------- */
