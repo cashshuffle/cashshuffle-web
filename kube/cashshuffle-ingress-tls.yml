@@ -1,4 +1,4 @@
-apiVersion: networking.k8s.io/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: cashshuffle-ingress
@@ -12,21 +12,29 @@ spec:
     - www.cashshuffle.com
     - cashshuffle.com
     secretName: cashshuffle-tls
-  backend:
-    serviceName: cashshuffle
-    servicePort: 87
+  defaultBackend:
+    service:
+      name: cashshuffle
+      port:
+        number: 87
   rules:
   - host: cashshuffle.com
     http:
       paths:
       - path: /
+        pathType: ImplementationSpecific
         backend:
-          serviceName: cashshuffle
-          servicePort: 87
+          service:
+            name: cashshuffle
+            port:
+              number: 87
   - host: www.cashshuffle.com
     http:
       paths:
       - path: /
+        pathType: ImplementationSpecific
         backend:
-          serviceName: cashshuffle
-          servicePort: 87
+          service:
+            name: cashshuffle
+            port:
+              number: 87
