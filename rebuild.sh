@@ -22,13 +22,13 @@ then
   img_name="zquestz/"$name
   container_name=$name
   run_mode="-d"
-  port="-p 5001:80"
+  port="-p 5005:8090"
   restart="--restart always"
 else
   img_name="zquestz/"$name"-dev"
   container_name=$name"-dev"
   run_mode="-it"
-  port="-p 5001:80"
+  port="-p 5005:8090"
   restart=""
   mount='type=bind,source='"$(pwd)"'/.build,target=/usr/share/nginx/html/'
 fi

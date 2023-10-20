@@ -20,7 +20,7 @@ spec:
         imagePullPolicy: Always
         name: cashshuffle
         ports:
-        - containerPort: 80
+        - containerPort: 8090
         resources:
           requests:
             memory: "8Mi"

@@ -6,7 +6,7 @@ metadata:
 spec:
   ports:
     - port: 87
-      targetPort: 80
+      targetPort: 8090
   selector:
     service: cashshuffle
   type: NodePort

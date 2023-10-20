@@ -28,7 +28,7 @@ The Grunt command runs the following tasks:
 This simple bash script will run the following commands:
 
 1. Stop and remove this Docker image if it exists.
-1. Build and run this Docker image exposing port 5001.
+1. Build and run this Docker image exposing port 5005.
 
 ### How to Build for Development
 
@@ -45,7 +45,7 @@ Here are the commands that are executed by running rebuild.sh:
 docker stop cashshuffle-web-dev
 docker rm cashshuffle-web-dev
 docker build . -t cashshuffle-web-dev
-docker run -it -p 5001:80 --name cashshuffle-web-dev --mount type=bind,source=/path/to/cashshuffle-web/.build,target=/usr/share/nginx/html/ cashshuffle-web-dev
+docker run -it -p 5005:8090 --name cashshuffle-web-dev --mount type=bind,source=/path/to/cashshuffle-web/.build,target=/usr/share/nginx/html/ cashshuffle-web-dev
 ```
 
 ### How to Build for Production
@@ -64,7 +64,7 @@ The rebuild script with the -p flag does not mount your local `.build` folder. I
 docker stop cashshuffle-web
 docker rm cashshuffle-web
 docker build . -t cashshuffle-web
-docker run -d -p 5001:80 --name cashshuffle-web zquestz/cashshuffle-web
+docker run -d -p 5005:8090 --name cashshuffle-web zquestz/cashshuffle-web
 ```
 
 ### Testing Production Setup Locally
