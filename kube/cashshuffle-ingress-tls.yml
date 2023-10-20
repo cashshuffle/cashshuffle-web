@@ -11,6 +11,8 @@ spec:
   - hosts:
     - www.cashshuffle.com
     - cashshuffle.com
+    - www.cashshuffle.org
+    - cashshuffle.org
     secretName: cashshuffle-tls
   defaultBackend:
     service:
@@ -29,6 +31,26 @@ spec:
             port:
               number: 87
   - host: www.cashshuffle.com
+    http:
+      paths:
+      - path: /
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: cashshuffle
+            port:
+              number: 87
+  - host: cashshuffle.org
+    http:
+      paths:
+      - path: /
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: cashshuffle
+            port:
+              number: 87
+  - host: www.cashshuffle.org
     http:
       paths:
       - path: /
