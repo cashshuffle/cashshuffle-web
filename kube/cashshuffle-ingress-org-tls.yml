@@ -1,0 +1,40 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: cashshuffle-org-ingress
+  namespace: default
+  annotations:
+    kubernetes.io/tls-acme: "true"
+spec:
+  ingressClassName: nginx
+  tls:
+  - hosts:
+    - cashshuffle.org
+    - www.cashshuffle.org
+    secretName: cashshuffle-org-tls
+  defaultBackend:
+    service:
+      name: cashshuffle
+      port:
+        number: 87
+  rules:
+  - host: cashshuffle.org
+    http:
+      paths:
+      - path: /
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: cashshuffle
+            port:
+              number: 87
+  - host: www.cashshuffle.org
+    http:
+      paths:
+      - path: /
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: cashshuffle
+            port:
+              number: 87
